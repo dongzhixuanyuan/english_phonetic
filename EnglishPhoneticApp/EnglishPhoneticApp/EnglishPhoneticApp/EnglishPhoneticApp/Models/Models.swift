@@ -51,7 +51,7 @@ struct TextbookUnit: Identifiable, Codable, Equatable {
     }
 }
 
-struct Textbook: Identifiable, Codable, Equatable,Hashable{
+struct Textbook: Identifiable, Codable, Equatable, Hashable {
     let id: UUID
     var name: String
     var coverImagePath: String?
@@ -68,9 +68,5 @@ struct Textbook: Identifiable, Codable, Equatable,Hashable{
 
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)
-        hasher.combine(name)
-        hasher.combine(coverImagePath)
-        hasher.combine(createdAt)
-        hasher.combine(units.count)
     }
 }

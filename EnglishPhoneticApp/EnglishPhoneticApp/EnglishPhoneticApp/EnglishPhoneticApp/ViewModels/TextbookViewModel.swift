@@ -137,6 +137,20 @@ class TextbookViewModel: ObservableObject {
         saveTextbooks()
     }
     
+    func renamePage(_ page: TextbookPage, to newName: String, in textbookId: UUID, unitId: UUID) {
+        guard let textbookIndex = textbooks.firstIndex(where: { $0.id == textbookId }),
+              let unitIndex = textbooks[textbookIndex].units.firstIndex(where: { $0.id == unitId }),
+              let pageIndex = textbooks[textbookIndex].units[unitIndex].pages.firstIndex(where: { $0.id == page.id }) else {
+            return
+        }
+        
+        textbooks[textbookIndex].units[unitIndex].pages[pageIndex].name = newName
+        saveTextbooks()
+        
+        // 触发 Published 更新，确保视图刷新
+        objectWillChange.send()
+    }
+    
     func addUnit(to textbookId: UUID, name: String) -> TextbookUnit? {
         guard let textbookIndex = textbooks.firstIndex(where: { $0.id == textbookId }) else {
             return nil

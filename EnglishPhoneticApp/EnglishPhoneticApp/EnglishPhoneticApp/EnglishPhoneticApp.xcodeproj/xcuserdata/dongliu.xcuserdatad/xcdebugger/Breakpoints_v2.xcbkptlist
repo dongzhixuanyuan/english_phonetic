@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6EC10CF0-910E-430B-9FBF-039AB17B7388"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35B0906C-6EB8-4CE3-9EF0-A4236CD7278C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishPhoneticApp/ViewModels/TextbookViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "renamePage(_:to:in:unitId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0D7EC6F-0DA8-484B-8DF7-ECC11D6EE8EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishPhoneticApp/ViewModels/TextbookViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "144"
+            endingLineNumber = "144"
+            landmarkName = "renamePage(_:to:in:unitId:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FA72DEE7-56FF-4F3D-9A52-81CB56992D4B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishPhoneticApp/ViewModels/TextbookViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "142"
+            endingLineNumber = "142"
+            landmarkName = "renamePage(_:to:in:unitId:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FA72DEE7-56FF-4F3D-9A52-81CB56992D4B - b344a1dd9eff3722"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EnglishPhoneticApp.TextbookViewModel.renamePage(_: EnglishPhoneticApp.TextbookPage, to: Swift.String, in: Foundation.UUID, unitId: Foundation.UUID) -&gt; ()"
+                  moduleName = "EnglishPhoneticApp.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dongliu/dongLiu/ios_learning/english_phonetic/EnglishPhoneticApp/EnglishPhoneticApp/EnglishPhoneticApp/EnglishPhoneticApp/ViewModels/TextbookViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142">
+               </Location>
+               <Location
+                  uuid = "FA72DEE7-56FF-4F3D-9A52-81CB56992D4B - df53358398960914"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (EnglishPhoneticApp.TextbookUnit) -&gt; Swift.Bool in EnglishPhoneticApp.TextbookViewModel.renamePage(_: EnglishPhoneticApp.TextbookPage, to: Swift.String, in: Foundation.UUID, unitId: Foundation.UUID) -&gt; ()"
+                  moduleName = "EnglishPhoneticApp.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dongliu/dongLiu/ios_learning/english_phonetic/EnglishPhoneticApp/EnglishPhoneticApp/EnglishPhoneticApp/EnglishPhoneticApp/ViewModels/TextbookViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "142"
+                  endingLineNumber = "142">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -69,7 +69,7 @@ struct HomeView: View {
             }
         }
         .navigationDestination(for: Textbook.self) { textbook in
-            TextbookDetailView(viewModel: viewModel, textbook: textbook)
+            TextbookDetailView(viewModel: viewModel, textbookId: textbook.id)
         }
         .alert("添加课本", isPresented: $showingAddTextbook) {
             TextField("课本名称", text: $newTextbookName)

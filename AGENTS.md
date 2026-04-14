@@ -82,6 +82,8 @@ EnglishPhoneticApp/
 3. 点击 **Run**（⌘+R）编译并运行。
 
 > 注意：项目使用 Xcode 16 新增的 `PBXFileSystemSynchronizedRootGroup`（文件夹引用），因此直接在 Finder 中增删 `EnglishPhoneticApp/` 目录下的文件，Xcode 会自动同步，无需手动修改 `project.pbxproj`。
+> 
+> **约束**：不需要每次修改后都编译运行。
 
 ---
 

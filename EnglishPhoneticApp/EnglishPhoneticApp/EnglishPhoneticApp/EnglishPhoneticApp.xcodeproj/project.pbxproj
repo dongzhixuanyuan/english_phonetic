@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		503E81E42F8E1C0A007DF5E6 /* EnglishPhoneticApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnglishPhoneticApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		503E81E42F8E1C0A007DF5E6 /* EnglishPhoneticApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = EnglishPhoneticApp.app; path = "课本音.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */

@@ -3,7 +3,8 @@ import Foundation
 class PhoneticDictionaryService {
     static let shared = PhoneticDictionaryService()
     
-    private var dictionary: [String: String] = [:]
+    private var phoneticDict: [String: String] = [:]
+    private var meaningDict: [String: String] = [:]
     private let userDefaultsKey = "user_phonetic_extensions"
     
     private init() {
@@ -15,33 +16,40 @@ class PhoneticDictionaryService {
            let data = try? Data(contentsOf: url),
            let json = try? JSONSerialization.jsonObject(with: data) as? [String: [String: String]] {
             for (word, info) in json {
-                dictionary[word.lowercased()] = info["phonetic"]
+                let key = word.lowercased()
+                phoneticDict[key] = info["phonetic"]
+                meaningDict[key] = info["meaning"]
             }
         }
         
         if let savedData = UserDefaults.standard.data(forKey: userDefaultsKey),
            let savedDict = try? JSONDecoder().decode([String: String].self, from: savedData) {
             for (word, phonetic) in savedDict {
-                dictionary[word.lowercased()] = phonetic
+                phoneticDict[word.lowercased()] = phonetic
             }
         }
         
-        print("\u{1F4DA} 音标词库加载完成，共 \(dictionary.count) 个单词")
+        print("📚 音标词库加载完成，共 \(phoneticDict.count) 个单词")
     }
     
     func lookup(_ word: String) -> String? {
         let cleanWord = word.lowercased().trimmingCharacters(in: .punctuationCharacters)
-        return dictionary[cleanWord]
+        return phoneticDict[cleanWord]
+    }
+    
+    func lookupMeaning(_ word: String) -> String? {
+        let cleanWord = word.lowercased().trimmingCharacters(in: .punctuationCharacters)
+        return meaningDict[cleanWord]
     }
     
     func addCustomPhonetic(word: String, phonetic: String) {
         let key = word.lowercased()
-        dictionary[key] = phonetic
+        phoneticDict[key] = phonetic
         saveUserExtensions()
     }
     
     private func saveUserExtensions() {
-        if let data = try? JSONEncoder().encode(dictionary) {
+        if let data = try? JSONEncoder().encode(phoneticDict) {
             UserDefaults.standard.set(data, forKey: userDefaultsKey)
         }
     }

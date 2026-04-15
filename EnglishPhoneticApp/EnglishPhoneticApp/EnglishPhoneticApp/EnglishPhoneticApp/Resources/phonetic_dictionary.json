@@ -1,0 +1,534 @@
+{
+  "book": {
+    "phonetic": "/bʊk/",
+    "meaning": "书"
+  },
+  "pencil": {
+    "phonetic": "/ˈpensl/",
+    "meaning": "铅笔"
+  },
+  "ruler": {
+    "phonetic": "/ˈruːlə(r)/",
+    "meaning": "尺子"
+  },
+  "bag": {
+    "phonetic": "/bæɡ/",
+    "meaning": "书包；包"
+  },
+  "who": {
+    "phonetic": "/huː/",
+    "meaning": "谁"
+  },
+  "me": {
+    "phonetic": "/miː/",
+    "meaning": "我（宾格）"
+  },
+  "can't": {
+    "phonetic": "/kɑːnt/",
+    "meaning": "不能"
+  },
+  "be": {
+    "phonetic": "/biː/",
+    "meaning": "是；成为"
+  },
+  "took": {
+    "phonetic": "/tʊk/",
+    "meaning": "拿（take 的过去式）"
+  },
+  "from": {
+    "phonetic": "/frɒm/",
+    "meaning": "从；来自"
+  },
+  "piggy": {
+    "phonetic": "/ˈpɪɡi/",
+    "meaning": "小猪"
+  },
+  "bank": {
+    "phonetic": "/bæŋk/",
+    "meaning": "银行；储蓄罐"
+  },
+  "amy": {
+    "phonetic": "/ˈeɪmi/",
+    "meaning": "艾米（人名）"
+  },
+  "andy": {
+    "phonetic": "/ˈændi/",
+    "meaning": "安迪（人名）"
+  },
+  "koto": {
+    "phonetic": "/ˈkəʊtəʊ/",
+    "meaning": "科托（人名）"
+  },
+  "hello": {
+    "phonetic": "/həˈləʊ/",
+    "meaning": "你好"
+  },
+  "hi": {
+    "phonetic": "/haɪ/",
+    "meaning": "嗨"
+  },
+  "goodbye": {
+    "phonetic": "/ˌɡʊdˈbaɪ/",
+    "meaning": "再见"
+  },
+  "bye": {
+    "phonetic": "/baɪ/",
+    "meaning": "再见"
+  },
+  "thank": {
+    "phonetic": "/θæŋk/",
+    "meaning": "谢谢"
+  },
+  "please": {
+    "phonetic": "/pliːz/",
+    "meaning": "请"
+  },
+  "sorry": {
+    "phonetic": "/ˈsɒri/",
+    "meaning": "对不起"
+  },
+  "yes": {
+    "phonetic": "/jes/",
+    "meaning": "是"
+  },
+  "no": {
+    "phonetic": "/nəʊ/",
+    "meaning": "不"
+  },
+  "pen": {
+    "phonetic": "/pen/",
+    "meaning": "钢笔"
+  },
+  "eraser": {
+    "phonetic": "/ɪˈreɪzə(r)/",
+    "meaning": "橡皮"
+  },
+  "crayon": {
+    "phonetic": "/ˈkreɪən/",
+    "meaning": "蜡笔"
+  },
+  "schoolbag": {
+    "phonetic": "/ˈskuːlbæɡ/",
+    "meaning": "书包"
+  },
+  "notebook": {
+    "phonetic": "/ˈnəʊtbʊk/",
+    "meaning": "笔记本"
+  },
+  "red": {
+    "phonetic": "/red/",
+    "meaning": "红色"
+  },
+  "yellow": {
+    "phonetic": "/ˈjeləʊ/",
+    "meaning": "黄色"
+  },
+  "green": {
+    "phonetic": "/ɡriːn/",
+    "meaning": "绿色"
+  },
+  "blue": {
+    "phonetic": "/bluː/",
+    "meaning": "蓝色"
+  },
+  "white": {
+    "phonetic": "/waɪt/",
+    "meaning": "白色"
+  },
+  "black": {
+    "phonetic": "/blæk/",
+    "meaning": "黑色"
+  },
+  "orange": {
+    "phonetic": "/ˈɒrɪndʒ/",
+    "meaning": "橙色"
+  },
+  "brown": {
+    "phonetic": "/braʊn/",
+    "meaning": "棕色"
+  },
+  "cat": {
+    "phonetic": "/kæt/",
+    "meaning": "猫"
+  },
+  "dog": {
+    "phonetic": "/dɒɡ/",
+    "meaning": "狗"
+  },
+  "pig": {
+    "phonetic": "/pɪɡ/",
+    "meaning": "猪"
+  },
+  "duck": {
+    "phonetic": "/dʌk/",
+    "meaning": "鸭子"
+  },
+  "rabbit": {
+    "phonetic": "/ˈræbɪt/",
+    "meaning": "兔子"
+  },
+  "bird": {
+    "phonetic": "/bɜːd/",
+    "meaning": "鸟"
+  },
+  "bear": {
+    "phonetic": "/beə(r)/",
+    "meaning": "熊"
+  },
+  "elephant": {
+    "phonetic": "/ˈelɪfənt/",
+    "meaning": "大象"
+  },
+  "mouse": {
+    "phonetic": "/maʊs/",
+    "meaning": "老鼠"
+  },
+  "monkey": {
+    "phonetic": "/ˈmʌŋki/",
+    "meaning": "猴子"
+  },
+  "boy": {
+    "phonetic": "/bɔɪ/",
+    "meaning": "男孩"
+  },
+  "girl": {
+    "phonetic": "/ɡɜːl/",
+    "meaning": "女孩"
+  },
+  "mother": {
+    "phonetic": "/ˈmʌðə(r)/",
+    "meaning": "妈妈"
+  },
+  "father": {
+    "phonetic": "/ˈfɑːðə(r)/",
+    "meaning": "爸爸"
+  },
+  "sister": {
+    "phonetic": "/ˈsɪstə(r)/",
+    "meaning": "姐妹"
+  },
+  "brother": {
+    "phonetic": "/ˈbrʌðə(r)/",
+    "meaning": "兄弟"
+  },
+  "teacher": {
+    "phonetic": "/ˈtiːtʃə(r)/",
+    "meaning": "老师"
+  },
+  "student": {
+    "phonetic": "/ˈstjuːdnt/",
+    "meaning": "学生"
+  },
+  "friend": {
+    "phonetic": "/frend/",
+    "meaning": "朋友"
+  },
+  "rice": {
+    "phonetic": "/raɪs/",
+    "meaning": "米饭"
+  },
+  "bread": {
+    "phonetic": "/bred/",
+    "meaning": "面包"
+  },
+  "milk": {
+    "phonetic": "/mɪlk/",
+    "meaning": "牛奶"
+  },
+  "egg": {
+    "phonetic": "/eɡ/",
+    "meaning": "鸡蛋"
+  },
+  "water": {
+    "phonetic": "/ˈwɔːtə(r)/",
+    "meaning": "水"
+  },
+  "cake": {
+    "phonetic": "/keɪk/",
+    "meaning": "蛋糕"
+  },
+  "fish": {
+    "phonetic": "/fɪʃ/",
+    "meaning": "鱼"
+  },
+  "beef": {
+    "phonetic": "/biːf/",
+    "meaning": "牛肉"
+  },
+  "chicken": {
+    "phonetic": "/ˈtʃɪkɪn/",
+    "meaning": "鸡肉"
+  },
+  "apple": {
+    "phonetic": "/ˈæpl/",
+    "meaning": "苹果"
+  },
+  "banana": {
+    "phonetic": "/bəˈnɑːnə/",
+    "meaning": "香蕉"
+  },
+  "pear": {
+    "phonetic": "/peə(r)/",
+    "meaning": "梨"
+  },
+  "watermelon": {
+    "phonetic": "/ˈwɔːtəmelən/",
+    "meaning": "西瓜"
+  },
+  "peach": {
+    "phonetic": "/piːtʃ/",
+    "meaning": "桃子"
+  },
+  "strawberry": {
+    "phonetic": "/ˈstrɔːbəri/",
+    "meaning": "草莓"
+  },
+  "one": {
+    "phonetic": "/wʌn/",
+    "meaning": "一"
+  },
+  "two": {
+    "phonetic": "/tuː/",
+    "meaning": "二"
+  },
+  "three": {
+    "phonetic": "/θriː/",
+    "meaning": "三"
+  },
+  "four": {
+    "phonetic": "/fɔː(r)/",
+    "meaning": "四"
+  },
+  "five": {
+    "phonetic": "/faɪv/",
+    "meaning": "五"
+  },
+  "six": {
+    "phonetic": "/sɪks/",
+    "meaning": "六"
+  },
+  "seven": {
+    "phonetic": "/ˈsevn/",
+    "meaning": "七"
+  },
+  "eight": {
+    "phonetic": "/eɪt/",
+    "meaning": "八"
+  },
+  "nine": {
+    "phonetic": "/naɪn/",
+    "meaning": "九"
+  },
+  "ten": {
+    "phonetic": "/ten/",
+    "meaning": "十"
+  },
+  "head": {
+    "phonetic": "/hed/",
+    "meaning": "头"
+  },
+  "face": {
+    "phonetic": "/feɪs/",
+    "meaning": "脸"
+  },
+  "nose": {
+    "phonetic": "/nəʊz/",
+    "meaning": "鼻子"
+  },
+  "mouth": {
+    "phonetic": "/maʊθ/",
+    "meaning": "嘴"
+  },
+  "eye": {
+    "phonetic": "/aɪ/",
+    "meaning": "眼睛"
+  },
+  "ear": {
+    "phonetic": "/ɪə(r)/",
+    "meaning": "耳朵"
+  },
+  "arm": {
+    "phonetic": "/ɑːm/",
+    "meaning": "胳膊"
+  },
+  "hand": {
+    "phonetic": "/hænd/",
+    "meaning": "手"
+  },
+  "leg": {
+    "phonetic": "/leɡ/",
+    "meaning": "腿"
+  },
+  "foot": {
+    "phonetic": "/fʊt/",
+    "meaning": "脚"
+  },
+  "eat": {
+    "phonetic": "/iːt/",
+    "meaning": "吃"
+  },
+  "drink": {
+    "phonetic": "/drɪŋk/",
+    "meaning": "喝"
+  },
+  "read": {
+    "phonetic": "/riːd/",
+    "meaning": "读"
+  },
+  "write": {
+    "phonetic": "/raɪt/",
+    "meaning": "写"
+  },
+  "draw": {
+    "phonetic": "/drɔː/",
+    "meaning": "画"
+  },
+  "sing": {
+    "phonetic": "/sɪŋ/",
+    "meaning": "唱"
+  },
+  "dance": {
+    "phonetic": "/dɑːns/",
+    "meaning": "跳舞"
+  },
+  "run": {
+    "phonetic": "/rʌn/",
+    "meaning": "跑"
+  },
+  "walk": {
+    "phonetic": "/wɔːk/",
+    "meaning": "走"
+  },
+  "jump": {
+    "phonetic": "/dʒʌmp/",
+    "meaning": "跳"
+  },
+  "swim": {
+    "phonetic": "/swɪm/",
+    "meaning": "游泳"
+  },
+  "fly": {
+    "phonetic": "/flaɪ/",
+    "meaning": "飞"
+  },
+  "i": {
+    "phonetic": "/aɪ/",
+    "meaning": "我"
+  },
+  "you": {
+    "phonetic": "/juː/",
+    "meaning": "你；你们"
+  },
+  "he": {
+    "phonetic": "/hiː/",
+    "meaning": "他"
+  },
+  "she": {
+    "phonetic": "/ʃiː/",
+    "meaning": "她"
+  },
+  "it": {
+    "phonetic": "/ɪt/",
+    "meaning": "它"
+  },
+  "we": {
+    "phonetic": "/wiː/",
+    "meaning": "我们"
+  },
+  "they": {
+    "phonetic": "/ðeɪ/",
+    "meaning": "他们"
+  },
+  "my": {
+    "phonetic": "/maɪ/",
+    "meaning": "我的"
+  },
+  "your": {
+    "phonetic": "/jɔː(r)/",
+    "meaning": "你的"
+  },
+  "his": {
+    "phonetic": "/hɪz/",
+    "meaning": "他的"
+  },
+  "her": {
+    "phonetic": "/hɜː(r)/",
+    "meaning": "她的"
+  },
+  "am": {
+    "phonetic": "/æm/",
+    "meaning": "是"
+  },
+  "is": {
+    "phonetic": "/ɪz/",
+    "meaning": "是"
+  },
+  "are": {
+    "phonetic": "/ɑː(r)/",
+    "meaning": "是"
+  },
+  "have": {
+    "phonetic": "/hæv/",
+    "meaning": "有"
+  },
+  "has": {
+    "phonetic": "/hæz/",
+    "meaning": "有"
+  },
+  "do": {
+    "phonetic": "/duː/",
+    "meaning": "做；助动词"
+  },
+  "does": {
+    "phonetic": "/dʌz/",
+    "meaning": "做（第三人称单数）"
+  },
+  "can": {
+    "phonetic": "/kæn/",
+    "meaning": "能；会"
+  },
+  "what": {
+    "phonetic": "/wɒt/",
+    "meaning": "什么"
+  },
+  "where": {
+    "phonetic": "/weə(r)/",
+    "meaning": "哪里"
+  },
+  "how": {
+    "phonetic": "/haʊ/",
+    "meaning": "怎样"
+  },
+  "a": {
+    "phonetic": "/ə/",
+    "meaning": "一个"
+  },
+  "an": {
+    "phonetic": "/ən/",
+    "meaning": "一个"
+  },
+  "the": {
+    "phonetic": "/ðə/",
+    "meaning": "这；那"
+  },
+  "in": {
+    "phonetic": "/ɪn/",
+    "meaning": "在……里面"
+  },
+  "on": {
+    "phonetic": "/ɒn/",
+    "meaning": "在……上面"
+  },
+  "under": {
+    "phonetic": "/ˈʌndə(r)/",
+    "meaning": "在……下面"
+  },
+  "near": {
+    "phonetic": "/nɪə(r)/",
+    "meaning": "在……附近"
+  },
+  "behind": {
+    "phonetic": "/bɪˈhaɪnd/",
+    "meaning": "在……后面"
+  }
+}

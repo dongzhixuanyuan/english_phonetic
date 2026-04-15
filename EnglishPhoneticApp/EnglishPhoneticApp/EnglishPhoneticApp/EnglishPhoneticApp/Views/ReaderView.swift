@@ -15,6 +15,7 @@ struct ReaderView: View {
     @State private var lastScale: CGFloat = 1.0
     @State private var offset: CGSize = .zero
     @State private var lastOffset: CGSize = .zero
+    @State private var selectedPopoverAnnotation: WordAnnotation?
     
     private let speechService = SpeechService.shared
     
@@ -27,6 +28,8 @@ struct ReaderView: View {
                     let yOffset = (geometry.size.height - imageSize.height) / 2
                     
                     ZStack {
+                        let pixelSize = CGSize(width: CGFloat(image.cgImage?.width ?? Int(image.size.width)), height: CGFloat(image.cgImage?.height ?? Int(image.size.height)))
+                        
                         Image(uiImage: image)
                             .resizable()
                             .scaledToFit()
@@ -34,6 +37,10 @@ struct ReaderView: View {
                             .position(x: geometry.size.width / 2, y: geometry.size.height / 2)
                             .scaleEffect(scale)
                             .offset(offset)
+                            .contentShape(Rectangle())
+                            .onTapGesture {
+                                selectedPopoverAnnotation = nil
+                            }
                             .gesture(
                                 MagnificationGesture()
                                     .onChanged { value in
@@ -67,7 +74,6 @@ struct ReaderView: View {
                             )
                         
                         ForEach(page.annotations) { annotation in
-                            let pixelSize = CGSize(width: CGFloat(image.cgImage?.width ?? Int(image.size.width)), height: CGFloat(image.cgImage?.height ?? Int(image.size.height)))
                             let frame = annotationFrame(
                                 annotation: annotation,
                                 pixelImageSize: pixelSize,
@@ -75,9 +81,12 @@ struct ReaderView: View {
                                 xOffset: xOffset,
                                 yOffset: yOffset
                             )
+                            let isPopoverVisible = selectedPopoverAnnotation?.id == annotation.id
                             
-                            PhoneticLabel(
+                            WordBoundingBox(
                                 annotation: annotation,
+                                frame: frame,
+                                isPopoverVisible: isPopoverVisible,
                                 isSpeaking: speechService.currentWord?.lowercased() == annotation.word.lowercased(),
                                 isEditMode: isEditMode,
                                 isSelected: selectedAnnotationId == annotation.id
@@ -101,6 +110,33 @@ struct ReaderView: View {
                                         }
                                     }
                             )
+                        }
+                        
+                        // 浮层显示
+                        if let popoverAnnotation = selectedPopoverAnnotation {
+                            let popoverFrame = annotationFrame(
+                                annotation: popoverAnnotation,
+                                pixelImageSize: pixelSize,
+                                displayImageSize: imageSize,
+                                xOffset: xOffset,
+                                yOffset: yOffset
+                            )
+                            
+                            WordPopoverView(
+                                annotation: popoverAnnotation,
+                                onSpeak: {
+                                    speechService.speak(popoverAnnotation.word)
+                                },
+                                onClose: {
+                                    selectedPopoverAnnotation = nil
+                                }
+                            )
+                            .position(
+                                x: popoverFrame.midX,
+                                y: max(popoverFrame.minY - 60, 40)
+                            )
+                            .scaleEffect(scale)
+                            .offset(offset)
                         }
                     }
                 }
@@ -192,8 +228,9 @@ struct ReaderView: View {
             editWord = annotation.word
             editPhonetic = annotation.phonetic
             showingEditSheet = true
+            selectedPopoverAnnotation = nil
         } else {
-            speechService.speak(annotation.word)
+            selectedPopoverAnnotation = annotation
         }
     }
     
@@ -309,54 +346,42 @@ struct ReaderView: View {
         }
     }
 }
-struct PhoneticLabel: View {
+struct WordBoundingBox: View {
     let annotation: WordAnnotation
+    let frame: CGRect
+    let isPopoverVisible: Bool
     let isSpeaking: Bool
     let isEditMode: Bool
     let isSelected: Bool
     
     var body: some View {
-        Text(displayText)
-            .font(.system(size: 11, weight: .medium))
-            .foregroundColor(textColor)
-            .padding(.horizontal, 6)
-            .padding(.vertical, 3)
+        Rectangle()
+            .stroke(style: StrokeStyle(lineWidth: isSelected ? 2 : 1, dash: [4]))
+            .foregroundColor(borderColor)
+            .frame(width: frame.width, height: frame.height)
             .background(backgroundColor)
-            .cornerRadius(6)
-            .overlay(
-                RoundedRectangle(cornerRadius: 6)
-                    .stroke(borderColor, lineWidth: isSelected ? 2 : 1)
-            )
-            .shadow(color: .black.opacity(0.15), radius: 2, x: 0, y: 1)
-            .scaleEffect(isSpeaking ? 1.15 : 1.0)
+            .contentShape(Rectangle())
+            .scaleEffect(isSpeaking ? 1.05 : 1.0)
             .animation(.spring(response: 0.2), value: isSpeaking)
     }
     
-    private var displayText: String {
-        if annotation.phonetic.isEmpty {
-            return annotation.word
-        }
-        return annotation.phonetic
-    }
-    
-    private var textColor: Color {
-        if annotation.phonetic.isEmpty {
-            return .red
-        }
-        return .primary
-    }
-    
     private var backgroundColor: Color {
+        if isPopoverVisible {
+            return .blue.opacity(0.15)
+        }
         if isSpeaking {
-            return .blue.opacity(0.9)
+            return .blue.opacity(0.2)
         }
         if isSelected {
-            return .yellow.opacity(0.9)
+            return .yellow.opacity(0.25)
         }
-        return .white.opacity(0.92)
+        return .clear
     }
     
     private var borderColor: Color {
+        if isPopoverVisible {
+            return .blue
+        }
         if isSpeaking {
             return .blue
         }
@@ -364,9 +389,62 @@ struct PhoneticLabel: View {
             return .orange
         }
         if annotation.phonetic.isEmpty {
-            return .red.opacity(0.5)
+            return .red.opacity(0.6)
         }
-        return .gray.opacity(0.3)
+        return .gray.opacity(0.5)
+    }
+}
+
+struct WordPopoverView: View {
+    let annotation: WordAnnotation
+    let onSpeak: () -> Void
+    let onClose: () -> Void
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            HStack(alignment: .top) {
+                Text(annotation.word)
+                    .font(.system(size: 17, weight: .semibold))
+                
+                Spacer()
+                
+                Button(action: onSpeak) {
+                    Image(systemName: "speaker.wave.2.fill")
+                        .font(.system(size: 16))
+                        .foregroundColor(.blue)
+                }
+                
+                Button(action: onClose) {
+                    Image(systemName: "xmark.circle.fill")
+                        .font(.system(size: 16))
+                        .foregroundColor(.gray.opacity(0.6))
+                }
+            }
+            
+            if !annotation.phonetic.isEmpty {
+                Text(annotation.phonetic)
+                    .font(.system(size: 15))
+                    .foregroundColor(.secondary)
+            }
+            
+            if let meaning = PhoneticDictionaryService.shared.lookupMeaning(annotation.word), !meaning.isEmpty {
+                Text(meaning)
+                    .font(.system(size: 15))
+                    .foregroundColor(.primary)
+            }
+        }
+        .padding(.horizontal, 14)
+        .padding(.vertical, 10)
+        .frame(width: 170, alignment: .leading)
+        .background(
+            RoundedRectangle(cornerRadius: 10)
+                .fill(.white)
+                .shadow(color: .black.opacity(0.18), radius: 6, x: 0, y: 3)
+        )
+        .overlay(
+            RoundedRectangle(cornerRadius: 10)
+                .stroke(Color.gray.opacity(0.15), lineWidth: 0.5)
+        )
     }
 }
 

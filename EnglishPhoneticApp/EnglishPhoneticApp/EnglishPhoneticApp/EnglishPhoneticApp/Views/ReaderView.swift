@@ -16,6 +16,7 @@ struct ReaderView: View {
     @State private var offset: CGSize = .zero
     @State private var lastOffset: CGSize = .zero
     @State private var selectedPopoverAnnotation: WordAnnotation?
+    @AppStorage("reader_auto_speak_on_popover") private var autoSpeakOnPopover = false
     
     private let speechService = SpeechService.shared
     
@@ -122,6 +123,12 @@ struct ReaderView: View {
                                 yOffset: yOffset
                             )
                             
+                            let popoverPos = calculatePopoverPosition(
+                                wordFrame: popoverFrame,
+                                containerSize: geometry.size,
+                                popoverSize: CGSize(width: 170, height: 90)
+                            )
+                            
                             WordPopoverView(
                                 annotation: popoverAnnotation,
                                 onSpeak: {
@@ -131,10 +138,7 @@ struct ReaderView: View {
                                     selectedPopoverAnnotation = nil
                                 }
                             )
-                            .position(
-                                x: popoverFrame.midX,
-                                y: max(popoverFrame.minY - 60, 40)
-                            )
+                            .position(x: popoverPos.x, y: popoverPos.y)
                             .scaleEffect(scale)
                             .offset(offset)
                         }
@@ -231,6 +235,9 @@ struct ReaderView: View {
             selectedPopoverAnnotation = nil
         } else {
             selectedPopoverAnnotation = annotation
+            if autoSpeakOnPopover {
+                speechService.speak(annotation.word)
+            }
         }
     }
     
@@ -259,6 +266,43 @@ struct ReaderView: View {
         let height = CGFloat(annotation.normalizedHeight) * pixelImageSize.height * scaleY
         
         return CGRect(x: x, y: y, width: width, height: height)
+    }
+    
+    private func calculatePopoverPosition(
+        wordFrame: CGRect,
+        containerSize: CGSize,
+        popoverSize: CGSize
+    ) -> CGPoint {
+        let margin: CGFloat = 12
+        let safeTop: CGFloat = 60
+        let safeBottom: CGFloat = containerSize.height - 100
+        let safeLeft: CGFloat = margin + popoverSize.width / 2
+        let safeRight: CGFloat = containerSize.width - margin - popoverSize.width / 2
+        
+        // 1. 优先尝试上方
+        var y = wordFrame.minY - margin - popoverSize.height / 2
+        var direction: String = "top"
+        
+        // 2. 上方超出屏幕，尝试下方
+        if y - popoverSize.height / 2 < safeTop {
+            y = wordFrame.maxY + margin + popoverSize.height / 2
+            direction = "bottom"
+        }
+        
+        // 3. 下方也超出屏幕（极少见），fallback 到单词中心偏上/偏下
+        if y + popoverSize.height / 2 > safeBottom {
+            if direction == "bottom" {
+                y = wordFrame.midY - popoverSize.height / 2 - margin
+            } else {
+                y = wordFrame.midY + popoverSize.height / 2 + margin
+            }
+        }
+        
+        // 4. 水平方向居中，但限制在屏幕安全区域内
+        var x = wordFrame.midX
+        x = max(safeLeft, min(safeRight, x))
+        
+        return CGPoint(x: x, y: y)
     }
     
     private func moveAnnotation(_ annotation: WordAnnotation, by translation: CGSize, in imageSize: CGSize) {

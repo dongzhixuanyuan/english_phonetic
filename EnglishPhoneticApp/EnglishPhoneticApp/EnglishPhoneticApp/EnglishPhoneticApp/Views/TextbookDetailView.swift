@@ -16,6 +16,8 @@ struct TextbookDetailView: View {
     @State private var newPageName = ""
     @State private var pageToRename: TextbookPage?
     @State private var unitIdForRename: UUID?
+    @State private var showingSettings = false
+    @AppStorage("reader_auto_speak_on_popover") private var autoSpeakOnPopover = false
     
     private var textbook: Textbook? {
         viewModel.textbooks.first(where: { $0.id == textbookId })
@@ -103,6 +105,34 @@ struct TextbookDetailView: View {
         }
         .navigationTitle("课本详情")
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                Button {
+                    showingSettings = true
+                } label: {
+                    Image(systemName: "gearshape")
+                        .foregroundColor(.primary)
+                }
+            }
+        }
+        .sheet(isPresented: $showingSettings) {
+            NavigationStack {
+                Form {
+                    Section("点读设置") {
+                        Toggle("点击浮层自动发音", isOn: $autoSpeakOnPopover)
+                    }
+                }
+                .navigationTitle("设置")
+                .navigationBarTitleDisplayMode(.inline)
+                .toolbar {
+                    ToolbarItem(placement: .topBarTrailing) {
+                        Button("完成") {
+                            showingSettings = false
+                        }
+                    }
+                }
+            }
+        }
         .sheet(isPresented: $showingImagePicker) {
             ImagePickerSheet(
                 selectedImage: $selectedImage,

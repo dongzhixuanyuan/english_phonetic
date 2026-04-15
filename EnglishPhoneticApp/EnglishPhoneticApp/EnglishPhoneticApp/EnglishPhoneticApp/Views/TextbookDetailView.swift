@@ -364,8 +364,10 @@ struct ImagePickerSheet: View {
         NavigationStack {
             VStack(spacing: 20) {
                 Button {
-                    showingCamera = true
                     dismiss()
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                        showingCamera = true
+                    }
                 } label: {
                     HStack {
                         Image(systemName: "camera.fill")
@@ -381,8 +383,10 @@ struct ImagePickerSheet: View {
                 }
                 
                 Button {
-                    showingPhotoLibrary = true
                     dismiss()
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
+                        showingPhotoLibrary = true
+                    }
                 } label: {
                     HStack {
                         Image(systemName: "photo.on.rectangle.angled")

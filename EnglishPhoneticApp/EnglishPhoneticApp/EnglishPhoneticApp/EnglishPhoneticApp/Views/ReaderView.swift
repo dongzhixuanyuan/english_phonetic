@@ -67,9 +67,11 @@ struct ReaderView: View {
                             )
                         
                         ForEach(page.annotations) { annotation in
+                            let pixelSize = CGSize(width: CGFloat(image.cgImage?.width ?? Int(image.size.width)), height: CGFloat(image.cgImage?.height ?? Int(image.size.height)))
                             let frame = annotationFrame(
                                 annotation: annotation,
-                                imageSize: imageSize,
+                                pixelImageSize: pixelSize,
+                                displayImageSize: imageSize,
                                 xOffset: xOffset,
                                 yOffset: yOffset
                             )
@@ -210,11 +212,14 @@ struct ReaderView: View {
         }
     }
     
-    private func annotationFrame(annotation: WordAnnotation, imageSize: CGSize, xOffset: CGFloat, yOffset: CGFloat) -> CGRect {
-        let x = xOffset + CGFloat(annotation.normalizedX) * imageSize.width
-        let y = yOffset + (1.0 - CGFloat(annotation.normalizedY) - CGFloat(annotation.normalizedHeight)) * imageSize.height
-        let width = CGFloat(annotation.normalizedWidth) * imageSize.width
-        let height = CGFloat(annotation.normalizedHeight) * imageSize.height
+    private func annotationFrame(annotation: WordAnnotation, pixelImageSize: CGSize, displayImageSize: CGSize, xOffset: CGFloat, yOffset: CGFloat) -> CGRect {
+        let scaleX = displayImageSize.width / pixelImageSize.width
+        let scaleY = displayImageSize.height / pixelImageSize.height
+        
+        let x = xOffset + CGFloat(annotation.normalizedX) * pixelImageSize.width * scaleX
+        let y = yOffset + (1.0 - CGFloat(annotation.normalizedY) - CGFloat(annotation.normalizedHeight)) * pixelImageSize.height * scaleY
+        let width = CGFloat(annotation.normalizedWidth) * pixelImageSize.width * scaleX
+        let height = CGFloat(annotation.normalizedHeight) * pixelImageSize.height * scaleY
         
         return CGRect(x: x, y: y, width: width, height: height)
     }

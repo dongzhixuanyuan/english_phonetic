@@ -52,12 +52,12 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "FA72DEE7-56FF-4F3D-9A52-81CB56992D4B - b344a1dd9eff3722"
+                  uuid = "FA72DEE7-56FF-4F3D-9A52-81CB56992D4B - b0ca9e7dc3a4149e"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "EnglishPhoneticApp.TextbookViewModel.renamePage(_: EnglishPhoneticApp.TextbookPage, to: Swift.String, in: Foundation.UUID, unitId: Foundation.UUID) -&gt; ()"
-                  moduleName = "EnglishPhoneticApp.debug.dylib"
+                  symbolName = "&#x8bfe;&#x672c;&#x97f3;.TextbookViewModel.renamePage(_: &#x8bfe;&#x672c;&#x97f3;.TextbookPage, to: Swift.String, in: Foundation.UUID, unitId: Foundation.UUID) -&gt; ()"
+                  moduleName = "&#x8bfe;&#x672c;&#x97f3;.debug.dylib"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/dongliu/dongLiu/ios_learning/english_phonetic/EnglishPhoneticApp/EnglishPhoneticApp/EnglishPhoneticApp/EnglishPhoneticApp/ViewModels/TextbookViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
@@ -66,18 +66,80 @@
                   endingLineNumber = "142">
                </Location>
                <Location
-                  uuid = "FA72DEE7-56FF-4F3D-9A52-81CB56992D4B - df53358398960914"
+                  uuid = "FA72DEE7-56FF-4F3D-9A52-81CB56992D4B - 937f808c1d3925e2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (EnglishPhoneticApp.TextbookUnit) -&gt; Swift.Bool in EnglishPhoneticApp.TextbookViewModel.renamePage(_: EnglishPhoneticApp.TextbookPage, to: Swift.String, in: Foundation.UUID, unitId: Foundation.UUID) -&gt; ()"
-                  moduleName = "EnglishPhoneticApp.debug.dylib"
+                  symbolName = "closure #2 (&#x8bfe;&#x672c;&#x97f3;.TextbookUnit) -&gt; Swift.Bool in &#x8bfe;&#x672c;&#x97f3;.TextbookViewModel.renamePage(_: &#x8bfe;&#x672c;&#x97f3;.TextbookPage, to: Swift.String, in: Foundation.UUID, unitId: Foundation.UUID) -&gt; ()"
+                  moduleName = "&#x8bfe;&#x672c;&#x97f3;.debug.dylib"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/dongliu/dongLiu/ios_learning/english_phonetic/EnglishPhoneticApp/EnglishPhoneticApp/EnglishPhoneticApp/EnglishPhoneticApp/ViewModels/TextbookViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "142"
                   endingLineNumber = "142">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30333496-865B-42E4-8DDE-F461E647B0C7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishPhoneticApp/ViewModels/TextbookViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "addPage(to:unitId:image:pageName:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "38EC939E-D6F5-4A90-928B-38E6B857C424"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EnglishPhoneticApp/ViewModels/TextbookViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "addPage(to:unitId:image:pageName:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "38EC939E-D6F5-4A90-928B-38E6B857C424 - 1f933ac52be991ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x8bfe;&#x672c;&#x97f3;.TextbookViewModel.addPage(to: Foundation.UUID, unitId: Foundation.UUID, image: __C.UIImage, pageName: Swift.String, completion: (Swift.Optional&lt;&#x8bfe;&#x672c;&#x97f3;.TextbookPage&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "&#x8bfe;&#x672c;&#x97f3;.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dongliu/dongLiu/ios_learning/english_phonetic/EnglishPhoneticApp/EnglishPhoneticApp/EnglishPhoneticApp/EnglishPhoneticApp/ViewModels/TextbookViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71">
+               </Location>
+               <Location
+                  uuid = "38EC939E-D6F5-4A90-928B-38E6B857C424 - b256e00548b61854"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;&#x8bfe;&#x672c;&#x97f3;.OCRResult&gt;) -&gt; () in &#x8bfe;&#x672c;&#x97f3;.TextbookViewModel.addPage(to: Foundation.UUID, unitId: Foundation.UUID, image: __C.UIImage, pageName: Swift.String, completion: (Swift.Optional&lt;&#x8bfe;&#x672c;&#x97f3;.TextbookPage&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "&#x8bfe;&#x672c;&#x97f3;.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/dongliu/dongLiu/ios_learning/english_phonetic/EnglishPhoneticApp/EnglishPhoneticApp/EnglishPhoneticApp/EnglishPhoneticApp/ViewModels/TextbookViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71">
                </Location>
             </Locations>
          </BreakpointContent>

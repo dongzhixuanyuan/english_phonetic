@@ -47,14 +47,48 @@ class OCRService {
                 let text = candidate.string.trimmingCharacters(in: .whitespacesAndNewlines)
                 guard self.shouldKeep(text: text) else { continue }
                 
-                do {
-                    let stringRange = candidate.string.startIndex..<candidate.string.endIndex
-                    let boxObservation = try candidate.boundingBox(for: stringRange)
-                    let boundingBox = boxObservation?.boundingBox ?? observation.boundingBox
+                // 按空格拆分为独立单词，尝试获取每个单词的精确位置
+                let words = text.components(separatedBy: .whitespaces).filter { !$0.isEmpty }
+                
+                if words.count > 1 {
+                    var searchStart = candidate.string.startIndex
+                    var hasAddedWord = false
                     
-                    results.append(OCRResult(text: text, boundingBox: boundingBox))
-                } catch {
-                    results.append(OCRResult(text: text, boundingBox: observation.boundingBox))
+                    for word in words {
+                        guard let range = candidate.string[searchStart...].range(of: word) else { continue }
+                        
+                        do {
+                            let boxObservation = try candidate.boundingBox(for: range)
+                            let wordBoundingBox = boxObservation?.boundingBox ?? observation.boundingBox
+                            
+                            if self.shouldKeep(text: word) {
+                                results.append(OCRResult(text: word, boundingBox: wordBoundingBox))
+                                hasAddedWord = true
+                            }
+                        } catch {
+                            if self.shouldKeep(text: word) {
+                                results.append(OCRResult(text: word, boundingBox: observation.boundingBox))
+                                hasAddedWord = true
+                            }
+                        }
+                        
+                        searchStart = range.upperBound
+                    }
+                    
+                    // 如果所有单词都未能成功拆分定位，fallback 到整体文本
+                    if !hasAddedWord {
+                        results.append(OCRResult(text: text, boundingBox: observation.boundingBox))
+                    }
+                } else {
+                    do {
+                        let stringRange = candidate.string.startIndex..<candidate.string.endIndex
+                        let boxObservation = try candidate.boundingBox(for: stringRange)
+                        let boundingBox = boxObservation?.boundingBox ?? observation.boundingBox
+                        
+                        results.append(OCRResult(text: text, boundingBox: boundingBox))
+                    } catch {
+                        results.append(OCRResult(text: text, boundingBox: observation.boundingBox))
+                    }
                 }
             }
             

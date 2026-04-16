@@ -17,7 +17,7 @@ struct TextbookDetailView: View {
     @State private var pageToRename: TextbookPage?
     @State private var unitIdForRename: UUID?
     @State private var showingSettings = false
-    @AppStorage("reader_auto_speak_on_popover") private var autoSpeakOnPopover = false
+    @AppStorage("reader_auto_speak_on_popover") private var autoSpeakOnPopover = true
     
     private var textbook: Textbook? {
         viewModel.textbooks.first(where: { $0.id == textbookId })

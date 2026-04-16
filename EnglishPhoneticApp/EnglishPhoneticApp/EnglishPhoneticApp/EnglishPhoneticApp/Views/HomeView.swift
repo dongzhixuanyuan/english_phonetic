@@ -20,16 +20,16 @@ struct HomeView: View {
                 .padding(.horizontal)
                 .padding(.top, 8)
                 
-                if let sampleTextbook = viewModel.textbooks.first(where: { $0.name == "示例课本" }) {
-                    VStack(alignment: .leading, spacing: 12) {
-                        Text("\u{1F44B} 先试试示例")
-                            .font(.title3)
-                            .fontWeight(.semibold)
-                            .padding(.horizontal)
-                        
-                        SamplePagesRow(viewModel: viewModel, textbook: sampleTextbook)
-                    }
-                }
+//                if let sampleTextbook = viewModel.textbooks.first(where: { $0.name == "示例课本" }) {
+//                    VStack(alignment: .leading, spacing: 12) {
+//                        Text("\u{1F44B} 先试试示例")
+//                            .font(.title3)
+//                            .fontWeight(.semibold)
+//                            .padding(.horizontal)
+//                        
+//                        SamplePagesRow(viewModel: viewModel, textbook: sampleTextbook)
+//                    }
+//                }
                 
                 VStack(alignment: .leading, spacing: 12) {
                     HStack {
@@ -100,7 +100,7 @@ struct SamplePagesRow: View {
                 }
                 
                 if textbook.units.allSatisfy({ $0.pages.isEmpty }) {
-                    SamplePlaceholderCard()
+//                    SamplePlaceholderCard()
                 }
             }
             .padding(.horizontal)

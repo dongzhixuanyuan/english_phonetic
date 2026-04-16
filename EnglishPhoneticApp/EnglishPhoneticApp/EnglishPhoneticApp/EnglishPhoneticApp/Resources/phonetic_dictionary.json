@@ -1,534 +1,5032 @@
 {
-  "book": {
-    "phonetic": "/bʊk/",
-    "meaning": "书"
+  "greeting": {
+    "phonetic": "/ˈɡriːtɪŋ/",
+    "meaning": "问候",
+    "level": "junior"
   },
-  "pencil": {
-    "phonetic": "/ˈpensl/",
-    "meaning": "铅笔"
+  "introduction": {
+    "phonetic": "/ˌɪntrəˈdʌkʃn/",
+    "meaning": "介绍",
+    "level": "junior"
   },
-  "ruler": {
-    "phonetic": "/ˈruːlə(r)/",
-    "meaning": "尺子"
+  "conversation": {
+    "phonetic": "/ˌkɒnvəˈseɪʃn/",
+    "meaning": "对话",
+    "level": "junior"
   },
-  "bag": {
-    "phonetic": "/bæɡ/",
-    "meaning": "书包；包"
+  "discussion": {
+    "phonetic": "/dɪˈskʌʃn/",
+    "meaning": "讨论",
+    "level": "junior"
   },
-  "who": {
-    "phonetic": "/huː/",
-    "meaning": "谁"
+  "opinion": {
+    "phonetic": "/əˈpɪnjən/",
+    "meaning": "观点",
+    "level": "junior"
   },
-  "me": {
-    "phonetic": "/miː/",
-    "meaning": "我（宾格）"
+  "suggestion": {
+    "phonetic": "/səˈdʒestʃən/",
+    "meaning": "建议",
+    "level": "junior"
   },
-  "can't": {
-    "phonetic": "/kɑːnt/",
-    "meaning": "不能"
+  "advice": {
+    "phonetic": "/ədˈvaɪs/",
+    "meaning": "建议",
+    "level": "junior"
   },
-  "be": {
-    "phonetic": "/biː/",
-    "meaning": "是；成为"
+  "experience": {
+    "phonetic": "/ɪkˈspɪəriəns/",
+    "meaning": "经验；经历",
+    "level": "junior"
   },
-  "took": {
-    "phonetic": "/tʊk/",
-    "meaning": "拿（take 的过去式）"
+  "memory": {
+    "phonetic": "/ˈmeməri/",
+    "meaning": "记忆",
+    "level": "junior"
   },
-  "from": {
-    "phonetic": "/frɒm/",
-    "meaning": "从；来自"
+  "dream": {
+    "phonetic": "/driːm/",
+    "meaning": "梦想；梦",
+    "level": "junior"
   },
-  "piggy": {
-    "phonetic": "/ˈpɪɡi/",
-    "meaning": "小猪"
+  "wish": {
+    "phonetic": "/wɪʃ/",
+    "meaning": "愿望",
+    "level": "junior"
   },
-  "bank": {
-    "phonetic": "/bæŋk/",
-    "meaning": "银行；储蓄罐"
+  "hope": {
+    "phonetic": "/həʊp/",
+    "meaning": "希望",
+    "level": "junior"
   },
-  "amy": {
-    "phonetic": "/ˈeɪmi/",
-    "meaning": "艾米（人名）"
+  "excuse": {
+    "phonetic": "/ɪkˈskjuːs/",
+    "meaning": "借口；原谅",
+    "level": "junior"
   },
-  "andy": {
-    "phonetic": "/ˈændi/",
-    "meaning": "安迪（人名）"
+  "problem": {
+    "phonetic": "/ˈprɒbləm/",
+    "meaning": "问题",
+    "level": "junior"
   },
-  "koto": {
-    "phonetic": "/ˈkəʊtəʊ/",
-    "meaning": "科托（人名）"
+  "trouble": {
+    "phonetic": "/ˈtrʌbl/",
+    "meaning": "麻烦",
+    "level": "junior"
   },
-  "hello": {
-    "phonetic": "/həˈləʊ/",
-    "meaning": "你好"
+  "matter": {
+    "phonetic": "/ˈmætə(r)/",
+    "meaning": "事情；物质",
+    "level": "junior"
   },
-  "hi": {
-    "phonetic": "/haɪ/",
-    "meaning": "嗨"
+  "chance": {
+    "phonetic": "/tʃɑːns/",
+    "meaning": "机会",
+    "level": "junior"
   },
-  "goodbye": {
-    "phonetic": "/ˌɡʊdˈbaɪ/",
-    "meaning": "再见"
+  "choice": {
+    "phonetic": "/tʃɔɪs/",
+    "meaning": "选择",
+    "level": "junior"
   },
-  "bye": {
-    "phonetic": "/baɪ/",
-    "meaning": "再见"
+  "decision": {
+    "phonetic": "/dɪˈsɪʒn/",
+    "meaning": "决定",
+    "level": "junior"
   },
-  "thank": {
-    "phonetic": "/θæŋk/",
-    "meaning": "谢谢"
+  "plan": {
+    "phonetic": "/plæn/",
+    "meaning": "计划",
+    "level": "junior"
   },
-  "please": {
-    "phonetic": "/pliːz/",
-    "meaning": "请"
+  "purpose": {
+    "phonetic": "/ˈpɜːpəs/",
+    "meaning": "目的",
+    "level": "junior"
   },
-  "sorry": {
-    "phonetic": "/ˈsɒri/",
-    "meaning": "对不起"
+  "goal": {
+    "phonetic": "/ɡəʊl/",
+    "meaning": "目标",
+    "level": "junior"
   },
-  "yes": {
-    "phonetic": "/jes/",
-    "meaning": "是"
+  "success": {
+    "phonetic": "/səkˈses/",
+    "meaning": "成功",
+    "level": "junior"
   },
-  "no": {
-    "phonetic": "/nəʊ/",
-    "meaning": "不"
+  "failure": {
+    "phonetic": "/ˈfeɪljə(r)/",
+    "meaning": "失败",
+    "level": "junior"
   },
-  "pen": {
-    "phonetic": "/pen/",
-    "meaning": "钢笔"
+  "progress": {
+    "phonetic": "/ˈprəʊɡres/",
+    "meaning": "进步",
+    "level": "junior"
   },
-  "eraser": {
-    "phonetic": "/ɪˈreɪzə(r)/",
-    "meaning": "橡皮"
+  "effort": {
+    "phonetic": "/ˈefət/",
+    "meaning": "努力",
+    "level": "junior"
   },
-  "crayon": {
-    "phonetic": "/ˈkreɪən/",
-    "meaning": "蜡笔"
+  "courage": {
+    "phonetic": "/ˈkʌrɪdʒ/",
+    "meaning": "勇气",
+    "level": "junior"
   },
-  "schoolbag": {
-    "phonetic": "/ˈskuːlbæɡ/",
-    "meaning": "书包"
+  "confidence": {
+    "phonetic": "/ˈkɒnfɪdəns/",
+    "meaning": "自信",
+    "level": "junior"
+  },
+  "pride": {
+    "phonetic": "/praɪd/",
+    "meaning": "骄傲",
+    "level": "junior"
+  },
+  "shame": {
+    "phonetic": "/ʃeɪm/",
+    "meaning": "羞愧",
+    "level": "junior"
+  },
+  "surprise": {
+    "phonetic": "/səˈpraɪz/",
+    "meaning": "惊喜",
+    "level": "junior"
+  },
+  "pleasure": {
+    "phonetic": "/ˈpleʒə(r)/",
+    "meaning": "快乐",
+    "level": "junior"
+  },
+  "satisfaction": {
+    "phonetic": "/ˌsætɪsˈfækʃn/",
+    "meaning": "满意",
+    "level": "junior"
+  },
+  "regret": {
+    "phonetic": "/rɪˈɡret/",
+    "meaning": "后悔",
+    "level": "junior"
+  },
+  "pity": {
+    "phonetic": "/ˈpɪti/",
+    "meaning": "遗憾",
+    "level": "junior"
+  },
+  "fear": {
+    "phonetic": "/fɪə(r)/",
+    "meaning": "害怕",
+    "level": "junior"
+  },
+  "worry": {
+    "phonetic": "/ˈwʌri/",
+    "meaning": "担心",
+    "level": "junior"
+  },
+  "stress": {
+    "phonetic": "/stres/",
+    "meaning": "压力",
+    "level": "junior"
+  },
+  "pressure": {
+    "phonetic": "/ˈpreʃə(r)/",
+    "meaning": "压力",
+    "level": "junior"
+  },
+  "lonely": {
+    "phonetic": "/ˈləʊnli/",
+    "meaning": "孤独的",
+    "level": "junior"
+  },
+  "nervous": {
+    "phonetic": "/ˈnɜːvəs/",
+    "meaning": "紧张的",
+    "level": "junior"
+  },
+  "excited": {
+    "phonetic": "/ɪkˈsaɪtɪd/",
+    "meaning": "兴奋的",
+    "level": "junior"
+  },
+  "bored": {
+    "phonetic": "/bɔːd/",
+    "meaning": "无聊的",
+    "level": "junior"
+  },
+  "interested": {
+    "phonetic": "/ˈɪntrəstɪd/",
+    "meaning": "感兴趣的",
+    "level": "junior"
+  },
+  "patient": {
+    "phonetic": "/ˈpeɪʃnt/",
+    "meaning": "病人",
+    "level": "junior"
+  },
+  "careful": {
+    "phonetic": "/ˈkeəfl/",
+    "meaning": "小心的",
+    "level": "junior"
+  },
+  "brave": {
+    "phonetic": "/breɪv/",
+    "meaning": "勇敢的",
+    "level": "junior"
+  },
+  "honest": {
+    "phonetic": "/ˈɒnɪst/",
+    "meaning": "诚实的",
+    "level": "junior"
+  },
+  "polite": {
+    "phonetic": "/pəˈlaɪt/",
+    "meaning": "有礼貌的",
+    "level": "junior"
+  },
+  "responsible": {
+    "phonetic": "/rɪˈspɒnsəbl/",
+    "meaning": "负责任的",
+    "level": "junior"
+  },
+  "education": {
+    "phonetic": "/ˌedʒuˈkeɪʃn/",
+    "meaning": "教育",
+    "level": "junior"
+  },
+  "knowledge": {
+    "phonetic": "/ˈnɒlɪdʒ/",
+    "meaning": "知识",
+    "level": "junior"
+  },
+  "wisdom": {
+    "phonetic": "/ˈwɪzdəm/",
+    "meaning": "智慧",
+    "level": "junior"
+  },
+  "subject": {
+    "phonetic": "/ˈsʌbdʒɪkt/",
+    "meaning": "科目",
+    "level": "junior"
+  },
+  "course": {
+    "phonetic": "/kɔːs/",
+    "meaning": "课程",
+    "level": "junior"
+  },
+  "textbook": {
+    "phonetic": "/ˈtekstbʊk/",
+    "meaning": "课本",
+    "level": "junior"
   },
   "notebook": {
     "phonetic": "/ˈnəʊtbʊk/",
-    "meaning": "笔记本"
+    "meaning": "笔记本",
+    "level": "primary"
   },
-  "red": {
-    "phonetic": "/red/",
-    "meaning": "红色"
+  "dictionary": {
+    "phonetic": "/ˈdɪkʃənri/",
+    "meaning": "词典",
+    "level": "junior"
   },
-  "yellow": {
-    "phonetic": "/ˈjeləʊ/",
-    "meaning": "黄色"
+  "library": {
+    "phonetic": "/ˈlaɪbrəri/",
+    "meaning": "图书馆",
+    "level": "junior"
   },
-  "green": {
-    "phonetic": "/ɡriːn/",
-    "meaning": "绿色"
+  "laboratory": {
+    "phonetic": "/ləˈbɒrətri/",
+    "meaning": "实验室",
+    "level": "junior"
   },
-  "blue": {
-    "phonetic": "/bluː/",
-    "meaning": "蓝色"
+  "auditorium": {
+    "phonetic": "/ˌɔːdɪˈtɔːriəm/",
+    "meaning": "礼堂",
+    "level": "junior"
   },
-  "white": {
-    "phonetic": "/waɪt/",
-    "meaning": "白色"
+  "playground": {
+    "phonetic": "/ˈpleɪɡraʊnd/",
+    "meaning": "操场",
+    "level": "junior"
   },
-  "black": {
-    "phonetic": "/blæk/",
-    "meaning": "黑色"
+  "canteen": {
+    "phonetic": "/kænˈtiːn/",
+    "meaning": "食堂",
+    "level": "junior"
   },
-  "orange": {
-    "phonetic": "/ˈɒrɪndʒ/",
-    "meaning": "橙色"
+  "dormitory": {
+    "phonetic": "/ˈdɔːmətri/",
+    "meaning": "宿舍",
+    "level": "junior"
   },
-  "brown": {
-    "phonetic": "/braʊn/",
-    "meaning": "棕色"
+  "headmaster": {
+    "phonetic": "/ˌhedˈmɑːstə(r)/",
+    "meaning": "校长",
+    "level": "junior"
   },
-  "cat": {
-    "phonetic": "/kæt/",
-    "meaning": "猫"
+  "professor": {
+    "phonetic": "/prəˈfesə(r)/",
+    "meaning": "教授",
+    "level": "junior"
   },
-  "dog": {
-    "phonetic": "/dɒɡ/",
-    "meaning": "狗"
+  "principal": {
+    "phonetic": "/ˈprɪnsəpl/",
+    "meaning": "校长",
+    "level": "junior"
   },
-  "pig": {
-    "phonetic": "/pɪɡ/",
-    "meaning": "猪"
+  "monitor": {
+    "phonetic": "/ˈmɒnɪtə(r)/",
+    "meaning": "班长；监视器",
+    "level": "junior"
   },
-  "duck": {
-    "phonetic": "/dʌk/",
-    "meaning": "鸭子"
+  "partner": {
+    "phonetic": "/ˈpɑːtnə(r)/",
+    "meaning": "伙伴",
+    "level": "junior"
   },
-  "rabbit": {
-    "phonetic": "/ˈræbɪt/",
-    "meaning": "兔子"
+  "group": {
+    "phonetic": "/ɡruːp/",
+    "meaning": "小组",
+    "level": "junior"
   },
-  "bird": {
-    "phonetic": "/bɜːd/",
-    "meaning": "鸟"
+  "team": {
+    "phonetic": "/tiːm/",
+    "meaning": "团队",
+    "level": "junior"
   },
-  "bear": {
-    "phonetic": "/beə(r)/",
-    "meaning": "熊"
+  "club": {
+    "phonetic": "/klʌb/",
+    "meaning": "俱乐部",
+    "level": "junior"
   },
-  "elephant": {
-    "phonetic": "/ˈelɪfənt/",
-    "meaning": "大象"
+  "activity": {
+    "phonetic": "/ækˈtɪvəti/",
+    "meaning": "活动",
+    "level": "junior"
+  },
+  "competition": {
+    "phonetic": "/ˌkɒmpəˈtɪʃn/",
+    "meaning": "竞争",
+    "level": "junior"
+  },
+  "contest": {
+    "phonetic": "/ˈkɒntest/",
+    "meaning": "竞赛",
+    "level": "junior"
+  },
+  "scholarship": {
+    "phonetic": "/ˈskɒləʃɪp/",
+    "meaning": "奖学金",
+    "level": "junior"
+  },
+  "degree": {
+    "phonetic": "/dɪˈɡriː/",
+    "meaning": "学位；度数",
+    "level": "junior"
+  },
+  "diploma": {
+    "phonetic": "/dɪˈpləʊmə/",
+    "meaning": "文凭",
+    "level": "junior"
+  },
+  "certificate": {
+    "phonetic": "/səˈtɪfɪkət/",
+    "meaning": "证书",
+    "level": "junior"
+  },
+  "homework": {
+    "phonetic": "/ˈhəʊmwɜːk/",
+    "meaning": "家庭作业",
+    "level": "primary"
+  },
+  "assignment": {
+    "phonetic": "/əˈsaɪnmənt/",
+    "meaning": "作业；任务",
+    "level": "junior"
+  },
+  "project": {
+    "phonetic": "/ˈprɒdʒekt/",
+    "meaning": "项目",
+    "level": "junior"
+  },
+  "presentation": {
+    "phonetic": "/ˌpreznˈteɪʃn/",
+    "meaning": "演讲；展示",
+    "level": "junior"
+  },
+  "report": {
+    "phonetic": "/rɪˈpɔːt/",
+    "meaning": "报告",
+    "level": "junior"
+  },
+  "essay": {
+    "phonetic": "/ˈeseɪ/",
+    "meaning": "短文",
+    "level": "junior"
+  },
+  "composition": {
+    "phonetic": "/ˌkɒmpəˈzɪʃn/",
+    "meaning": "作文",
+    "level": "junior"
+  },
+  "paragraph": {
+    "phonetic": "/ˈpærəɡrɑːf/",
+    "meaning": "段落",
+    "level": "junior"
+  },
+  "passage": {
+    "phonetic": "/ˈpæsɪdʒ/",
+    "meaning": "文章",
+    "level": "junior"
+  },
+  "article": {
+    "phonetic": "/ˈɑːtɪkl/",
+    "meaning": "文章",
+    "level": "junior"
+  },
+  "poem": {
+    "phonetic": "/ˈpəʊɪm/",
+    "meaning": "诗",
+    "level": "junior"
+  },
+  "poetry": {
+    "phonetic": "/ˈpəʊətri/",
+    "meaning": "诗歌",
+    "level": "junior"
+  },
+  "fiction": {
+    "phonetic": "/ˈfɪkʃn/",
+    "meaning": "小说",
+    "level": "junior"
+  },
+  "novel": {
+    "phonetic": "/ˈnɒvl/",
+    "meaning": "长篇小说",
+    "level": "junior"
+  },
+  "magazine": {
+    "phonetic": "/ˌmæɡəˈziːn/",
+    "meaning": "杂志",
+    "level": "junior"
+  },
+  "newspaper": {
+    "phonetic": "/ˈnjuːzpeɪpə(r)/",
+    "meaning": "报纸",
+    "level": "junior"
+  },
+  "grammar": {
+    "phonetic": "/ˈɡræmə(r)/",
+    "meaning": "语法",
+    "level": "junior"
+  },
+  "vocabulary": {
+    "phonetic": "/vəˈkæbjələri/",
+    "meaning": "词汇",
+    "level": "junior"
+  },
+  "pronunciation": {
+    "phonetic": "/prəˌnʌnsiˈeɪʃn/",
+    "meaning": "发音",
+    "level": "junior"
+  },
+  "spelling": {
+    "phonetic": "/ˈspelɪŋ/",
+    "meaning": "拼写",
+    "level": "junior"
+  },
+  "meaning": {
+    "phonetic": "/ˈmiːnɪŋ/",
+    "meaning": "意思",
+    "level": "junior"
+  },
+  "translation": {
+    "phonetic": "/trænsˈleɪʃn/",
+    "meaning": "翻译",
+    "level": "junior"
+  },
+  "method": {
+    "phonetic": "/ˈmeθəd/",
+    "meaning": "方法",
+    "level": "junior"
+  },
+  "skill": {
+    "phonetic": "/skɪl/",
+    "meaning": "技能",
+    "level": "junior"
+  },
+  "ability": {
+    "phonetic": "/əˈbɪləti/",
+    "meaning": "能力",
+    "level": "junior"
+  },
+  "talent": {
+    "phonetic": "/ˈtælənt/",
+    "meaning": "天赋",
+    "level": "junior"
+  },
+  "intelligence": {
+    "phonetic": "/ɪnˈtelɪdʒəns/",
+    "meaning": "智能",
+    "level": "junior"
+  },
+  "creativity": {
+    "phonetic": "/ˌkriːeɪˈtɪvəti/",
+    "meaning": "创造力",
+    "level": "junior"
+  },
+  "concentration": {
+    "phonetic": "/ˌkɒnsnˈtreɪʃn/",
+    "meaning": "专注",
+    "level": "junior"
+  },
+  "review": {
+    "phonetic": "/rɪˈvjuː/",
+    "meaning": "复习；评论",
+    "level": "junior"
+  },
+  "preview": {
+    "phonetic": "/ˈpriːvjuː/",
+    "meaning": "预习",
+    "level": "junior"
+  },
+  "technology": {
+    "phonetic": "/tekˈnɒlədʒi/",
+    "meaning": "科技",
+    "level": "junior"
+  },
+  "internet": {
+    "phonetic": "/ˈɪntənet/",
+    "meaning": "互联网",
+    "level": "junior"
+  },
+  "website": {
+    "phonetic": "/ˈwebsaɪt/",
+    "meaning": "网站",
+    "level": "junior"
+  },
+  "application": {
+    "phonetic": "/ˌæplɪˈkeɪʃn/",
+    "meaning": "应用程序",
+    "level": "junior"
+  },
+  "software": {
+    "phonetic": "/ˈsɒftweə(r)/",
+    "meaning": "软件",
+    "level": "junior"
+  },
+  "hardware": {
+    "phonetic": "/ˈhɑːdweə(r)/",
+    "meaning": "硬件",
+    "level": "junior"
+  },
+  "database": {
+    "phonetic": "/ˈdeɪtəbeɪs/",
+    "meaning": "数据库",
+    "level": "junior"
+  },
+  "network": {
+    "phonetic": "/ˈnetwɜːk/",
+    "meaning": "网络",
+    "level": "junior"
+  },
+  "system": {
+    "phonetic": "/ˈsɪstəm/",
+    "meaning": "系统",
+    "level": "junior"
+  },
+  "program": {
+    "phonetic": "/ˈprəʊɡræm/",
+    "meaning": "程序",
+    "level": "junior"
+  },
+  "robot": {
+    "phonetic": "/ˈrəʊbɒt/",
+    "meaning": "机器人",
+    "level": "junior"
+  },
+  "artificial": {
+    "phonetic": "/ˌɑːtɪˈfɪʃl/",
+    "meaning": "人造的",
+    "level": "junior"
+  },
+  "digital": {
+    "phonetic": "/ˈdɪdʒɪtl/",
+    "meaning": "数字的",
+    "level": "junior"
+  },
+  "electronic": {
+    "phonetic": "/ɪˌlekˈtrɒnɪk/",
+    "meaning": "电子的",
+    "level": "junior"
+  },
+  "device": {
+    "phonetic": "/dɪˈvaɪs/",
+    "meaning": "设备",
+    "level": "junior"
+  },
+  "equipment": {
+    "phonetic": "/ɪˈkwɪpmənt/",
+    "meaning": "装备",
+    "level": "junior"
+  },
+  "screen": {
+    "phonetic": "/skriːn/",
+    "meaning": "屏幕",
+    "level": "junior"
+  },
+  "keyboard": {
+    "phonetic": "/ˈkiːbɔːd/",
+    "meaning": "键盘",
+    "level": "junior"
   },
   "mouse": {
     "phonetic": "/maʊs/",
-    "meaning": "老鼠"
+    "meaning": "老鼠",
+    "level": "primary"
   },
-  "monkey": {
-    "phonetic": "/ˈmʌŋki/",
-    "meaning": "猴子"
+  "tablet": {
+    "phonetic": "/ˈtæblət/",
+    "meaning": "平板电脑",
+    "level": "junior"
   },
-  "boy": {
-    "phonetic": "/bɔɪ/",
-    "meaning": "男孩"
+  "laptop": {
+    "phonetic": "/ˈlæptɒp/",
+    "meaning": "笔记本电脑",
+    "level": "junior"
   },
-  "girl": {
-    "phonetic": "/ɡɜːl/",
-    "meaning": "女孩"
+  "email": {
+    "phonetic": "/ˈiːmeɪl/",
+    "meaning": "电子邮件",
+    "level": "junior"
   },
-  "mother": {
-    "phonetic": "/ˈmʌðə(r)/",
-    "meaning": "妈妈"
+  "message": {
+    "phonetic": "/ˈmesɪdʒ/",
+    "meaning": "信息",
+    "level": "junior"
   },
-  "father": {
-    "phonetic": "/ˈfɑːðə(r)/",
-    "meaning": "爸爸"
+  "social": {
+    "phonetic": "/ˈsəʊʃl/",
+    "meaning": "社会的；社交的",
+    "level": "junior"
   },
-  "sister": {
-    "phonetic": "/ˈsɪstə(r)/",
-    "meaning": "姐妹"
+  "media": {
+    "phonetic": "/ˈmiːdiə/",
+    "meaning": "媒体",
+    "level": "junior"
   },
-  "brother": {
-    "phonetic": "/ˈbrʌðə(r)/",
-    "meaning": "兄弟"
+  "platform": {
+    "phonetic": "/ˈplætfɔːm/",
+    "meaning": "平台",
+    "level": "junior"
   },
-  "teacher": {
-    "phonetic": "/ˈtiːtʃə(r)/",
-    "meaning": "老师"
+  "blog": {
+    "phonetic": "/blɒɡ/",
+    "meaning": "博客",
+    "level": "junior"
   },
-  "student": {
-    "phonetic": "/ˈstjuːdnt/",
-    "meaning": "学生"
+  "video": {
+    "phonetic": "/ˈvɪdiəʊ/",
+    "meaning": "视频",
+    "level": "junior"
   },
-  "friend": {
-    "phonetic": "/frend/",
-    "meaning": "朋友"
+  "download": {
+    "phonetic": "/ˌdaʊnˈləʊd/",
+    "meaning": "下载",
+    "level": "junior"
   },
-  "rice": {
-    "phonetic": "/raɪs/",
-    "meaning": "米饭"
+  "upload": {
+    "phonetic": "/ˌʌpˈləʊd/",
+    "meaning": "上传",
+    "level": "junior"
   },
-  "bread": {
-    "phonetic": "/bred/",
-    "meaning": "面包"
+  "search": {
+    "phonetic": "/sɜːtʃ/",
+    "meaning": "搜索",
+    "level": "junior"
   },
-  "milk": {
-    "phonetic": "/mɪlk/",
-    "meaning": "牛奶"
+  "click": {
+    "phonetic": "/klɪk/",
+    "meaning": "点击",
+    "level": "junior"
   },
-  "egg": {
-    "phonetic": "/eɡ/",
-    "meaning": "鸡蛋"
+  "password": {
+    "phonetic": "/ˈpɑːswɜːd/",
+    "meaning": "密码",
+    "level": "junior"
   },
-  "water": {
-    "phonetic": "/ˈwɔːtə(r)/",
-    "meaning": "水"
+  "account": {
+    "phonetic": "/əˈkaʊnt/",
+    "meaning": "账户",
+    "level": "junior"
   },
-  "cake": {
-    "phonetic": "/keɪk/",
-    "meaning": "蛋糕"
+  "privacy": {
+    "phonetic": "/ˈprɪvəsi/",
+    "meaning": "隐私",
+    "level": "junior"
   },
-  "fish": {
-    "phonetic": "/fɪʃ/",
-    "meaning": "鱼"
+  "security": {
+    "phonetic": "/sɪˈkjʊərəti/",
+    "meaning": "安全",
+    "level": "junior"
   },
-  "beef": {
-    "phonetic": "/biːf/",
-    "meaning": "牛肉"
+  "virus": {
+    "phonetic": "/ˈvaɪrəs/",
+    "meaning": "病毒",
+    "level": "junior"
   },
-  "chicken": {
-    "phonetic": "/ˈtʃɪkɪn/",
-    "meaning": "鸡肉"
+  "data": {
+    "phonetic": "/ˈdeɪtə/",
+    "meaning": "数据",
+    "level": "junior"
   },
-  "apple": {
-    "phonetic": "/ˈæpl/",
-    "meaning": "苹果"
+  "information": {
+    "phonetic": "/ˌɪnfəˈmeɪʃn/",
+    "meaning": "信息",
+    "level": "junior"
   },
-  "banana": {
-    "phonetic": "/bəˈnɑːnə/",
-    "meaning": "香蕉"
+  "society": {
+    "phonetic": "/səˈsaɪəti/",
+    "meaning": "社会",
+    "level": "junior"
   },
-  "pear": {
-    "phonetic": "/peə(r)/",
-    "meaning": "梨"
+  "community": {
+    "phonetic": "/kəˈmjuːnəti/",
+    "meaning": "社区",
+    "level": "junior"
   },
-  "watermelon": {
-    "phonetic": "/ˈwɔːtəmelən/",
-    "meaning": "西瓜"
+  "culture": {
+    "phonetic": "/ˈkʌltʃə(r)/",
+    "meaning": "文化",
+    "level": "junior"
   },
-  "peach": {
-    "phonetic": "/piːtʃ/",
-    "meaning": "桃子"
+  "tradition": {
+    "phonetic": "/trəˈdɪʃn/",
+    "meaning": "传统",
+    "level": "junior"
   },
-  "strawberry": {
-    "phonetic": "/ˈstrɔːbəri/",
-    "meaning": "草莓"
+  "custom": {
+    "phonetic": "/ˈkʌstəm/",
+    "meaning": "习俗",
+    "level": "junior"
   },
-  "one": {
-    "phonetic": "/wʌn/",
-    "meaning": "一"
+  "festival": {
+    "phonetic": "/ˈfestɪvl/",
+    "meaning": "节日",
+    "level": "junior"
   },
-  "two": {
-    "phonetic": "/tuː/",
-    "meaning": "二"
+  "celebration": {
+    "phonetic": "/ˌselɪˈbreɪʃn/",
+    "meaning": "庆祝",
+    "level": "junior"
   },
-  "three": {
-    "phonetic": "/θriː/",
-    "meaning": "三"
+  "ceremony": {
+    "phonetic": "/ˈserəməni/",
+    "meaning": "典礼",
+    "level": "junior"
   },
-  "four": {
-    "phonetic": "/fɔː(r)/",
-    "meaning": "四"
+  "religion": {
+    "phonetic": "/rɪˈlɪdʒən/",
+    "meaning": "宗教",
+    "level": "junior"
   },
-  "five": {
-    "phonetic": "/faɪv/",
-    "meaning": "五"
+  "belief": {
+    "phonetic": "/bɪˈliːf/",
+    "meaning": "信仰",
+    "level": "junior"
   },
-  "six": {
-    "phonetic": "/sɪks/",
-    "meaning": "六"
+  "value": {
+    "phonetic": "/ˈvæljuː/",
+    "meaning": "价值观；价值",
+    "level": "junior"
   },
-  "seven": {
-    "phonetic": "/ˈsevn/",
-    "meaning": "七"
+  "manners": {
+    "phonetic": "/ˈmænəz/",
+    "meaning": "礼貌",
+    "level": "junior"
   },
-  "eight": {
-    "phonetic": "/eɪt/",
-    "meaning": "八"
+  "behavior": {
+    "phonetic": "/bɪˈheɪvjə(r)/",
+    "meaning": "行为",
+    "level": "junior"
   },
-  "nine": {
-    "phonetic": "/naɪn/",
-    "meaning": "九"
+  "communication": {
+    "phonetic": "/kəˌmjuːnɪˈkeɪʃn/",
+    "meaning": "通讯",
+    "level": "junior"
   },
-  "ten": {
-    "phonetic": "/ten/",
-    "meaning": "十"
+  "relationship": {
+    "phonetic": "/rɪˈleɪʃnʃɪp/",
+    "meaning": "关系",
+    "level": "junior"
   },
-  "head": {
-    "phonetic": "/hed/",
-    "meaning": "头"
+  "friendship": {
+    "phonetic": "/ˈfrendʃɪp/",
+    "meaning": "友谊",
+    "level": "junior"
   },
-  "face": {
-    "phonetic": "/feɪs/",
-    "meaning": "脸"
+  "cooperation": {
+    "phonetic": "/kəʊˌɒpəˈreɪʃn/",
+    "meaning": "合作",
+    "level": "junior"
   },
-  "nose": {
-    "phonetic": "/nəʊz/",
-    "meaning": "鼻子"
+  "conflict": {
+    "phonetic": "/ˈkɒnflɪkt/",
+    "meaning": "冲突",
+    "level": "junior"
   },
-  "mouth": {
-    "phonetic": "/maʊθ/",
-    "meaning": "嘴"
+  "peace": {
+    "phonetic": "/piːs/",
+    "meaning": "和平",
+    "level": "junior"
   },
-  "eye": {
-    "phonetic": "/aɪ/",
-    "meaning": "眼睛"
+  "freedom": {
+    "phonetic": "/ˈfriːdəm/",
+    "meaning": "自由",
+    "level": "junior"
   },
-  "ear": {
-    "phonetic": "/ɪə(r)/",
-    "meaning": "耳朵"
+  "equality": {
+    "phonetic": "/iˈkwɒləti/",
+    "meaning": "平等",
+    "level": "junior"
   },
-  "arm": {
-    "phonetic": "/ɑːm/",
-    "meaning": "胳膊"
+  "justice": {
+    "phonetic": "/ˈdʒʌstɪs/",
+    "meaning": "公正",
+    "level": "junior"
   },
-  "hand": {
-    "phonetic": "/hænd/",
-    "meaning": "手"
+  "volunteer": {
+    "phonetic": "/ˌvɒlənˈtɪə(r)/",
+    "meaning": "志愿者",
+    "level": "junior"
   },
-  "leg": {
-    "phonetic": "/leɡ/",
-    "meaning": "腿"
+  "charity": {
+    "phonetic": "/ˈtʃærəti/",
+    "meaning": "慈善",
+    "level": "junior"
   },
-  "foot": {
-    "phonetic": "/fʊt/",
-    "meaning": "脚"
+  "donation": {
+    "phonetic": "/dəʊˈneɪʃn/",
+    "meaning": "捐赠",
+    "level": "junior"
   },
-  "eat": {
-    "phonetic": "/iːt/",
-    "meaning": "吃"
+  "environment": {
+    "phonetic": "/ɪnˈvaɪrənmənt/",
+    "meaning": "环境",
+    "level": "junior"
   },
-  "drink": {
-    "phonetic": "/drɪŋk/",
-    "meaning": "喝"
+  "pollution": {
+    "phonetic": "/pəˈluːʃn/",
+    "meaning": "污染",
+    "level": "junior"
   },
-  "read": {
-    "phonetic": "/riːd/",
-    "meaning": "读"
+  "protection": {
+    "phonetic": "/prəˈtekʃn/",
+    "meaning": "保护",
+    "level": "junior"
   },
-  "write": {
-    "phonetic": "/raɪt/",
-    "meaning": "写"
+  "resource": {
+    "phonetic": "/rɪˈsɔːs/",
+    "meaning": "资源",
+    "level": "junior"
   },
-  "draw": {
-    "phonetic": "/drɔː/",
-    "meaning": "画"
+  "energy": {
+    "phonetic": "/ˈenədʒi/",
+    "meaning": "能源",
+    "level": "junior"
   },
-  "sing": {
-    "phonetic": "/sɪŋ/",
-    "meaning": "唱"
+  "waste": {
+    "phonetic": "/weɪst/",
+    "meaning": "浪费；废物",
+    "level": "junior"
   },
-  "dance": {
-    "phonetic": "/dɑːns/",
-    "meaning": "跳舞"
+  "recycle": {
+    "phonetic": "/ˌriːˈsaɪkl/",
+    "meaning": "回收",
+    "level": "junior"
   },
-  "run": {
-    "phonetic": "/rʌn/",
-    "meaning": "跑"
+  "reuse": {
+    "phonetic": "/ˌriːˈjuːz/",
+    "meaning": "再利用",
+    "level": "junior"
   },
-  "walk": {
-    "phonetic": "/wɔːk/",
-    "meaning": "走"
+  "reduce": {
+    "phonetic": "/rɪˈdjuːs/",
+    "meaning": "减少",
+    "level": "junior"
   },
-  "jump": {
-    "phonetic": "/dʒʌmp/",
-    "meaning": "跳"
+  "climate": {
+    "phonetic": "/ˈklaɪmət/",
+    "meaning": "气候",
+    "level": "junior"
   },
-  "swim": {
-    "phonetic": "/swɪm/",
-    "meaning": "游泳"
+  "temperature": {
+    "phonetic": "/ˈtemprətʃə(r)/",
+    "meaning": "温度",
+    "level": "junior"
   },
-  "fly": {
-    "phonetic": "/flaɪ/",
-    "meaning": "飞"
+  "disaster": {
+    "phonetic": "/dɪˈzɑːstə(r)/",
+    "meaning": "灾难",
+    "level": "junior"
+  },
+  "earthquake": {
+    "phonetic": "/ˈɜːθkweɪk/",
+    "meaning": "地震",
+    "level": "junior"
+  },
+  "flood": {
+    "phonetic": "/flʌd/",
+    "meaning": "洪水",
+    "level": "junior"
+  },
+  "drought": {
+    "phonetic": "/draʊt/",
+    "meaning": "干旱",
+    "level": "junior"
+  },
+  "population": {
+    "phonetic": "/ˌpɒpjuˈleɪʃn/",
+    "meaning": "人口",
+    "level": "junior"
+  },
+  "government": {
+    "phonetic": "/ˈɡʌvənmənt/",
+    "meaning": "政府",
+    "level": "junior"
+  },
+  "policy": {
+    "phonetic": "/ˈpɒləsi/",
+    "meaning": "政策",
+    "level": "junior"
+  },
+  "economy": {
+    "phonetic": "/ɪˈkɒnəmi/",
+    "meaning": "经济",
+    "level": "junior"
+  },
+  "development": {
+    "phonetic": "/dɪˈveləpmənt/",
+    "meaning": "发展",
+    "level": "junior"
+  },
+  "global": {
+    "phonetic": "/ˈɡləʊbl/",
+    "meaning": "全球的",
+    "level": "junior"
+  },
+  "international": {
+    "phonetic": "/ˌɪntəˈnæʃnəl/",
+    "meaning": "国际的",
+    "level": "junior"
+  },
+  "health": {
+    "phonetic": "/helθ/",
+    "meaning": "健康",
+    "level": "junior"
+  },
+  "fitness": {
+    "phonetic": "/ˈfɪtnəs/",
+    "meaning": "健身",
+    "level": "junior"
+  },
+  "exercise": {
+    "phonetic": "/ˈeksəsaɪz/",
+    "meaning": "锻炼",
+    "level": "junior"
+  },
+  "diet": {
+    "phonetic": "/ˈdaɪət/",
+    "meaning": "饮食",
+    "level": "junior"
+  },
+  "nutrition": {
+    "phonetic": "/njuˈtrɪʃn/",
+    "meaning": "营养",
+    "level": "junior"
+  },
+  "medicine": {
+    "phonetic": "/ˈmedsn/",
+    "meaning": "药；医学",
+    "level": "junior"
+  },
+  "treatment": {
+    "phonetic": "/ˈtriːtmənt/",
+    "meaning": "治疗",
+    "level": "junior"
+  },
+  "operation": {
+    "phonetic": "/ˌɒpəˈreɪʃn/",
+    "meaning": "手术",
+    "level": "junior"
+  },
+  "disease": {
+    "phonetic": "/dɪˈziːz/",
+    "meaning": "疾病",
+    "level": "junior"
+  },
+  "illness": {
+    "phonetic": "/ˈɪlnəs/",
+    "meaning": "病",
+    "level": "junior"
+  },
+  "fever": {
+    "phonetic": "/ˈfiːvə(r)/",
+    "meaning": "发烧",
+    "level": "junior"
+  },
+  "cough": {
+    "phonetic": "/kɒf/",
+    "meaning": "咳嗽",
+    "level": "junior"
+  },
+  "headache": {
+    "phonetic": "/ˈhedeɪk/",
+    "meaning": "头痛",
+    "level": "junior"
+  },
+  "stomachache": {
+    "phonetic": "/ˈstʌməkeɪk/",
+    "meaning": "胃痛",
+    "level": "junior"
+  },
+  "toothache": {
+    "phonetic": "/ˈtuːθeɪk/",
+    "meaning": "牙痛",
+    "level": "junior"
+  },
+  "cold": {
+    "phonetic": "/kəʊld/",
+    "meaning": "冷的",
+    "level": "primary"
+  },
+  "flu": {
+    "phonetic": "/fluː/",
+    "meaning": "流感",
+    "level": "junior"
+  },
+  "infection": {
+    "phonetic": "/ɪnˈfekʃn/",
+    "meaning": "感染",
+    "level": "junior"
+  },
+  "allergy": {
+    "phonetic": "/ˈælədʒi/",
+    "meaning": "过敏",
+    "level": "junior"
+  },
+  "blood": {
+    "phonetic": "/blʌd/",
+    "meaning": "血",
+    "level": "junior"
+  },
+  "heart": {
+    "phonetic": "/hɑːt/",
+    "meaning": "心脏",
+    "level": "junior"
+  },
+  "brain": {
+    "phonetic": "/breɪn/",
+    "meaning": "大脑",
+    "level": "junior"
+  },
+  "bone": {
+    "phonetic": "/bəʊn/",
+    "meaning": "骨头",
+    "level": "junior"
+  },
+  "muscle": {
+    "phonetic": "/ˈmʌsl/",
+    "meaning": "肌肉",
+    "level": "junior"
+  },
+  "skin": {
+    "phonetic": "/skɪn/",
+    "meaning": "皮肤",
+    "level": "junior"
+  },
+  "weight": {
+    "phonetic": "/weɪt/",
+    "meaning": "体重；重量",
+    "level": "junior"
+  },
+  "height": {
+    "phonetic": "/haɪt/",
+    "meaning": "身高；高度",
+    "level": "junior"
+  },
+  "sleep": {
+    "phonetic": "/sliːp/",
+    "meaning": "睡觉",
+    "level": "primary"
+  },
+  "rest": {
+    "phonetic": "/rest/",
+    "meaning": "休息",
+    "level": "junior"
+  },
+  "relax": {
+    "phonetic": "/rɪˈlæks/",
+    "meaning": "放松",
+    "level": "junior"
+  },
+  "recover": {
+    "phonetic": "/rɪˈkʌvə(r)/",
+    "meaning": "恢复",
+    "level": "junior"
+  },
+  "prevent": {
+    "phonetic": "/prɪˈvent/",
+    "meaning": "预防",
+    "level": "junior"
+  },
+  "travel": {
+    "phonetic": "/ˈtrævl/",
+    "meaning": "旅行",
+    "level": "junior"
+  },
+  "journey": {
+    "phonetic": "/ˈdʒɜːni/",
+    "meaning": "旅程",
+    "level": "junior"
+  },
+  "trip": {
+    "phonetic": "/trɪp/",
+    "meaning": "旅行",
+    "level": "junior"
+  },
+  "tour": {
+    "phonetic": "/tʊə(r)/",
+    "meaning": "游览",
+    "level": "junior"
+  },
+  "passport": {
+    "phonetic": "/ˈpɑːspɔːt/",
+    "meaning": "护照",
+    "level": "junior"
+  },
+  "visa": {
+    "phonetic": "/ˈviːzə/",
+    "meaning": "签证",
+    "level": "junior"
+  },
+  "ticket": {
+    "phonetic": "/ˈtɪkɪt/",
+    "meaning": "票",
+    "level": "junior"
+  },
+  "reservation": {
+    "phonetic": "/ˌrezəˈveɪʃn/",
+    "meaning": "预订",
+    "level": "junior"
+  },
+  "luggage": {
+    "phonetic": "/ˈlʌɡɪdʒ/",
+    "meaning": "行李",
+    "level": "junior"
+  },
+  "suitcase": {
+    "phonetic": "/ˈsuːtkeɪs/",
+    "meaning": "手提箱",
+    "level": "junior"
+  },
+  "backpack": {
+    "phonetic": "/ˈbækpæk/",
+    "meaning": "背包",
+    "level": "junior"
+  },
+  "guide": {
+    "phonetic": "/ɡaɪd/",
+    "meaning": "导游",
+    "level": "junior"
+  },
+  "map": {
+    "phonetic": "/mæp/",
+    "meaning": "地图",
+    "level": "primary"
+  },
+  "direction": {
+    "phonetic": "/dəˈrekʃn/",
+    "meaning": "方向",
+    "level": "junior"
+  },
+  "destination": {
+    "phonetic": "/ˌdestɪˈneɪʃn/",
+    "meaning": "目的地",
+    "level": "junior"
+  },
+  "attraction": {
+    "phonetic": "/əˈtrækʃn/",
+    "meaning": "景点",
+    "level": "junior"
+  },
+  "scenery": {
+    "phonetic": "/ˈsiːnəri/",
+    "meaning": "风景",
+    "level": "junior"
+  },
+  "landscape": {
+    "phonetic": "/ˈlændskeɪp/",
+    "meaning": "风景",
+    "level": "junior"
+  },
+  "temple": {
+    "phonetic": "/ˈtempl/",
+    "meaning": "寺庙",
+    "level": "junior"
+  },
+  "palace": {
+    "phonetic": "/ˈpæləs/",
+    "meaning": "宫殿",
+    "level": "junior"
+  },
+  "museum": {
+    "phonetic": "/mjuˈziːəm/",
+    "meaning": "博物馆",
+    "level": "primary"
+  },
+  "theater": {
+    "phonetic": "/ˈθɪətə(r)/",
+    "meaning": "剧院",
+    "level": "junior"
+  },
+  "stadium": {
+    "phonetic": "/ˈsteɪdiəm/",
+    "meaning": "体育场",
+    "level": "junior"
+  },
+  "hotel": {
+    "phonetic": "/həʊˈtel/",
+    "meaning": "酒店",
+    "level": "junior"
+  },
+  "restaurant": {
+    "phonetic": "/ˈrestrɒnt/",
+    "meaning": "餐厅",
+    "level": "junior"
+  },
+  "cafe": {
+    "phonetic": "/ˈkæfeɪ/",
+    "meaning": "咖啡馆",
+    "level": "junior"
+  },
+  "supermarket": {
+    "phonetic": "/ˈsuːpəmɑːkɪt/",
+    "meaning": "超市",
+    "level": "junior"
+  },
+  "mall": {
+    "phonetic": "/mɔːl/",
+    "meaning": "商场",
+    "level": "junior"
+  },
+  "station": {
+    "phonetic": "/ˈsteɪʃn/",
+    "meaning": "车站",
+    "level": "junior"
+  },
+  "airport": {
+    "phonetic": "/ˈeəpɔːt/",
+    "meaning": "机场",
+    "level": "junior"
+  },
+  "harbor": {
+    "phonetic": "/ˈhɑːbə(r)/",
+    "meaning": "港口",
+    "level": "junior"
+  },
+  "highway": {
+    "phonetic": "/ˈhaɪweɪ/",
+    "meaning": "公路",
+    "level": "junior"
+  },
+  "railway": {
+    "phonetic": "/ˈreɪlweɪ/",
+    "meaning": "铁路",
+    "level": "junior"
+  },
+  "bridge": {
+    "phonetic": "/brɪdʒ/",
+    "meaning": "桥",
+    "level": "junior"
+  },
+  "tunnel": {
+    "phonetic": "/ˈtʌnl/",
+    "meaning": "隧道",
+    "level": "junior"
+  },
+  "job": {
+    "phonetic": "/dʒɒb/",
+    "meaning": "工作",
+    "level": "junior"
+  },
+  "career": {
+    "phonetic": "/kəˈrɪə(r)/",
+    "meaning": "职业",
+    "level": "junior"
+  },
+  "profession": {
+    "phonetic": "/prəˈfeʃn/",
+    "meaning": "职业",
+    "level": "junior"
+  },
+  "occupation": {
+    "phonetic": "/ˌɒkjuˈpeɪʃn/",
+    "meaning": "职业",
+    "level": "junior"
+  },
+  "interview": {
+    "phonetic": "/ˈɪntəvjuː/",
+    "meaning": "面试",
+    "level": "junior"
+  },
+  "resume": {
+    "phonetic": "/rɪˈzjuːm/",
+    "meaning": "简历",
+    "level": "junior"
+  },
+  "salary": {
+    "phonetic": "/ˈsæləri/",
+    "meaning": "薪水",
+    "level": "junior"
+  },
+  "wage": {
+    "phonetic": "/weɪdʒ/",
+    "meaning": "工资",
+    "level": "junior"
+  },
+  "income": {
+    "phonetic": "/ˈɪnkʌm/",
+    "meaning": "收入",
+    "level": "junior"
+  },
+  "boss": {
+    "phonetic": "/bɒs/",
+    "meaning": "老板",
+    "level": "junior"
+  },
+  "manager": {
+    "phonetic": "/ˈmænɪdʒə(r)/",
+    "meaning": "经理",
+    "level": "junior"
+  },
+  "director": {
+    "phonetic": "/dəˈrektə(r)/",
+    "meaning": "导演；主任",
+    "level": "junior"
+  },
+  "engineer": {
+    "phonetic": "/ˌendʒɪˈnɪə(r)/",
+    "meaning": "工程师",
+    "level": "junior"
+  },
+  "scientist": {
+    "phonetic": "/ˈsaɪəntɪst/",
+    "meaning": "科学家",
+    "level": "junior"
+  },
+  "artist": {
+    "phonetic": "/ˈɑːtɪst/",
+    "meaning": "艺术家",
+    "level": "junior"
+  },
+  "musician": {
+    "phonetic": "/mjuˈzɪʃn/",
+    "meaning": "音乐家",
+    "level": "junior"
+  },
+  "writer": {
+    "phonetic": "/ˈraɪtə(r)/",
+    "meaning": "作家",
+    "level": "junior"
+  },
+  "journalist": {
+    "phonetic": "/ˈdʒɜːnəlɪst/",
+    "meaning": "记者",
+    "level": "junior"
+  },
+  "lawyer": {
+    "phonetic": "/ˈlɔːjə(r)/",
+    "meaning": "律师",
+    "level": "junior"
+  },
+  "policeman": {
+    "phonetic": "/pəˈliːsmən/",
+    "meaning": "警察",
+    "level": "junior"
+  },
+  "soldier": {
+    "phonetic": "/ˈsəʊldʒə(r)/",
+    "meaning": "士兵",
+    "level": "junior"
+  },
+  "chef": {
+    "phonetic": "/ʃef/",
+    "meaning": "厨师",
+    "level": "junior"
+  },
+  "waiter": {
+    "phonetic": "/ˈweɪtə(r)/",
+    "meaning": "服务员",
+    "level": "junior"
+  },
+  "actor": {
+    "phonetic": "/ˈæktə(r)/",
+    "meaning": "演员",
+    "level": "junior"
+  },
+  "athlete": {
+    "phonetic": "/ˈæθliːt/",
+    "meaning": "运动员",
+    "level": "junior"
+  },
+  "coach": {
+    "phonetic": "/kəʊtʃ/",
+    "meaning": "教练",
+    "level": "junior"
+  },
+  "designer": {
+    "phonetic": "/dɪˈzaɪnə(r)/",
+    "meaning": "设计师",
+    "level": "junior"
+  },
+  "photographer": {
+    "phonetic": "/fəˈtɒɡrəfə(r)/",
+    "meaning": "摄影师",
+    "level": "junior"
+  },
+  "dentist": {
+    "phonetic": "/ˈdentɪst/",
+    "meaning": "牙医",
+    "level": "junior"
+  },
+  "idea": {
+    "phonetic": "/aɪˈdɪə/",
+    "meaning": "想法",
+    "level": "junior"
+  },
+  "thought": {
+    "phonetic": "/θɔːt/",
+    "meaning": "思想",
+    "level": "junior"
+  },
+  "mind": {
+    "phonetic": "/maɪnd/",
+    "meaning": "头脑；介意",
+    "level": "junior"
+  },
+  "sense": {
+    "phonetic": "/sens/",
+    "meaning": "感觉；意义",
+    "level": "junior"
+  },
+  "feeling": {
+    "phonetic": "/ˈfiːlɪŋ/",
+    "meaning": "感觉",
+    "level": "junior"
+  },
+  "emotion": {
+    "phonetic": "/ɪˈməʊʃn/",
+    "meaning": "情绪",
+    "level": "junior"
+  },
+  "mood": {
+    "phonetic": "/muːd/",
+    "meaning": "心情",
+    "level": "junior"
+  },
+  "attitude": {
+    "phonetic": "/ˈætɪtjuːd/",
+    "meaning": "态度",
+    "level": "junior"
+  },
+  "character": {
+    "phonetic": "/ˈkærəktə(r)/",
+    "meaning": "性格；角色",
+    "level": "junior"
+  },
+  "personality": {
+    "phonetic": "/ˌpɜːsəˈnæləti/",
+    "meaning": "个性",
+    "level": "junior"
+  },
+  "quality": {
+    "phonetic": "/ˈkwɒləti/",
+    "meaning": "品质；质量",
+    "level": "junior"
+  },
+  "advantage": {
+    "phonetic": "/ədˈvɑːntɪdʒ/",
+    "meaning": "优势",
+    "level": "junior"
+  },
+  "disadvantage": {
+    "phonetic": "/ˌdɪsədˈvɑːntɪdʒ/",
+    "meaning": "劣势",
+    "level": "junior"
+  },
+  "benefit": {
+    "phonetic": "/ˈbenɪfɪt/",
+    "meaning": "好处",
+    "level": "junior"
+  },
+  "influence": {
+    "phonetic": "/ˈɪnfluəns/",
+    "meaning": "影响",
+    "level": "junior"
+  },
+  "effect": {
+    "phonetic": "/ɪˈfekt/",
+    "meaning": "效果",
+    "level": "junior"
+  },
+  "result": {
+    "phonetic": "/rɪˈzʌlt/",
+    "meaning": "结果",
+    "level": "junior"
+  },
+  "conclusion": {
+    "phonetic": "/kənˈkluːʒn/",
+    "meaning": "结论",
+    "level": "junior"
+  },
+  "reason": {
+    "phonetic": "/ˈriːzn/",
+    "meaning": "原因",
+    "level": "junior"
+  },
+  "cause": {
+    "phonetic": "/kɔːz/",
+    "meaning": "原因；事业",
+    "level": "junior"
+  },
+  "solution": {
+    "phonetic": "/səˈluːʃn/",
+    "meaning": "解决方案",
+    "level": "junior"
+  },
+  "situation": {
+    "phonetic": "/ˌsɪtʃuˈeɪʃn/",
+    "meaning": "情况",
+    "level": "junior"
+  },
+  "condition": {
+    "phonetic": "/kənˈdɪʃn/",
+    "meaning": "条件；状况",
+    "level": "junior"
+  },
+  "opportunity": {
+    "phonetic": "/ˌɒpəˈtjuːnəti/",
+    "meaning": "机会",
+    "level": "junior"
+  },
+  "challenge": {
+    "phonetic": "/ˈtʃælɪndʒ/",
+    "meaning": "挑战",
+    "level": "junior"
+  },
+  "difficulty": {
+    "phonetic": "/ˈdɪfɪkəlti/",
+    "meaning": "困难",
+    "level": "junior"
+  },
+  "obstacle": {
+    "phonetic": "/ˈɒbstəkl/",
+    "meaning": "障碍",
+    "level": "junior"
+  },
+  "responsibility": {
+    "phonetic": "/rɪˌspɒnsəˈbɪləti/",
+    "meaning": "责任",
+    "level": "junior"
+  },
+  "duty": {
+    "phonetic": "/ˈdjuːti/",
+    "meaning": "职责",
+    "level": "junior"
+  },
+  "task": {
+    "phonetic": "/tɑːsk/",
+    "meaning": "任务",
+    "level": "junior"
+  },
+  "mission": {
+    "phonetic": "/ˈmɪʃn/",
+    "meaning": "使命",
+    "level": "junior"
+  },
+  "standard": {
+    "phonetic": "/ˈstændəd/",
+    "meaning": "标准",
+    "level": "junior"
+  },
+  "rule": {
+    "phonetic": "/ruːl/",
+    "meaning": "规则",
+    "level": "junior"
+  },
+  "principle": {
+    "phonetic": "/ˈprɪnsəpl/",
+    "meaning": "原则",
+    "level": "junior"
+  },
+  "theory": {
+    "phonetic": "/ˈθɪəri/",
+    "meaning": "理论",
+    "level": "junior"
+  },
+  "fact": {
+    "phonetic": "/fækt/",
+    "meaning": "事实",
+    "level": "junior"
+  },
+  "truth": {
+    "phonetic": "/truːθ/",
+    "meaning": "真相",
+    "level": "junior"
+  },
+  "active": {
+    "phonetic": "/ˈæktɪv/",
+    "meaning": "积极的",
+    "level": "junior"
+  },
+  "lazy": {
+    "phonetic": "/ˈleɪzi/",
+    "meaning": "懒惰的",
+    "level": "junior"
+  },
+  "busy": {
+    "phonetic": "/ˈbɪzi/",
+    "meaning": "忙碌的",
+    "level": "junior"
+  },
+  "free": {
+    "phonetic": "/friː/",
+    "meaning": "自由的；空闲的",
+    "level": "junior"
+  },
+  "ready": {
+    "phonetic": "/ˈredi/",
+    "meaning": "准备好的",
+    "level": "junior"
+  },
+  "able": {
+    "phonetic": "/ˈeɪbl/",
+    "meaning": "能够的",
+    "level": "junior"
+  },
+  "unable": {
+    "phonetic": "/ʌnˈeɪbl/",
+    "meaning": "不能的",
+    "level": "junior"
+  },
+  "possible": {
+    "phonetic": "/ˈpɒsəbl/",
+    "meaning": "可能的",
+    "level": "junior"
+  },
+  "impossible": {
+    "phonetic": "/ɪmˈpɒsəbl/",
+    "meaning": "不可能的",
+    "level": "junior"
+  },
+  "probable": {
+    "phonetic": "/ˈprɒbəbl/",
+    "meaning": "很可能的",
+    "level": "junior"
+  },
+  "certain": {
+    "phonetic": "/ˈsɜːtn/",
+    "meaning": "确定的",
+    "level": "junior"
+  },
+  "sure": {
+    "phonetic": "/ʃʊə(r)/",
+    "meaning": "确定的",
+    "level": "junior"
+  },
+  "clear": {
+    "phonetic": "/klɪə(r)/",
+    "meaning": "清楚的",
+    "level": "junior"
+  },
+  "obvious": {
+    "phonetic": "/ˈɒbviəs/",
+    "meaning": "明显的",
+    "level": "junior"
+  },
+  "similar": {
+    "phonetic": "/ˈsɪmɪlə(r)/",
+    "meaning": "相似的",
+    "level": "junior"
+  },
+  "different": {
+    "phonetic": "/ˈdɪfrənt/",
+    "meaning": "不同的",
+    "level": "junior"
+  },
+  "special": {
+    "phonetic": "/ˈspeʃl/",
+    "meaning": "特别的",
+    "level": "junior"
+  },
+  "common": {
+    "phonetic": "/ˈkɒmən/",
+    "meaning": "普通的",
+    "level": "junior"
+  },
+  "normal": {
+    "phonetic": "/ˈnɔːml/",
+    "meaning": "正常的",
+    "level": "junior"
+  },
+  "strange": {
+    "phonetic": "/streɪndʒ/",
+    "meaning": "奇怪的",
+    "level": "junior"
+  },
+  "terrible": {
+    "phonetic": "/ˈterəbl/",
+    "meaning": "可怕的",
+    "level": "junior"
+  },
+  "wonderful": {
+    "phonetic": "/ˈwʌndəfl/",
+    "meaning": "精彩的",
+    "level": "junior"
+  },
+  "excellent": {
+    "phonetic": "/ˈeksələnt/",
+    "meaning": "极好的",
+    "level": "junior"
+  },
+  "perfect": {
+    "phonetic": "/ˈpɜːfɪkt/",
+    "meaning": "完美的",
+    "level": "junior"
+  },
+  "amazing": {
+    "phonetic": "/əˈmeɪzɪŋ/",
+    "meaning": "令人惊叹的",
+    "level": "junior"
+  },
+  "boring": {
+    "phonetic": "/ˈbɔːrɪŋ/",
+    "meaning": "无聊的",
+    "level": "junior"
+  },
+  "difficult": {
+    "phonetic": "/ˈdɪfɪkəlt/",
+    "meaning": "困难的",
+    "level": "junior"
+  },
+  "easy": {
+    "phonetic": "/ˈiːzi/",
+    "meaning": "容易的",
+    "level": "junior"
+  },
+  "hard": {
+    "phonetic": "/hɑːd/",
+    "meaning": "困难的；硬的",
+    "level": "junior"
+  },
+  "soft": {
+    "phonetic": "/sɒft/",
+    "meaning": "柔软的",
+    "level": "junior"
+  },
+  "smooth": {
+    "phonetic": "/smuːð/",
+    "meaning": "光滑的",
+    "level": "junior"
+  },
+  "rough": {
+    "phonetic": "/rʌf/",
+    "meaning": "粗糙的",
+    "level": "junior"
+  },
+  "thick": {
+    "phonetic": "/θɪk/",
+    "meaning": "厚的",
+    "level": "junior"
+  },
+  "thin": {
+    "phonetic": "/θɪn/",
+    "meaning": "瘦的",
+    "level": "primary"
+  },
+  "deep": {
+    "phonetic": "/diːp/",
+    "meaning": "深的",
+    "level": "junior"
+  },
+  "shallow": {
+    "phonetic": "/ˈʃæləʊ/",
+    "meaning": "浅的",
+    "level": "junior"
+  },
+  "wide": {
+    "phonetic": "/waɪd/",
+    "meaning": "宽的",
+    "level": "junior"
+  },
+  "narrow": {
+    "phonetic": "/ˈnærəʊ/",
+    "meaning": "窄的",
+    "level": "junior"
+  },
+  "empty": {
+    "phonetic": "/ˈempti/",
+    "meaning": "空的",
+    "level": "junior"
+  },
+  "full": {
+    "phonetic": "/fʊl/",
+    "meaning": "满的",
+    "level": "junior"
+  },
+  "dry": {
+    "phonetic": "/draɪ/",
+    "meaning": "干燥的",
+    "level": "junior"
+  },
+  "wet": {
+    "phonetic": "/wet/",
+    "meaning": "湿的",
+    "level": "junior"
+  },
+  "clean": {
+    "phonetic": "/kliːn/",
+    "meaning": "打扫",
+    "level": "primary"
+  },
+  "dirty": {
+    "phonetic": "/ˈdɜːti/",
+    "meaning": "脏的",
+    "level": "junior"
+  },
+  "noisy": {
+    "phonetic": "/ˈnɔɪzi/",
+    "meaning": "吵闹的",
+    "level": "junior"
+  },
+  "quiet": {
+    "phonetic": "/ˈkwaɪət/",
+    "meaning": "安静的",
+    "level": "junior"
+  },
+  "safe": {
+    "phonetic": "/seɪf/",
+    "meaning": "安全的",
+    "level": "junior"
+  },
+  "dangerous": {
+    "phonetic": "/ˈdeɪndʒərəs/",
+    "meaning": "危险的",
+    "level": "junior"
+  },
+  "expensive": {
+    "phonetic": "/ɪkˈspensɪv/",
+    "meaning": "昂贵的",
+    "level": "junior"
+  },
+  "cheap": {
+    "phonetic": "/tʃiːp/",
+    "meaning": "便宜的",
+    "level": "junior"
+  },
+  "rich": {
+    "phonetic": "/rɪtʃ/",
+    "meaning": "富有的",
+    "level": "junior"
+  },
+  "poor": {
+    "phonetic": "/pɔː(r)/",
+    "meaning": "贫穷的",
+    "level": "junior"
+  },
+  "famous": {
+    "phonetic": "/ˈfeɪməs/",
+    "meaning": "著名的",
+    "level": "junior"
+  },
+  "popular": {
+    "phonetic": "/ˈpɒpjələ(r)/",
+    "meaning": "流行的",
+    "level": "junior"
+  },
+  "fashionable": {
+    "phonetic": "/ˈfæʃnəbl/",
+    "meaning": "时尚的",
+    "level": "junior"
+  },
+  "modern": {
+    "phonetic": "/ˈmɒdn/",
+    "meaning": "现代的",
+    "level": "junior"
+  },
+  "ancient": {
+    "phonetic": "/ˈeɪnʃənt/",
+    "meaning": "古代的",
+    "level": "junior"
+  },
+  "agree": {
+    "phonetic": "/əˈɡriː/",
+    "meaning": "同意",
+    "level": "junior"
+  },
+  "allow": {
+    "phonetic": "/əˈlaʊ/",
+    "meaning": "允许",
+    "level": "junior"
+  },
+  "accept": {
+    "phonetic": "/əkˈsept/",
+    "meaning": "接受",
+    "level": "junior"
+  },
+  "refuse": {
+    "phonetic": "/rɪˈfjuːz/",
+    "meaning": "拒绝",
+    "level": "junior"
+  },
+  "admit": {
+    "phonetic": "/ədˈmɪt/",
+    "meaning": "承认",
+    "level": "junior"
+  },
+  "apologize": {
+    "phonetic": "/əˈpɒlədʒaɪz/",
+    "meaning": "道歉",
+    "level": "junior"
+  },
+  "appreciate": {
+    "phonetic": "/əˈpriːʃieɪt/",
+    "meaning": "感激",
+    "level": "junior"
+  },
+  "argue": {
+    "phonetic": "/ˈɑːɡjuː/",
+    "meaning": "争论",
+    "level": "junior"
+  },
+  "attack": {
+    "phonetic": "/əˈtæk/",
+    "meaning": "攻击",
+    "level": "junior"
+  },
+  "avoid": {
+    "phonetic": "/əˈvɔɪd/",
+    "meaning": "避免",
+    "level": "junior"
+  },
+  "believe": {
+    "phonetic": "/bɪˈliːv/",
+    "meaning": "相信",
+    "level": "junior"
+  },
+  "blame": {
+    "phonetic": "/bleɪm/",
+    "meaning": "责备",
+    "level": "junior"
+  },
+  "borrow": {
+    "phonetic": "/ˈbɒrəʊ/",
+    "meaning": "借入",
+    "level": "junior"
+  },
+  "lend": {
+    "phonetic": "/lend/",
+    "meaning": "借出",
+    "level": "junior"
+  },
+  "break": {
+    "phonetic": "/breɪk/",
+    "meaning": "打破",
+    "level": "junior"
+  },
+  "fix": {
+    "phonetic": "/fɪks/",
+    "meaning": "修理",
+    "level": "junior"
+  },
+  "build": {
+    "phonetic": "/bɪld/",
+    "meaning": "建造",
+    "level": "junior"
+  },
+  "destroy": {
+    "phonetic": "/dɪˈstrɔɪ/",
+    "meaning": "破坏",
+    "level": "junior"
+  },
+  "burn": {
+    "phonetic": "/bɜːn/",
+    "meaning": "燃烧",
+    "level": "junior"
+  },
+  "catch": {
+    "phonetic": "/kætʃ/",
+    "meaning": "抓住",
+    "level": "junior"
+  },
+  "throw": {
+    "phonetic": "/θrəʊ/",
+    "meaning": "扔",
+    "level": "junior"
+  },
+  "kick": {
+    "phonetic": "/kɪk/",
+    "meaning": "踢",
+    "level": "junior"
+  },
+  "hit": {
+    "phonetic": "/hɪt/",
+    "meaning": "打",
+    "level": "junior"
+  },
+  "pull": {
+    "phonetic": "/pʊl/",
+    "meaning": "拉",
+    "level": "junior"
+  },
+  "push": {
+    "phonetic": "/pʊʃ/",
+    "meaning": "推",
+    "level": "junior"
+  },
+  "check": {
+    "phonetic": "/tʃek/",
+    "meaning": "检查",
+    "level": "junior"
+  },
+  "choose": {
+    "phonetic": "/tʃuːz/",
+    "meaning": "选择",
+    "level": "junior"
+  },
+  "collect": {
+    "phonetic": "/kəˈlekt/",
+    "meaning": "收集",
+    "level": "junior"
+  },
+  "compare": {
+    "phonetic": "/kəmˈpeə(r)/",
+    "meaning": "比较",
+    "level": "junior"
+  },
+  "connect": {
+    "phonetic": "/kəˈnekt/",
+    "meaning": "连接",
+    "level": "junior"
+  },
+  "consider": {
+    "phonetic": "/kənˈsɪdə(r)/",
+    "meaning": "考虑",
+    "level": "junior"
+  },
+  "continue": {
+    "phonetic": "/kənˈtɪnjuː/",
+    "meaning": "继续",
+    "level": "junior"
+  },
+  "control": {
+    "phonetic": "/kənˈtrəʊl/",
+    "meaning": "控制",
+    "level": "junior"
+  },
+  "cover": {
+    "phonetic": "/ˈkʌvə(r)/",
+    "meaning": "覆盖",
+    "level": "junior"
+  },
+  "create": {
+    "phonetic": "/kriˈeɪt/",
+    "meaning": "创造",
+    "level": "junior"
+  },
+  "cross": {
+    "phonetic": "/krɒs/",
+    "meaning": "穿过",
+    "level": "junior"
+  },
+  "cut": {
+    "phonetic": "/kʌt/",
+    "meaning": "切",
+    "level": "junior"
+  },
+  "deal": {
+    "phonetic": "/diːl/",
+    "meaning": "处理",
+    "level": "junior"
+  },
+  "depend": {
+    "phonetic": "/dɪˈpend/",
+    "meaning": "依赖",
+    "level": "junior"
+  },
+  "describe": {
+    "phonetic": "/dɪˈskraɪb/",
+    "meaning": "描述",
+    "level": "junior"
+  },
+  "design": {
+    "phonetic": "/dɪˈzaɪn/",
+    "meaning": "设计",
+    "level": "junior"
+  },
+  "develop": {
+    "phonetic": "/dɪˈveləp/",
+    "meaning": "发展",
+    "level": "junior"
+  },
+  "discover": {
+    "phonetic": "/dɪˈskʌvə(r)/",
+    "meaning": "发现",
+    "level": "junior"
+  },
+  "divide": {
+    "phonetic": "/dɪˈvaɪd/",
+    "meaning": "分开",
+    "level": "junior"
+  },
+  "drop": {
+    "phonetic": "/drɒp/",
+    "meaning": "掉落",
+    "level": "junior"
+  },
+  "encourage": {
+    "phonetic": "/ɪnˈkʌrɪdʒ/",
+    "meaning": "鼓励",
+    "level": "junior"
+  },
+  "enter": {
+    "phonetic": "/ˈentə(r)/",
+    "meaning": "进入",
+    "level": "junior"
+  },
+  "escape": {
+    "phonetic": "/ɪˈskeɪp/",
+    "meaning": "逃跑",
+    "level": "junior"
+  },
+  "expect": {
+    "phonetic": "/ɪkˈspekt/",
+    "meaning": "期待",
+    "level": "junior"
+  },
+  "explain": {
+    "phonetic": "/ɪkˈspleɪn/",
+    "meaning": "解释",
+    "level": "junior"
+  },
+  "express": {
+    "phonetic": "/ɪkˈspres/",
+    "meaning": "表达",
+    "level": "junior"
+  },
+  "action": {
+    "phonetic": "/ˈækʃn/",
+    "meaning": "行动",
+    "level": "junior"
+  },
+  "address": {
+    "phonetic": "/əˈdres/",
+    "meaning": "地址",
+    "level": "junior"
+  },
+  "adult": {
+    "phonetic": "/ˈædʌlt/",
+    "meaning": "成年人",
+    "level": "junior"
+  },
+  "age": {
+    "phonetic": "/eɪdʒ/",
+    "meaning": "年龄",
+    "level": "junior"
+  },
+  "amount": {
+    "phonetic": "/əˈmaʊnt/",
+    "meaning": "数量",
+    "level": "junior"
+  },
+  "area": {
+    "phonetic": "/ˈeəriə/",
+    "meaning": "地区；面积",
+    "level": "junior"
+  },
+  "army": {
+    "phonetic": "/ˈɑːmi/",
+    "meaning": "军队",
+    "level": "junior"
+  },
+  "attention": {
+    "phonetic": "/əˈtenʃn/",
+    "meaning": "注意",
+    "level": "junior"
+  },
+  "audience": {
+    "phonetic": "/ˈɔːdiəns/",
+    "meaning": "观众",
+    "level": "junior"
+  },
+  "author": {
+    "phonetic": "/ˈɔːθə(r)/",
+    "meaning": "作者",
+    "level": "junior"
+  },
+  "award": {
+    "phonetic": "/əˈwɔːd/",
+    "meaning": "奖项",
+    "level": "junior"
+  },
+  "background": {
+    "phonetic": "/ˈbækɡraʊnd/",
+    "meaning": "背景",
+    "level": "junior"
+  },
+  "balance": {
+    "phonetic": "/ˈbæləns/",
+    "meaning": "平衡",
+    "level": "junior"
+  },
+  "barrier": {
+    "phonetic": "/ˈbæriə(r)/",
+    "meaning": "障碍",
+    "level": "junior"
+  },
+  "base": {
+    "phonetic": "/beɪs/",
+    "meaning": "基础；基地",
+    "level": "junior"
+  },
+  "battle": {
+    "phonetic": "/ˈbætl/",
+    "meaning": "战斗",
+    "level": "junior"
+  },
+  "beauty": {
+    "phonetic": "/ˈbjuːti/",
+    "meaning": "美丽",
+    "level": "junior"
+  },
+  "beginning": {
+    "phonetic": "/bɪˈɡɪnɪŋ/",
+    "meaning": "开始",
+    "level": "junior"
+  },
+  "birth": {
+    "phonetic": "/bɜːθ/",
+    "meaning": "出生",
+    "level": "junior"
+  },
+  "border": {
+    "phonetic": "/ˈbɔːdə(r)/",
+    "meaning": "边界",
+    "level": "junior"
+  },
+  "bottom": {
+    "phonetic": "/ˈbɒtəm/",
+    "meaning": "底部",
+    "level": "junior"
+  },
+  "branch": {
+    "phonetic": "/brɑːntʃ/",
+    "meaning": "分支",
+    "level": "junior"
+  },
+  "breath": {
+    "phonetic": "/breθ/",
+    "meaning": "呼吸",
+    "level": "junior"
+  },
+  "breeze": {
+    "phonetic": "/briːz/",
+    "meaning": "微风",
+    "level": "junior"
+  },
+  "broadcast": {
+    "phonetic": "/ˈbrɔːdkɑːst/",
+    "meaning": "广播",
+    "level": "junior"
+  },
+  "budget": {
+    "phonetic": "/ˈbʌdʒɪt/",
+    "meaning": "预算",
+    "level": "junior"
+  },
+  "business": {
+    "phonetic": "/ˈbɪznəs/",
+    "meaning": "商业；生意",
+    "level": "junior"
+  },
+  "campaign": {
+    "phonetic": "/kæmˈpeɪn/",
+    "meaning": "运动；战役",
+    "level": "junior"
+  },
+  "capital": {
+    "phonetic": "/ˈkæpɪtl/",
+    "meaning": "首都；资本",
+    "level": "junior"
+  },
+  "case": {
+    "phonetic": "/keɪs/",
+    "meaning": "案例；箱子",
+    "level": "junior"
+  },
+  "cash": {
+    "phonetic": "/kæʃ/",
+    "meaning": "现金",
+    "level": "junior"
+  },
+  "castle": {
+    "phonetic": "/ˈkɑːsl/",
+    "meaning": "城堡",
+    "level": "junior"
+  },
+  "category": {
+    "phonetic": "/ˈkætəɡəri/",
+    "meaning": "类别",
+    "level": "junior"
+  },
+  "celebrity": {
+    "phonetic": "/səˈlebrəti/",
+    "meaning": "名人",
+    "level": "junior"
+  },
+  "centre": {
+    "phonetic": "/ˈsentə(r)/",
+    "meaning": "中心",
+    "level": "junior"
+  },
+  "century": {
+    "phonetic": "/ˈsentʃəri/",
+    "meaning": "世纪",
+    "level": "junior"
+  },
+  "chain": {
+    "phonetic": "/tʃeɪn/",
+    "meaning": "链条",
+    "level": "junior"
+  },
+  "champion": {
+    "phonetic": "/ˈtʃæmpiən/",
+    "meaning": "冠军",
+    "level": "junior"
+  },
+  "change": {
+    "phonetic": "/tʃeɪndʒ/",
+    "meaning": "改变",
+    "level": "junior"
+  },
+  "channel": {
+    "phonetic": "/ˈtʃænl/",
+    "meaning": "频道；海峡",
+    "level": "junior"
+  },
+  "chapter": {
+    "phonetic": "/ˈtʃæptə(r)/",
+    "meaning": "章节",
+    "level": "junior"
+  },
+  "charge": {
+    "phonetic": "/tʃɑːdʒ/",
+    "meaning": "收费；充电",
+    "level": "junior"
+  },
+  "chat": {
+    "phonetic": "/tʃæt/",
+    "meaning": "聊天",
+    "level": "junior"
+  },
+  "cheek": {
+    "phonetic": "/tʃiːk/",
+    "meaning": "脸颊",
+    "level": "junior"
+  },
+  "chest": {
+    "phonetic": "/tʃest/",
+    "meaning": "胸部；箱子",
+    "level": "junior"
+  },
+  "chief": {
+    "phonetic": "/tʃiːf/",
+    "meaning": "首领",
+    "level": "junior"
+  },
+  "however": {
+    "phonetic": "/haʊˈevə(r)/",
+    "meaning": "然而",
+    "level": "junior"
+  },
+  "therefore": {
+    "phonetic": "/ˈðeəfɔː(r)/",
+    "meaning": "因此",
+    "level": "junior"
+  },
+  "otherwise": {
+    "phonetic": "/ˈʌðəwaɪz/",
+    "meaning": "否则",
+    "level": "junior"
+  },
+  "besides": {
+    "phonetic": "/bɪˈsaɪdz/",
+    "meaning": "此外",
+    "level": "junior"
+  },
+  "instead": {
+    "phonetic": "/ɪnˈsted/",
+    "meaning": "代替",
+    "level": "junior"
+  },
+  "meanwhile": {
+    "phonetic": "/ˈmiːnwaɪl/",
+    "meaning": "同时",
+    "level": "junior"
+  },
+  "furthermore": {
+    "phonetic": "/ˌfɜːðəˈmɔː(r)/",
+    "meaning": "此外",
+    "level": "junior"
+  },
+  "although": {
+    "phonetic": "/ɔːlˈðəʊ/",
+    "meaning": "虽然",
+    "level": "junior"
+  },
+  "though": {
+    "phonetic": "/ðəʊ/",
+    "meaning": "虽然",
+    "level": "junior"
+  },
+  "unless": {
+    "phonetic": "/ənˈles/",
+    "meaning": "除非",
+    "level": "junior"
+  },
+  "whether": {
+    "phonetic": "/ˈweðə(r)/",
+    "meaning": "是否",
+    "level": "junior"
+  },
+  "while": {
+    "phonetic": "/waɪl/",
+    "meaning": "当……时；然而",
+    "level": "junior"
+  },
+  "since": {
+    "phonetic": "/sɪns/",
+    "meaning": "自从；因为",
+    "level": "junior"
+  },
+  "until": {
+    "phonetic": "/ənˈtɪl/",
+    "meaning": "直到",
+    "level": "junior"
+  },
+  "before": {
+    "phonetic": "/bɪˈfɔː(r)/",
+    "meaning": "在……之前",
+    "level": "junior"
+  },
+  "after": {
+    "phonetic": "/ˈɑːftə(r)/",
+    "meaning": "在……之后",
+    "level": "junior"
+  },
+  "during": {
+    "phonetic": "/ˈdjʊərɪŋ/",
+    "meaning": "在……期间",
+    "level": "junior"
+  },
+  "throughout": {
+    "phonetic": "/θruːˈaʊt/",
+    "meaning": "遍及",
+    "level": "junior"
+  },
+  "across": {
+    "phonetic": "/əˈkrɒs/",
+    "meaning": "穿过",
+    "level": "junior"
+  },
+  "along": {
+    "phonetic": "/əˈlɒŋ/",
+    "meaning": "沿着",
+    "level": "junior"
+  },
+  "around": {
+    "phonetic": "/əˈraʊnd/",
+    "meaning": "围绕；大约",
+    "level": "junior"
+  },
+  "away": {
+    "phonetic": "/əˈweɪ/",
+    "meaning": "离开",
+    "level": "junior"
+  },
+  "back": {
+    "phonetic": "/bæk/",
+    "meaning": "向后；背部",
+    "level": "junior"
+  },
+  "forward": {
+    "phonetic": "/ˈfɔːwəd/",
+    "meaning": "向前",
+    "level": "junior"
+  },
+  "together": {
+    "phonetic": "/təˈɡeðə(r)/",
+    "meaning": "一起",
+    "level": "junior"
+  },
+  "apart": {
+    "phonetic": "/əˈpɑːt/",
+    "meaning": "分开",
+    "level": "junior"
+  },
+  "almost": {
+    "phonetic": "/ˈɔːlməʊst/",
+    "meaning": "几乎",
+    "level": "junior"
+  },
+  "already": {
+    "phonetic": "/ɔːlˈredi/",
+    "meaning": "已经",
+    "level": "junior"
+  },
+  "yet": {
+    "phonetic": "/jet/",
+    "meaning": "还；然而",
+    "level": "junior"
+  },
+  "still": {
+    "phonetic": "/stɪl/",
+    "meaning": "仍然",
+    "level": "junior"
+  },
+  "raise": {
+    "phonetic": "/reɪz/",
+    "meaning": "举起；筹集",
+    "level": "junior"
+  },
+  "rise": {
+    "phonetic": "/raɪz/",
+    "meaning": "上升",
+    "level": "junior"
+  },
+  "increase": {
+    "phonetic": "/ɪnˈkriːs/",
+    "meaning": "增加",
+    "level": "junior"
+  },
+  "improve": {
+    "phonetic": "/ɪmˈpruːv/",
+    "meaning": "提高",
+    "level": "junior"
+  },
+  "achieve": {
+    "phonetic": "/əˈtʃiːv/",
+    "meaning": "实现",
+    "level": "junior"
+  },
+  "realize": {
+    "phonetic": "/ˈrɪəlaɪz/",
+    "meaning": "意识到；实现",
+    "level": "junior"
+  },
+  "recognize": {
+    "phonetic": "/ˈrekəɡnaɪz/",
+    "meaning": "认出",
+    "level": "junior"
+  },
+  "remember": {
+    "phonetic": "/rɪˈmembə(r)/",
+    "meaning": "记得",
+    "level": "junior"
+  },
+  "forget": {
+    "phonetic": "/fəˈɡet/",
+    "meaning": "忘记",
+    "level": "junior"
+  },
+  "remind": {
+    "phonetic": "/rɪˈmaɪnd/",
+    "meaning": "提醒",
+    "level": "junior"
+  },
+  "replace": {
+    "phonetic": "/rɪˈpleɪs/",
+    "meaning": "替换",
+    "level": "junior"
+  },
+  "represent": {
+    "phonetic": "/ˌreprɪˈzent/",
+    "meaning": "代表",
+    "level": "junior"
+  },
+  "require": {
+    "phonetic": "/rɪˈkwaɪə(r)/",
+    "meaning": "要求",
+    "level": "junior"
+  },
+  "request": {
+    "phonetic": "/rɪˈkwest/",
+    "meaning": "请求",
+    "level": "junior"
+  },
+  "research": {
+    "phonetic": "/rɪˈsɜːtʃ/",
+    "meaning": "研究",
+    "level": "junior"
+  },
+  "respect": {
+    "phonetic": "/rɪˈspekt/",
+    "meaning": "尊重",
+    "level": "junior"
+  },
+  "respond": {
+    "phonetic": "/rɪˈspɒnd/",
+    "meaning": "回应",
+    "level": "junior"
+  },
+  "return": {
+    "phonetic": "/rɪˈtɜːn/",
+    "meaning": "返回",
+    "level": "junior"
+  },
+  "reveal": {
+    "phonetic": "/rɪˈviːl/",
+    "meaning": "揭示",
+    "level": "junior"
+  },
+  "reward": {
+    "phonetic": "/rɪˈwɔːd/",
+    "meaning": "奖励",
+    "level": "junior"
+  },
+  "risk": {
+    "phonetic": "/rɪsk/",
+    "meaning": "冒险",
+    "level": "junior"
+  },
+  "rob": {
+    "phonetic": "/rɒb/",
+    "meaning": "抢劫",
+    "level": "junior"
+  },
+  "roll": {
+    "phonetic": "/rəʊl/",
+    "meaning": "滚动",
+    "level": "junior"
+  },
+  "rotate": {
+    "phonetic": "/rəʊˈteɪt/",
+    "meaning": "旋转",
+    "level": "junior"
+  },
+  "rush": {
+    "phonetic": "/rʌʃ/",
+    "meaning": "冲",
+    "level": "junior"
+  },
+  "satisfy": {
+    "phonetic": "/ˈsætɪsfaɪ/",
+    "meaning": "使满意",
+    "level": "junior"
+  },
+  "save": {
+    "phonetic": "/seɪv/",
+    "meaning": "拯救；节省",
+    "level": "junior"
+  },
+  "scan": {
+    "phonetic": "/skæn/",
+    "meaning": "扫描；浏览",
+    "level": "junior"
+  },
+  "college": {
+    "phonetic": "/ˈkɒlɪdʒ/",
+    "meaning": "大学；学院",
+    "level": "junior"
+  },
+  "university": {
+    "phonetic": "/ˌjuːnɪˈvɜːsəti/",
+    "meaning": "大学",
+    "level": "junior"
+  },
+  "institute": {
+    "phonetic": "/ˈɪnstɪtjuːt/",
+    "meaning": "研究所",
+    "level": "junior"
+  },
+  "academy": {
+    "phonetic": "/əˈkædəmi/",
+    "meaning": "学院",
+    "level": "junior"
+  },
+  "kindergarten": {
+    "phonetic": "/ˈkɪndəɡɑːtn/",
+    "meaning": "幼儿园",
+    "level": "junior"
+  },
+  "semester": {
+    "phonetic": "/sɪˈmestə(r)/",
+    "meaning": "学期",
+    "level": "junior"
+  },
+  "curriculum": {
+    "phonetic": "/kəˈrɪkjələm/",
+    "meaning": "课程",
+    "level": "junior"
+  },
+  "schedule": {
+    "phonetic": "/ˈʃedjuːl/",
+    "meaning": "日程表",
+    "level": "junior"
+  },
+  "timetable": {
+    "phonetic": "/ˈtaɪmteɪbl/",
+    "meaning": "时间表",
+    "level": "junior"
+  },
+  "deadline": {
+    "phonetic": "/ˈdedlaɪn/",
+    "meaning": "截止日期",
+    "level": "junior"
+  },
+  "lecture": {
+    "phonetic": "/ˈlektʃə(r)/",
+    "meaning": "讲座",
+    "level": "junior"
+  },
+  "seminar": {
+    "phonetic": "/ˈsemɪnɑː(r)/",
+    "meaning": "研讨会",
+    "level": "junior"
+  },
+  "debate": {
+    "phonetic": "/dɪˈbeɪt/",
+    "meaning": "辩论",
+    "level": "junior"
+  },
+  "conference": {
+    "phonetic": "/ˈkɒnfərəns/",
+    "meaning": "会议",
+    "level": "junior"
+  },
+  "meeting": {
+    "phonetic": "/ˈmiːtɪŋ/",
+    "meaning": "会议",
+    "level": "junior"
+  },
+  "organization": {
+    "phonetic": "/ˌɔːɡənaɪˈzeɪʃn/",
+    "meaning": "组织",
+    "level": "junior"
+  },
+  "association": {
+    "phonetic": "/əˌsəʊsiˈeɪʃn/",
+    "meaning": "协会",
+    "level": "junior"
+  },
+  "union": {
+    "phonetic": "/ˈjuːniən/",
+    "meaning": "联盟；工会",
+    "level": "junior"
+  },
+  "committee": {
+    "phonetic": "/kəˈmɪti/",
+    "meaning": "委员会",
+    "level": "junior"
+  },
+  "council": {
+    "phonetic": "/ˈkaʊnsl/",
+    "meaning": "理事会",
+    "level": "junior"
+  },
+  "department": {
+    "phonetic": "/dɪˈpɑːtmənt/",
+    "meaning": "部门",
+    "level": "junior"
+  },
+  "section": {
+    "phonetic": "/ˈsekʃn/",
+    "meaning": "部分；部门",
+    "level": "junior"
+  },
+  "division": {
+    "phonetic": "/dɪˈvɪʒn/",
+    "meaning": "部门；分割",
+    "level": "junior"
+  },
+  "agency": {
+    "phonetic": "/ˈeɪdʒənsi/",
+    "meaning": "代理机构",
+    "level": "junior"
+  },
+  "company": {
+    "phonetic": "/ˈkʌmpəni/",
+    "meaning": "公司",
+    "level": "junior"
+  },
+  "corporation": {
+    "phonetic": "/ˌkɔːpəˈreɪʃn/",
+    "meaning": "大公司",
+    "level": "junior"
+  },
+  "enterprise": {
+    "phonetic": "/ˈentəpraɪz/",
+    "meaning": "企业",
+    "level": "junior"
+  },
+  "factory": {
+    "phonetic": "/ˈfæktri/",
+    "meaning": "工厂",
+    "level": "junior"
+  },
+  "industry": {
+    "phonetic": "/ˈɪndəstri/",
+    "meaning": "工业",
+    "level": "junior"
+  },
+  "agriculture": {
+    "phonetic": "/ˈæɡrɪkʌltʃə(r)/",
+    "meaning": "农业",
+    "level": "junior"
+  },
+  "construction": {
+    "phonetic": "/kənˈstrʌkʃn/",
+    "meaning": "建筑",
+    "level": "junior"
+  },
+  "transportation": {
+    "phonetic": "/ˌtrænspɔːˈteɪʃn/",
+    "meaning": "运输",
+    "level": "junior"
+  },
+  "advertisement": {
+    "phonetic": "/ədˈvɜːtɪsmənt/",
+    "meaning": "广告",
+    "level": "junior"
+  },
+  "customer": {
+    "phonetic": "/ˈkʌstəmə(r)/",
+    "meaning": "顾客",
+    "level": "junior"
+  },
+  "consumer": {
+    "phonetic": "/kənˈsjuːmə(r)/",
+    "meaning": "消费者",
+    "level": "junior"
+  },
+  "producer": {
+    "phonetic": "/prəˈdjuːsə(r)/",
+    "meaning": "生产者",
+    "level": "junior"
+  },
+  "supplier": {
+    "phonetic": "/səˈplaɪə(r)/",
+    "meaning": "供应商",
+    "level": "junior"
+  },
+  "hello": {
+    "phonetic": "/həˈləʊ/",
+    "meaning": "你好",
+    "level": "primary"
+  },
+  "hi": {
+    "phonetic": "/haɪ/",
+    "meaning": "嗨",
+    "level": "primary"
+  },
+  "goodbye": {
+    "phonetic": "/ˌɡʊdˈbaɪ/",
+    "meaning": "再见",
+    "level": "primary"
+  },
+  "bye": {
+    "phonetic": "/baɪ/",
+    "meaning": "再见",
+    "level": "primary"
+  },
+  "thank": {
+    "phonetic": "/θæŋk/",
+    "meaning": "谢谢",
+    "level": "primary"
+  },
+  "thanks": {
+    "phonetic": "/θæŋks/",
+    "meaning": "谢谢",
+    "level": "primary"
+  },
+  "please": {
+    "phonetic": "/pliːz/",
+    "meaning": "请",
+    "level": "primary"
+  },
+  "sorry": {
+    "phonetic": "/ˈsɒri/",
+    "meaning": "对不起",
+    "level": "primary"
+  },
+  "yes": {
+    "phonetic": "/jes/",
+    "meaning": "是",
+    "level": "primary"
+  },
+  "no": {
+    "phonetic": "/nəʊ/",
+    "meaning": "不",
+    "level": "primary"
+  },
+  "ok": {
+    "phonetic": "/ˌəʊˈkeɪ/",
+    "meaning": "好的",
+    "level": "primary"
+  },
+  "good": {
+    "phonetic": "/ɡʊd/",
+    "meaning": "好的",
+    "level": "primary"
+  },
+  "nice": {
+    "phonetic": "/naɪs/",
+    "meaning": "美好的",
+    "level": "primary"
+  },
+  "fine": {
+    "phonetic": "/faɪn/",
+    "meaning": "好的",
+    "level": "primary"
+  },
+  "great": {
+    "phonetic": "/ɡreɪt/",
+    "meaning": "棒的",
+    "level": "primary"
+  },
+  "welcome": {
+    "phonetic": "/ˈwelkəm/",
+    "meaning": "欢迎",
+    "level": "primary"
+  },
+  "morning": {
+    "phonetic": "/ˈmɔːnɪŋ/",
+    "meaning": "早上",
+    "level": "primary"
+  },
+  "afternoon": {
+    "phonetic": "/ˌɑːftəˈnuːn/",
+    "meaning": "下午",
+    "level": "primary"
+  },
+  "evening": {
+    "phonetic": "/ˈiːvnɪŋ/",
+    "meaning": "晚上",
+    "level": "primary"
+  },
+  "night": {
+    "phonetic": "/naɪt/",
+    "meaning": "夜晚",
+    "level": "primary"
+  },
+  "today": {
+    "phonetic": "/təˈdeɪ/",
+    "meaning": "今天",
+    "level": "primary"
+  },
+  "tomorrow": {
+    "phonetic": "/təˈmɒrəʊ/",
+    "meaning": "明天",
+    "level": "primary"
+  },
+  "yesterday": {
+    "phonetic": "/ˈjestədeɪ/",
+    "meaning": "昨天",
+    "level": "primary"
+  },
+  "now": {
+    "phonetic": "/naʊ/",
+    "meaning": "现在",
+    "level": "primary"
+  },
+  "here": {
+    "phonetic": "/hɪə(r)/",
+    "meaning": "这里",
+    "level": "primary"
+  },
+  "there": {
+    "phonetic": "/ðeə(r)/",
+    "meaning": "那里",
+    "level": "primary"
+  },
+  "come": {
+    "phonetic": "/kʌm/",
+    "meaning": "来",
+    "level": "primary"
+  },
+  "go": {
+    "phonetic": "/ɡəʊ/",
+    "meaning": "去",
+    "level": "primary"
+  },
+  "look": {
+    "phonetic": "/lʊk/",
+    "meaning": "看",
+    "level": "primary"
+  },
+  "see": {
+    "phonetic": "/siː/",
+    "meaning": "看见",
+    "level": "primary"
   },
   "i": {
     "phonetic": "/aɪ/",
-    "meaning": "我"
+    "meaning": "我",
+    "level": "primary"
   },
   "you": {
     "phonetic": "/juː/",
-    "meaning": "你；你们"
+    "meaning": "你；你们",
+    "level": "primary"
   },
   "he": {
     "phonetic": "/hiː/",
-    "meaning": "他"
+    "meaning": "他",
+    "level": "primary"
   },
   "she": {
     "phonetic": "/ʃiː/",
-    "meaning": "她"
+    "meaning": "她",
+    "level": "primary"
   },
   "it": {
     "phonetic": "/ɪt/",
-    "meaning": "它"
+    "meaning": "它",
+    "level": "primary"
   },
   "we": {
     "phonetic": "/wiː/",
-    "meaning": "我们"
+    "meaning": "我们",
+    "level": "primary"
   },
   "they": {
     "phonetic": "/ðeɪ/",
-    "meaning": "他们"
+    "meaning": "他们",
+    "level": "primary"
   },
-  "my": {
-    "phonetic": "/maɪ/",
-    "meaning": "我的"
+  "me": {
+    "phonetic": "/miː/",
+    "meaning": "我（宾格）",
+    "level": "primary"
   },
-  "your": {
-    "phonetic": "/jɔː(r)/",
-    "meaning": "你的"
-  },
-  "his": {
-    "phonetic": "/hɪz/",
-    "meaning": "他的"
+  "him": {
+    "phonetic": "/hɪm/",
+    "meaning": "他（宾格）",
+    "level": "primary"
   },
   "her": {
     "phonetic": "/hɜː(r)/",
-    "meaning": "她的"
+    "meaning": "她；她的",
+    "level": "primary"
+  },
+  "us": {
+    "phonetic": "/ʌs/",
+    "meaning": "我们（宾格）",
+    "level": "primary"
+  },
+  "them": {
+    "phonetic": "/ðem/",
+    "meaning": "他们（宾格）",
+    "level": "primary"
+  },
+  "my": {
+    "phonetic": "/maɪ/",
+    "meaning": "我的",
+    "level": "primary"
+  },
+  "your": {
+    "phonetic": "/jɔː(r)/",
+    "meaning": "你的",
+    "level": "primary"
+  },
+  "his": {
+    "phonetic": "/hɪz/",
+    "meaning": "他的",
+    "level": "primary"
+  },
+  "its": {
+    "phonetic": "/ɪts/",
+    "meaning": "它的",
+    "level": "primary"
+  },
+  "our": {
+    "phonetic": "/ˈaʊə(r)/",
+    "meaning": "我们的",
+    "level": "primary"
+  },
+  "their": {
+    "phonetic": "/ðeə(r)/",
+    "meaning": "他们的",
+    "level": "primary"
+  },
+  "myself": {
+    "phonetic": "/maɪˈself/",
+    "meaning": "我自己",
+    "level": "primary"
   },
   "am": {
     "phonetic": "/æm/",
-    "meaning": "是"
+    "meaning": "是",
+    "level": "primary"
   },
   "is": {
     "phonetic": "/ɪz/",
-    "meaning": "是"
+    "meaning": "是",
+    "level": "primary"
   },
   "are": {
     "phonetic": "/ɑː(r)/",
-    "meaning": "是"
+    "meaning": "是",
+    "level": "primary"
+  },
+  "was": {
+    "phonetic": "/wɒz/",
+    "meaning": "是（过去式）",
+    "level": "primary"
+  },
+  "were": {
+    "phonetic": "/wɜː(r)/",
+    "meaning": "是（过去式）",
+    "level": "primary"
+  },
+  "be": {
+    "phonetic": "/biː/",
+    "meaning": "是；成为",
+    "level": "primary"
+  },
+  "been": {
+    "phonetic": "/biːn/",
+    "meaning": "是（过去分词）",
+    "level": "primary"
   },
   "have": {
     "phonetic": "/hæv/",
-    "meaning": "有"
+    "meaning": "有",
+    "level": "primary"
   },
   "has": {
     "phonetic": "/hæz/",
-    "meaning": "有"
+    "meaning": "有",
+    "level": "primary"
+  },
+  "had": {
+    "phonetic": "/hæd/",
+    "meaning": "有（过去式）",
+    "level": "primary"
   },
   "do": {
     "phonetic": "/duː/",
-    "meaning": "做；助动词"
+    "meaning": "做；助动词",
+    "level": "primary"
   },
   "does": {
     "phonetic": "/dʌz/",
-    "meaning": "做（第三人称单数）"
+    "meaning": "做（第三人称单数）",
+    "level": "primary"
+  },
+  "did": {
+    "phonetic": "/dɪd/",
+    "meaning": "做（过去式）",
+    "level": "primary"
   },
   "can": {
     "phonetic": "/kæn/",
-    "meaning": "能；会"
+    "meaning": "能；会",
+    "level": "primary"
+  },
+  "can't": {
+    "phonetic": "/kɑːnt/",
+    "meaning": "不能",
+    "level": "primary"
   },
   "what": {
     "phonetic": "/wɒt/",
-    "meaning": "什么"
+    "meaning": "什么",
+    "level": "primary"
+  },
+  "who": {
+    "phonetic": "/huː/",
+    "meaning": "谁",
+    "level": "primary"
+  },
+  "whose": {
+    "phonetic": "/huːz/",
+    "meaning": "谁的",
+    "level": "primary"
   },
   "where": {
     "phonetic": "/weə(r)/",
-    "meaning": "哪里"
+    "meaning": "哪里",
+    "level": "primary"
+  },
+  "when": {
+    "phonetic": "/wen/",
+    "meaning": "什么时候",
+    "level": "primary"
+  },
+  "why": {
+    "phonetic": "/waɪ/",
+    "meaning": "为什么",
+    "level": "primary"
   },
   "how": {
     "phonetic": "/haʊ/",
-    "meaning": "怎样"
+    "meaning": "怎样",
+    "level": "primary"
   },
-  "a": {
-    "phonetic": "/ə/",
-    "meaning": "一个"
+  "which": {
+    "phonetic": "/wɪtʃ/",
+    "meaning": "哪一个",
+    "level": "primary"
   },
-  "an": {
-    "phonetic": "/ən/",
-    "meaning": "一个"
+  "how many": {
+    "phonetic": "/haʊ ˈmeni/",
+    "meaning": "多少",
+    "level": "primary"
   },
-  "the": {
-    "phonetic": "/ðə/",
-    "meaning": "这；那"
+  "how much": {
+    "phonetic": "/haʊ mʌtʃ/",
+    "meaning": "多少钱；多少",
+    "level": "primary"
+  },
+  "one": {
+    "phonetic": "/wʌn/",
+    "meaning": "一",
+    "level": "primary"
+  },
+  "two": {
+    "phonetic": "/tuː/",
+    "meaning": "二",
+    "level": "primary"
+  },
+  "three": {
+    "phonetic": "/θriː/",
+    "meaning": "三",
+    "level": "primary"
+  },
+  "four": {
+    "phonetic": "/fɔː(r)/",
+    "meaning": "四",
+    "level": "primary"
+  },
+  "five": {
+    "phonetic": "/faɪv/",
+    "meaning": "五",
+    "level": "primary"
+  },
+  "six": {
+    "phonetic": "/sɪks/",
+    "meaning": "六",
+    "level": "primary"
+  },
+  "seven": {
+    "phonetic": "/ˈsevn/",
+    "meaning": "七",
+    "level": "primary"
+  },
+  "eight": {
+    "phonetic": "/eɪt/",
+    "meaning": "八",
+    "level": "primary"
+  },
+  "nine": {
+    "phonetic": "/naɪn/",
+    "meaning": "九",
+    "level": "primary"
+  },
+  "ten": {
+    "phonetic": "/ten/",
+    "meaning": "十",
+    "level": "primary"
+  },
+  "eleven": {
+    "phonetic": "/ɪˈlevn/",
+    "meaning": "十一",
+    "level": "primary"
+  },
+  "twelve": {
+    "phonetic": "/twelv/",
+    "meaning": "十二",
+    "level": "primary"
+  },
+  "thirteen": {
+    "phonetic": "/ˌθɜːˈtiːn/",
+    "meaning": "十三",
+    "level": "primary"
+  },
+  "fourteen": {
+    "phonetic": "/ˌfɔːˈtiːn/",
+    "meaning": "十四",
+    "level": "primary"
+  },
+  "fifteen": {
+    "phonetic": "/ˌfɪfˈtiːn/",
+    "meaning": "十五",
+    "level": "primary"
+  },
+  "sixteen": {
+    "phonetic": "/ˌsɪksˈtiːn/",
+    "meaning": "十六",
+    "level": "primary"
+  },
+  "seventeen": {
+    "phonetic": "/ˌsevnˈtiːn/",
+    "meaning": "十七",
+    "level": "primary"
+  },
+  "eighteen": {
+    "phonetic": "/ˌeɪˈtiːn/",
+    "meaning": "十八",
+    "level": "primary"
+  },
+  "nineteen": {
+    "phonetic": "/ˌnaɪnˈtiːn/",
+    "meaning": "十九",
+    "level": "primary"
+  },
+  "twenty": {
+    "phonetic": "/ˈtwenti/",
+    "meaning": "二十",
+    "level": "primary"
+  },
+  "red": {
+    "phonetic": "/red/",
+    "meaning": "红色",
+    "level": "primary"
+  },
+  "yellow": {
+    "phonetic": "/ˈjeləʊ/",
+    "meaning": "黄色",
+    "level": "primary"
+  },
+  "green": {
+    "phonetic": "/ɡriːn/",
+    "meaning": "绿色",
+    "level": "primary"
+  },
+  "blue": {
+    "phonetic": "/bluː/",
+    "meaning": "蓝色",
+    "level": "primary"
+  },
+  "white": {
+    "phonetic": "/waɪt/",
+    "meaning": "白色",
+    "level": "primary"
+  },
+  "black": {
+    "phonetic": "/blæk/",
+    "meaning": "黑色",
+    "level": "primary"
+  },
+  "orange": {
+    "phonetic": "/ˈɒrɪndʒ/",
+    "meaning": "橙子",
+    "level": "primary"
+  },
+  "brown": {
+    "phonetic": "/braʊn/",
+    "meaning": "棕色",
+    "level": "primary"
+  },
+  "pink": {
+    "phonetic": "/pɪŋk/",
+    "meaning": "粉色",
+    "level": "primary"
+  },
+  "purple": {
+    "phonetic": "/ˈpɜːpl/",
+    "meaning": "紫色",
+    "level": "primary"
+  },
+  "gray": {
+    "phonetic": "/ɡreɪ/",
+    "meaning": "灰色",
+    "level": "primary"
+  },
+  "golden": {
+    "phonetic": "/ˈɡəʊldən/",
+    "meaning": "金色的",
+    "level": "primary"
+  },
+  "book": {
+    "phonetic": "/bʊk/",
+    "meaning": "书",
+    "level": "primary"
+  },
+  "bag": {
+    "phonetic": "/bæɡ/",
+    "meaning": "书包；包",
+    "level": "primary"
+  },
+  "pencil": {
+    "phonetic": "/ˈpensl/",
+    "meaning": "铅笔",
+    "level": "primary"
+  },
+  "pen": {
+    "phonetic": "/pen/",
+    "meaning": "钢笔",
+    "level": "primary"
+  },
+  "ruler": {
+    "phonetic": "/ˈruːlə(r)/",
+    "meaning": "尺子",
+    "level": "primary"
+  },
+  "eraser": {
+    "phonetic": "/ɪˈreɪzə(r)/",
+    "meaning": "橡皮",
+    "level": "primary"
+  },
+  "crayon": {
+    "phonetic": "/ˈkreɪən/",
+    "meaning": "蜡笔",
+    "level": "primary"
+  },
+  "schoolbag": {
+    "phonetic": "/ˈskuːlbæɡ/",
+    "meaning": "书包",
+    "level": "primary"
+  },
+  "desk": {
+    "phonetic": "/desk/",
+    "meaning": "书桌",
+    "level": "primary"
+  },
+  "chair": {
+    "phonetic": "/tʃeə(r)/",
+    "meaning": "椅子",
+    "level": "primary"
+  },
+  "blackboard": {
+    "phonetic": "/ˈblækbɔːd/",
+    "meaning": "黑板",
+    "level": "primary"
+  },
+  "chalk": {
+    "phonetic": "/tʃɔːk/",
+    "meaning": "粉笔",
+    "level": "primary"
+  },
+  "paper": {
+    "phonetic": "/ˈpeɪpə(r)/",
+    "meaning": "纸",
+    "level": "primary"
+  },
+  "boy": {
+    "phonetic": "/bɔɪ/",
+    "meaning": "男孩",
+    "level": "primary"
+  },
+  "girl": {
+    "phonetic": "/ɡɜːl/",
+    "meaning": "女孩",
+    "level": "primary"
+  },
+  "man": {
+    "phonetic": "/mæn/",
+    "meaning": "男人",
+    "level": "primary"
+  },
+  "woman": {
+    "phonetic": "/ˈwʊmən/",
+    "meaning": "女人",
+    "level": "primary"
+  },
+  "child": {
+    "phonetic": "/tʃaɪld/",
+    "meaning": "孩子",
+    "level": "primary"
+  },
+  "baby": {
+    "phonetic": "/ˈbeɪbi/",
+    "meaning": "婴儿",
+    "level": "primary"
+  },
+  "mother": {
+    "phonetic": "/ˈmʌðə(r)/",
+    "meaning": "妈妈",
+    "level": "primary"
+  },
+  "father": {
+    "phonetic": "/ˈfɑːðə(r)/",
+    "meaning": "爸爸",
+    "level": "primary"
+  },
+  "mom": {
+    "phonetic": "/mɒm/",
+    "meaning": "妈妈",
+    "level": "primary"
+  },
+  "dad": {
+    "phonetic": "/dæd/",
+    "meaning": "爸爸",
+    "level": "primary"
+  },
+  "sister": {
+    "phonetic": "/ˈsɪstə(r)/",
+    "meaning": "姐妹",
+    "level": "primary"
+  },
+  "brother": {
+    "phonetic": "/ˈbrʌðə(r)/",
+    "meaning": "兄弟",
+    "level": "primary"
+  },
+  "teacher": {
+    "phonetic": "/ˈtiːtʃə(r)/",
+    "meaning": "老师",
+    "level": "primary"
+  },
+  "student": {
+    "phonetic": "/ˈstjuːdnt/",
+    "meaning": "学生",
+    "level": "primary"
+  },
+  "friend": {
+    "phonetic": "/frend/",
+    "meaning": "朋友",
+    "level": "primary"
+  },
+  "classmate": {
+    "phonetic": "/ˈklɑːsmeɪt/",
+    "meaning": "同学",
+    "level": "primary"
+  },
+  "doctor": {
+    "phonetic": "/ˈdɒktə(r)/",
+    "meaning": "医生",
+    "level": "primary"
+  },
+  "nurse": {
+    "phonetic": "/nɜːs/",
+    "meaning": "护士",
+    "level": "primary"
+  },
+  "driver": {
+    "phonetic": "/ˈdraɪvə(r)/",
+    "meaning": "司机",
+    "level": "primary"
+  },
+  "farmer": {
+    "phonetic": "/ˈfɑːmə(r)/",
+    "meaning": "农民",
+    "level": "primary"
+  },
+  "cat": {
+    "phonetic": "/kæt/",
+    "meaning": "猫",
+    "level": "primary"
+  },
+  "dog": {
+    "phonetic": "/dɒɡ/",
+    "meaning": "狗",
+    "level": "primary"
+  },
+  "pig": {
+    "phonetic": "/pɪɡ/",
+    "meaning": "猪",
+    "level": "primary"
+  },
+  "duck": {
+    "phonetic": "/dʌk/",
+    "meaning": "鸭子",
+    "level": "primary"
+  },
+  "rabbit": {
+    "phonetic": "/ˈræbɪt/",
+    "meaning": "兔子",
+    "level": "primary"
+  },
+  "bird": {
+    "phonetic": "/bɜːd/",
+    "meaning": "鸟",
+    "level": "primary"
+  },
+  "bear": {
+    "phonetic": "/beə(r)/",
+    "meaning": "熊",
+    "level": "primary"
+  },
+  "elephant": {
+    "phonetic": "/ˈelɪfənt/",
+    "meaning": "大象",
+    "level": "primary"
+  },
+  "monkey": {
+    "phonetic": "/ˈmʌŋki/",
+    "meaning": "猴子",
+    "level": "primary"
+  },
+  "panda": {
+    "phonetic": "/ˈpændə/",
+    "meaning": "熊猫",
+    "level": "primary"
+  },
+  "tiger": {
+    "phonetic": "/ˈtaɪɡə(r)/",
+    "meaning": "老虎",
+    "level": "primary"
+  },
+  "lion": {
+    "phonetic": "/ˈlaɪən/",
+    "meaning": "狮子",
+    "level": "primary"
+  },
+  "fox": {
+    "phonetic": "/fɒks/",
+    "meaning": "狐狸",
+    "level": "primary"
+  },
+  "wolf": {
+    "phonetic": "/wʊlf/",
+    "meaning": "狼",
+    "level": "primary"
+  },
+  "snake": {
+    "phonetic": "/sneɪk/",
+    "meaning": "蛇",
+    "level": "primary"
+  },
+  "horse": {
+    "phonetic": "/hɔːs/",
+    "meaning": "马",
+    "level": "primary"
+  },
+  "cow": {
+    "phonetic": "/kaʊ/",
+    "meaning": "奶牛",
+    "level": "primary"
+  },
+  "sheep": {
+    "phonetic": "/ʃiːp/",
+    "meaning": "绵羊",
+    "level": "primary"
+  },
+  "hen": {
+    "phonetic": "/hen/",
+    "meaning": "母鸡",
+    "level": "primary"
+  },
+  "rice": {
+    "phonetic": "/raɪs/",
+    "meaning": "米饭",
+    "level": "primary"
+  },
+  "bread": {
+    "phonetic": "/bred/",
+    "meaning": "面包",
+    "level": "primary"
+  },
+  "milk": {
+    "phonetic": "/mɪlk/",
+    "meaning": "牛奶",
+    "level": "primary"
+  },
+  "egg": {
+    "phonetic": "/eɡ/",
+    "meaning": "鸡蛋",
+    "level": "primary"
+  },
+  "water": {
+    "phonetic": "/ˈwɔːtə(r)/",
+    "meaning": "水",
+    "level": "primary"
+  },
+  "cake": {
+    "phonetic": "/keɪk/",
+    "meaning": "蛋糕",
+    "level": "primary"
+  },
+  "fish": {
+    "phonetic": "/fɪʃ/",
+    "meaning": "鱼",
+    "level": "primary"
+  },
+  "beef": {
+    "phonetic": "/biːf/",
+    "meaning": "牛肉",
+    "level": "primary"
+  },
+  "chicken": {
+    "phonetic": "/ˈtʃɪkɪn/",
+    "meaning": "鸡肉",
+    "level": "primary"
+  },
+  "noodles": {
+    "phonetic": "/ˈnuːdlz/",
+    "meaning": "面条",
+    "level": "primary"
+  },
+  "dumpling": {
+    "phonetic": "/ˈdʌmplɪŋ/",
+    "meaning": "饺子",
+    "level": "primary"
+  },
+  "soup": {
+    "phonetic": "/suːp/",
+    "meaning": "汤",
+    "level": "primary"
+  },
+  "tea": {
+    "phonetic": "/tiː/",
+    "meaning": "茶",
+    "level": "primary"
+  },
+  "coffee": {
+    "phonetic": "/ˈkɒfi/",
+    "meaning": "咖啡",
+    "level": "primary"
+  },
+  "juice": {
+    "phonetic": "/dʒuːs/",
+    "meaning": "果汁",
+    "level": "primary"
+  },
+  "coke": {
+    "phonetic": "/kəʊk/",
+    "meaning": "可乐",
+    "level": "primary"
+  },
+  "ice cream": {
+    "phonetic": "/ˌaɪs ˈkriːm/",
+    "meaning": "冰淇淋",
+    "level": "primary"
+  },
+  "hamburger": {
+    "phonetic": "/ˈhæmbɜːɡə(r)/",
+    "meaning": "汉堡包",
+    "level": "primary"
+  },
+  "hot dog": {
+    "phonetic": "/ˌhɒt ˈdɒɡ/",
+    "meaning": "热狗",
+    "level": "primary"
+  },
+  "sandwich": {
+    "phonetic": "/ˈsænwɪtʃ/",
+    "meaning": "三明治",
+    "level": "primary"
+  },
+  "salad": {
+    "phonetic": "/ˈsæləd/",
+    "meaning": "沙拉",
+    "level": "primary"
+  },
+  "pizza": {
+    "phonetic": "/ˈpiːtsə/",
+    "meaning": "披萨",
+    "level": "primary"
+  },
+  "cheese": {
+    "phonetic": "/tʃiːz/",
+    "meaning": "奶酪",
+    "level": "primary"
+  },
+  "butter": {
+    "phonetic": "/ˈbʌtə(r)/",
+    "meaning": "黄油",
+    "level": "primary"
+  },
+  "honey": {
+    "phonetic": "/ˈhʌni/",
+    "meaning": "蜂蜜",
+    "level": "primary"
+  },
+  "apple": {
+    "phonetic": "/ˈæpl/",
+    "meaning": "苹果",
+    "level": "primary"
+  },
+  "banana": {
+    "phonetic": "/bəˈnɑːnə/",
+    "meaning": "香蕉",
+    "level": "primary"
+  },
+  "pear": {
+    "phonetic": "/peə(r)/",
+    "meaning": "梨",
+    "level": "primary"
+  },
+  "watermelon": {
+    "phonetic": "/ˈwɔːtəmelən/",
+    "meaning": "西瓜",
+    "level": "primary"
+  },
+  "peach": {
+    "phonetic": "/piːtʃ/",
+    "meaning": "桃子",
+    "level": "primary"
+  },
+  "strawberry": {
+    "phonetic": "/ˈstrɔːbəri/",
+    "meaning": "草莓",
+    "level": "primary"
+  },
+  "grape": {
+    "phonetic": "/ɡreɪp/",
+    "meaning": "葡萄",
+    "level": "primary"
+  },
+  "cherry": {
+    "phonetic": "/ˈtʃeri/",
+    "meaning": "樱桃",
+    "level": "primary"
+  },
+  "mango": {
+    "phonetic": "/ˈmæŋɡəʊ/",
+    "meaning": "芒果",
+    "level": "primary"
+  },
+  "lemon": {
+    "phonetic": "/ˈlemən/",
+    "meaning": "柠檬",
+    "level": "primary"
+  },
+  "coconut": {
+    "phonetic": "/ˈkəʊkənʌt/",
+    "meaning": "椰子",
+    "level": "primary"
+  },
+  "pineapple": {
+    "phonetic": "/ˈpaɪnæpl/",
+    "meaning": "菠萝",
+    "level": "primary"
+  },
+  "kiwi": {
+    "phonetic": "/ˈkiːwi/",
+    "meaning": "猕猴桃",
+    "level": "primary"
+  },
+  "tomato": {
+    "phonetic": "/təˈmɑːtəʊ/",
+    "meaning": "西红柿",
+    "level": "primary"
+  },
+  "head": {
+    "phonetic": "/hed/",
+    "meaning": "头",
+    "level": "primary"
+  },
+  "face": {
+    "phonetic": "/feɪs/",
+    "meaning": "脸",
+    "level": "primary"
+  },
+  "hair": {
+    "phonetic": "/heə(r)/",
+    "meaning": "头发",
+    "level": "primary"
+  },
+  "eye": {
+    "phonetic": "/aɪ/",
+    "meaning": "眼睛",
+    "level": "primary"
+  },
+  "ear": {
+    "phonetic": "/ɪə(r)/",
+    "meaning": "耳朵",
+    "level": "primary"
+  },
+  "nose": {
+    "phonetic": "/nəʊz/",
+    "meaning": "鼻子",
+    "level": "primary"
+  },
+  "mouth": {
+    "phonetic": "/maʊθ/",
+    "meaning": "嘴",
+    "level": "primary"
+  },
+  "tooth": {
+    "phonetic": "/tuːθ/",
+    "meaning": "牙齿",
+    "level": "primary"
+  },
+  "neck": {
+    "phonetic": "/nek/",
+    "meaning": "脖子",
+    "level": "primary"
+  },
+  "arm": {
+    "phonetic": "/ɑːm/",
+    "meaning": "胳膊",
+    "level": "primary"
+  },
+  "hand": {
+    "phonetic": "/hænd/",
+    "meaning": "手",
+    "level": "primary"
+  },
+  "finger": {
+    "phonetic": "/ˈfɪŋɡə(r)/",
+    "meaning": "手指",
+    "level": "primary"
+  },
+  "leg": {
+    "phonetic": "/leɡ/",
+    "meaning": "腿",
+    "level": "primary"
+  },
+  "knee": {
+    "phonetic": "/niː/",
+    "meaning": "膝盖",
+    "level": "primary"
+  },
+  "foot": {
+    "phonetic": "/fʊt/",
+    "meaning": "脚",
+    "level": "primary"
+  },
+  "feet": {
+    "phonetic": "/fiːt/",
+    "meaning": "脚（复数）",
+    "level": "primary"
+  },
+  "toe": {
+    "phonetic": "/təʊ/",
+    "meaning": "脚趾",
+    "level": "primary"
+  },
+  "tail": {
+    "phonetic": "/teɪl/",
+    "meaning": "尾巴",
+    "level": "primary"
+  },
+  "eat": {
+    "phonetic": "/iːt/",
+    "meaning": "吃",
+    "level": "primary"
+  },
+  "drink": {
+    "phonetic": "/drɪŋk/",
+    "meaning": "喝",
+    "level": "primary"
+  },
+  "read": {
+    "phonetic": "/riːd/",
+    "meaning": "读",
+    "level": "primary"
+  },
+  "write": {
+    "phonetic": "/raɪt/",
+    "meaning": "写",
+    "level": "primary"
+  },
+  "draw": {
+    "phonetic": "/drɔː/",
+    "meaning": "画",
+    "level": "primary"
+  },
+  "sing": {
+    "phonetic": "/sɪŋ/",
+    "meaning": "唱",
+    "level": "primary"
+  },
+  "dance": {
+    "phonetic": "/dɑːns/",
+    "meaning": "跳舞",
+    "level": "primary"
+  },
+  "run": {
+    "phonetic": "/rʌn/",
+    "meaning": "跑",
+    "level": "primary"
+  },
+  "walk": {
+    "phonetic": "/wɔːk/",
+    "meaning": "步行",
+    "level": "primary"
+  },
+  "jump": {
+    "phonetic": "/dʒʌmp/",
+    "meaning": "跳",
+    "level": "primary"
+  },
+  "swim": {
+    "phonetic": "/swɪm/",
+    "meaning": "游泳",
+    "level": "primary"
+  },
+  "fly": {
+    "phonetic": "/flaɪ/",
+    "meaning": "飞",
+    "level": "primary"
+  },
+  "play": {
+    "phonetic": "/pleɪ/",
+    "meaning": "玩；演奏",
+    "level": "primary"
+  },
+  "listen": {
+    "phonetic": "/ˈlɪsn/",
+    "meaning": "听",
+    "level": "primary"
+  },
+  "speak": {
+    "phonetic": "/spiːk/",
+    "meaning": "说",
+    "level": "primary"
+  },
+  "say": {
+    "phonetic": "/seɪ/",
+    "meaning": "说",
+    "level": "primary"
+  },
+  "talk": {
+    "phonetic": "/tɔːk/",
+    "meaning": "交谈",
+    "level": "primary"
+  },
+  "tell": {
+    "phonetic": "/tel/",
+    "meaning": "告诉",
+    "level": "primary"
+  },
+  "think": {
+    "phonetic": "/θɪŋk/",
+    "meaning": "想；认为",
+    "level": "primary"
+  },
+  "know": {
+    "phonetic": "/nəʊ/",
+    "meaning": "知道",
+    "level": "primary"
+  },
+  "want": {
+    "phonetic": "/wɒnt/",
+    "meaning": "想要",
+    "level": "primary"
+  },
+  "like": {
+    "phonetic": "/laɪk/",
+    "meaning": "喜欢",
+    "level": "primary"
+  },
+  "love": {
+    "phonetic": "/lʌv/",
+    "meaning": "爱",
+    "level": "primary"
+  },
+  "live": {
+    "phonetic": "/lɪv/",
+    "meaning": "居住；生活",
+    "level": "primary"
+  },
+  "work": {
+    "phonetic": "/wɜːk/",
+    "meaning": "工作",
+    "level": "primary"
+  },
+  "study": {
+    "phonetic": "/ˈstʌdi/",
+    "meaning": "学习",
+    "level": "primary"
+  },
+  "make": {
+    "phonetic": "/meɪk/",
+    "meaning": "制作",
+    "level": "primary"
+  },
+  "cook": {
+    "phonetic": "/kʊk/",
+    "meaning": "烹饪",
+    "level": "primary"
+  },
+  "wash": {
+    "phonetic": "/wɒʃ/",
+    "meaning": "洗",
+    "level": "primary"
+  },
+  "big": {
+    "phonetic": "/bɪɡ/",
+    "meaning": "大的",
+    "level": "primary"
+  },
+  "small": {
+    "phonetic": "/smɔːl/",
+    "meaning": "小的",
+    "level": "primary"
+  },
+  "long": {
+    "phonetic": "/lɒŋ/",
+    "meaning": "长的",
+    "level": "primary"
+  },
+  "short": {
+    "phonetic": "/ʃɔːt/",
+    "meaning": "短的；矮的",
+    "level": "primary"
+  },
+  "tall": {
+    "phonetic": "/tɔːl/",
+    "meaning": "高的",
+    "level": "primary"
+  },
+  "fat": {
+    "phonetic": "/fæt/",
+    "meaning": "胖的",
+    "level": "primary"
+  },
+  "old": {
+    "phonetic": "/əʊld/",
+    "meaning": "老的；旧的",
+    "level": "primary"
+  },
+  "young": {
+    "phonetic": "/jʌŋ/",
+    "meaning": "年轻的",
+    "level": "primary"
+  },
+  "new": {
+    "phonetic": "/njuː/",
+    "meaning": "新的",
+    "level": "primary"
+  },
+  "happy": {
+    "phonetic": "/ˈhæpi/",
+    "meaning": "开心的",
+    "level": "primary"
+  },
+  "sad": {
+    "phonetic": "/sæd/",
+    "meaning": "难过的",
+    "level": "primary"
+  },
+  "angry": {
+    "phonetic": "/ˈæŋɡri/",
+    "meaning": "生气的",
+    "level": "primary"
+  },
+  "tired": {
+    "phonetic": "/ˈtaɪəd/",
+    "meaning": "累的",
+    "level": "primary"
+  },
+  "hot": {
+    "phonetic": "/hɒt/",
+    "meaning": "热的",
+    "level": "primary"
+  },
+  "warm": {
+    "phonetic": "/wɔːm/",
+    "meaning": "温暖的",
+    "level": "primary"
+  },
+  "cool": {
+    "phonetic": "/kuːl/",
+    "meaning": "凉爽的；酷的",
+    "level": "primary"
+  },
+  "beautiful": {
+    "phonetic": "/ˈbjuːtɪfl/",
+    "meaning": "美丽的",
+    "level": "primary"
+  },
+  "cute": {
+    "phonetic": "/kjuːt/",
+    "meaning": "可爱的",
+    "level": "primary"
   },
   "in": {
     "phonetic": "/ɪn/",
-    "meaning": "在……里面"
+    "meaning": "在……里面",
+    "level": "primary"
   },
   "on": {
     "phonetic": "/ɒn/",
-    "meaning": "在……上面"
+    "meaning": "在……上面",
+    "level": "primary"
   },
   "under": {
     "phonetic": "/ˈʌndə(r)/",
-    "meaning": "在……下面"
+    "meaning": "在……下面",
+    "level": "primary"
   },
   "near": {
     "phonetic": "/nɪə(r)/",
-    "meaning": "在……附近"
+    "meaning": "在……附近",
+    "level": "primary"
   },
   "behind": {
     "phonetic": "/bɪˈhaɪnd/",
-    "meaning": "在……后面"
+    "meaning": "在……后面",
+    "level": "primary"
+  },
+  "in front of": {
+    "phonetic": "/ɪn ˈfrʌnt əv/",
+    "meaning": "在……前面",
+    "level": "primary"
+  },
+  "beside": {
+    "phonetic": "/bɪˈsaɪd/",
+    "meaning": "在……旁边",
+    "level": "primary"
+  },
+  "between": {
+    "phonetic": "/bɪˈtiːn/",
+    "meaning": "在……之间",
+    "level": "primary"
+  },
+  "above": {
+    "phonetic": "/əˈbʌv/",
+    "meaning": "在……上方",
+    "level": "primary"
+  },
+  "below": {
+    "phonetic": "/bɪˈləʊ/",
+    "meaning": "在……下方",
+    "level": "primary"
+  },
+  "up": {
+    "phonetic": "/ʌp/",
+    "meaning": "向上",
+    "level": "primary"
+  },
+  "down": {
+    "phonetic": "/daʊn/",
+    "meaning": "向下",
+    "level": "primary"
+  },
+  "left": {
+    "phonetic": "/left/",
+    "meaning": "左边",
+    "level": "primary"
+  },
+  "right": {
+    "phonetic": "/raɪt/",
+    "meaning": "右边",
+    "level": "primary"
+  },
+  "at": {
+    "phonetic": "/ət/",
+    "meaning": "在（某处）",
+    "level": "primary"
+  },
+  "time": {
+    "phonetic": "/taɪm/",
+    "meaning": "时间",
+    "level": "primary"
+  },
+  "day": {
+    "phonetic": "/deɪ/",
+    "meaning": "天",
+    "level": "primary"
+  },
+  "week": {
+    "phonetic": "/wiːk/",
+    "meaning": "星期",
+    "level": "primary"
+  },
+  "month": {
+    "phonetic": "/mʌnθ/",
+    "meaning": "月",
+    "level": "primary"
+  },
+  "year": {
+    "phonetic": "/jɪə(r)/",
+    "meaning": "年",
+    "level": "primary"
+  },
+  "hour": {
+    "phonetic": "/ˈaʊə(r)/",
+    "meaning": "小时",
+    "level": "primary"
+  },
+  "minute": {
+    "phonetic": "/ˈmɪnɪt/",
+    "meaning": "分钟",
+    "level": "primary"
+  },
+  "second": {
+    "phonetic": "/ˈsekənd/",
+    "meaning": "秒",
+    "level": "primary"
+  },
+  "monday": {
+    "phonetic": "/ˈmʌndeɪ/",
+    "meaning": "星期一",
+    "level": "primary"
+  },
+  "tuesday": {
+    "phonetic": "/ˈtjuːzdeɪ/",
+    "meaning": "星期二",
+    "level": "primary"
+  },
+  "wednesday": {
+    "phonetic": "/ˈwenzdeɪ/",
+    "meaning": "星期三",
+    "level": "primary"
+  },
+  "thursday": {
+    "phonetic": "/ˈθɜːzdeɪ/",
+    "meaning": "星期四",
+    "level": "primary"
+  },
+  "friday": {
+    "phonetic": "/ˈfraɪdeɪ/",
+    "meaning": "星期五",
+    "level": "primary"
+  },
+  "saturday": {
+    "phonetic": "/ˈsætədeɪ/",
+    "meaning": "星期六",
+    "level": "primary"
+  },
+  "sunday": {
+    "phonetic": "/ˈsʌndeɪ/",
+    "meaning": "星期日",
+    "level": "primary"
+  },
+  "weekend": {
+    "phonetic": "/ˌwiːkˈend/",
+    "meaning": "周末",
+    "level": "primary"
+  },
+  "january": {
+    "phonetic": "/ˈdʒænjuəri/",
+    "meaning": "一月",
+    "level": "primary"
+  },
+  "february": {
+    "phonetic": "/ˈfebruəri/",
+    "meaning": "二月",
+    "level": "primary"
+  },
+  "march": {
+    "phonetic": "/mɑːtʃ/",
+    "meaning": "三月",
+    "level": "primary"
+  },
+  "april": {
+    "phonetic": "/ˈeɪprəl/",
+    "meaning": "四月",
+    "level": "primary"
+  },
+  "spring": {
+    "phonetic": "/sprɪŋ/",
+    "meaning": "春天",
+    "level": "primary"
+  },
+  "summer": {
+    "phonetic": "/ˈsʌmə(r)/",
+    "meaning": "夏天",
+    "level": "primary"
+  },
+  "autumn": {
+    "phonetic": "/ˈɔːtəm/",
+    "meaning": "秋天",
+    "level": "primary"
+  },
+  "fall": {
+    "phonetic": "/fɔːl/",
+    "meaning": "秋天",
+    "level": "primary"
+  },
+  "winter": {
+    "phonetic": "/ˈwɪntə(r)/",
+    "meaning": "冬天",
+    "level": "primary"
+  },
+  "sunny": {
+    "phonetic": "/ˈsʌni/",
+    "meaning": "晴朗的",
+    "level": "primary"
+  },
+  "rainy": {
+    "phonetic": "/ˈreɪni/",
+    "meaning": "下雨的",
+    "level": "primary"
+  },
+  "windy": {
+    "phonetic": "/ˈwɪndi/",
+    "meaning": "有风的",
+    "level": "primary"
+  },
+  "cloudy": {
+    "phonetic": "/ˈklaʊdi/",
+    "meaning": "多云的",
+    "level": "primary"
+  },
+  "snowy": {
+    "phonetic": "/ˈsnəʊi/",
+    "meaning": "下雪的",
+    "level": "primary"
+  },
+  "weather": {
+    "phonetic": "/ˈweðə(r)/",
+    "meaning": "天气",
+    "level": "primary"
+  },
+  "rainbow": {
+    "phonetic": "/ˈreɪnbəʊ/",
+    "meaning": "彩虹",
+    "level": "primary"
+  },
+  "tree": {
+    "phonetic": "/triː/",
+    "meaning": "树",
+    "level": "primary"
+  },
+  "flower": {
+    "phonetic": "/ˈflaʊə(r)/",
+    "meaning": "花",
+    "level": "primary"
+  },
+  "grass": {
+    "phonetic": "/ɡrɑːs/",
+    "meaning": "草",
+    "level": "primary"
+  },
+  "leaf": {
+    "phonetic": "/liːf/",
+    "meaning": "叶子",
+    "level": "primary"
+  },
+  "river": {
+    "phonetic": "/ˈrɪvə(r)/",
+    "meaning": "河流",
+    "level": "primary"
+  },
+  "lake": {
+    "phonetic": "/leɪk/",
+    "meaning": "湖",
+    "level": "primary"
+  },
+  "mountain": {
+    "phonetic": "/ˈmaʊntən/",
+    "meaning": "山",
+    "level": "primary"
+  },
+  "hill": {
+    "phonetic": "/hɪl/",
+    "meaning": "小山",
+    "level": "primary"
+  },
+  "sea": {
+    "phonetic": "/siː/",
+    "meaning": "大海",
+    "level": "primary"
+  },
+  "beach": {
+    "phonetic": "/biːtʃ/",
+    "meaning": "海滩",
+    "level": "primary"
+  },
+  "stone": {
+    "phonetic": "/stəʊn/",
+    "meaning": "石头",
+    "level": "primary"
+  },
+  "sand": {
+    "phonetic": "/sænd/",
+    "meaning": "沙子",
+    "level": "primary"
+  },
+  "sun": {
+    "phonetic": "/sʌn/",
+    "meaning": "太阳",
+    "level": "primary"
+  },
+  "clothes": {
+    "phonetic": "/kləʊðz/",
+    "meaning": "衣服",
+    "level": "primary"
+  },
+  "shirt": {
+    "phonetic": "/ʃɜːt/",
+    "meaning": "衬衫",
+    "level": "primary"
+  },
+  "t-shirt": {
+    "phonetic": "/ˈtiː ʃɜːt/",
+    "meaning": "T恤",
+    "level": "primary"
+  },
+  "skirt": {
+    "phonetic": "/skɜːt/",
+    "meaning": "裙子",
+    "level": "primary"
+  },
+  "dress": {
+    "phonetic": "/dres/",
+    "meaning": "连衣裙",
+    "level": "primary"
+  },
+  "coat": {
+    "phonetic": "/kəʊt/",
+    "meaning": "外套",
+    "level": "primary"
+  },
+  "jacket": {
+    "phonetic": "/ˈdʒækɪt/",
+    "meaning": "夹克",
+    "level": "primary"
+  },
+  "sweater": {
+    "phonetic": "/ˈswetə(r)/",
+    "meaning": "毛衣",
+    "level": "primary"
+  },
+  "hat": {
+    "phonetic": "/hæt/",
+    "meaning": "帽子",
+    "level": "primary"
+  },
+  "cap": {
+    "phonetic": "/kæp/",
+    "meaning": "鸭舌帽",
+    "level": "primary"
+  },
+  "shoes": {
+    "phonetic": "/ʃuːz/",
+    "meaning": "鞋子",
+    "level": "primary"
+  },
+  "socks": {
+    "phonetic": "/sɒks/",
+    "meaning": "袜子",
+    "level": "primary"
+  },
+  "shorts": {
+    "phonetic": "/ʃɔːts/",
+    "meaning": "短裤",
+    "level": "primary"
+  },
+  "pants": {
+    "phonetic": "/pænts/",
+    "meaning": "裤子",
+    "level": "primary"
+  },
+  "scarf": {
+    "phonetic": "/skɑːf/",
+    "meaning": "围巾",
+    "level": "primary"
+  },
+  "home": {
+    "phonetic": "/həʊm/",
+    "meaning": "家",
+    "level": "primary"
+  },
+  "house": {
+    "phonetic": "/haʊs/",
+    "meaning": "房子",
+    "level": "primary"
+  },
+  "room": {
+    "phonetic": "/ruːm/",
+    "meaning": "房间",
+    "level": "primary"
+  },
+  "bedroom": {
+    "phonetic": "/ˈbedruːm/",
+    "meaning": "卧室",
+    "level": "primary"
+  },
+  "living room": {
+    "phonetic": "/ˈlɪvɪŋ ruːm/",
+    "meaning": "客厅",
+    "level": "primary"
+  },
+  "kitchen": {
+    "phonetic": "/ˈkɪtʃɪn/",
+    "meaning": "厨房",
+    "level": "primary"
+  },
+  "bathroom": {
+    "phonetic": "/ˈbɑːθruːm/",
+    "meaning": "浴室",
+    "level": "primary"
+  },
+  "door": {
+    "phonetic": "/dɔː(r)/",
+    "meaning": "门",
+    "level": "primary"
+  },
+  "window": {
+    "phonetic": "/ˈwɪndəʊ/",
+    "meaning": "窗户",
+    "level": "primary"
+  },
+  "wall": {
+    "phonetic": "/wɔːl/",
+    "meaning": "墙",
+    "level": "primary"
+  },
+  "floor": {
+    "phonetic": "/flɔː(r)/",
+    "meaning": "地板",
+    "level": "primary"
+  },
+  "bed": {
+    "phonetic": "/bed/",
+    "meaning": "床",
+    "level": "primary"
+  },
+  "table": {
+    "phonetic": "/ˈteɪbl/",
+    "meaning": "桌子",
+    "level": "primary"
+  },
+  "sofa": {
+    "phonetic": "/ˈsəʊfə/",
+    "meaning": "沙发",
+    "level": "primary"
+  },
+  "fridge": {
+    "phonetic": "/frɪdʒ/",
+    "meaning": "冰箱",
+    "level": "primary"
+  },
+  "bike": {
+    "phonetic": "/baɪk/",
+    "meaning": "自行车",
+    "level": "primary"
+  },
+  "bus": {
+    "phonetic": "/bʌs/",
+    "meaning": "公共汽车",
+    "level": "primary"
+  },
+  "car": {
+    "phonetic": "/kɑː(r)/",
+    "meaning": "小汽车",
+    "level": "primary"
+  },
+  "taxi": {
+    "phonetic": "/ˈtæksi/",
+    "meaning": "出租车",
+    "level": "primary"
+  },
+  "train": {
+    "phonetic": "/treɪn/",
+    "meaning": "火车",
+    "level": "primary"
+  },
+  "plane": {
+    "phonetic": "/pleɪn/",
+    "meaning": "飞机",
+    "level": "primary"
+  },
+  "ship": {
+    "phonetic": "/ʃɪp/",
+    "meaning": "轮船",
+    "level": "primary"
+  },
+  "boat": {
+    "phonetic": "/bəʊt/",
+    "meaning": "小船",
+    "level": "primary"
+  },
+  "subway": {
+    "phonetic": "/ˈsʌbweɪ/",
+    "meaning": "地铁",
+    "level": "primary"
+  },
+  "chinese": {
+    "phonetic": "/ˌtʃaɪˈniːz/",
+    "meaning": "语文；中文",
+    "level": "primary"
+  },
+  "english": {
+    "phonetic": "/ˈɪŋɡlɪʃ/",
+    "meaning": "英语",
+    "level": "primary"
+  },
+  "math": {
+    "phonetic": "/mæθ/",
+    "meaning": "数学",
+    "level": "primary"
+  },
+  "music": {
+    "phonetic": "/ˈmjuːzɪk/",
+    "meaning": "音乐",
+    "level": "primary"
+  },
+  "art": {
+    "phonetic": "/ɑːt/",
+    "meaning": "美术",
+    "level": "primary"
+  },
+  "pe": {
+    "phonetic": "/ˌpiː ˈiː/",
+    "meaning": "体育",
+    "level": "primary"
+  },
+  "science": {
+    "phonetic": "/ˈsaɪəns/",
+    "meaning": "科学",
+    "level": "primary"
+  },
+  "computer": {
+    "phonetic": "/kəmˈpjuːtə(r)/",
+    "meaning": "计算机",
+    "level": "primary"
+  },
+  "game": {
+    "phonetic": "/ɡeɪm/",
+    "meaning": "游戏",
+    "level": "primary"
+  },
+  "sport": {
+    "phonetic": "/spɔːt/",
+    "meaning": "运动",
+    "level": "primary"
+  },
+  "school": {
+    "phonetic": "/skuːl/",
+    "meaning": "学校",
+    "level": "primary"
+  },
+  "class": {
+    "phonetic": "/klɑːs/",
+    "meaning": "班级；课",
+    "level": "primary"
+  },
+  "lesson": {
+    "phonetic": "/ˈlesn/",
+    "meaning": "课",
+    "level": "primary"
+  },
+  "exam": {
+    "phonetic": "/ɪɡˈzæm/",
+    "meaning": "考试",
+    "level": "primary"
+  },
+  "test": {
+    "phonetic": "/test/",
+    "meaning": "测验",
+    "level": "primary"
+  },
+  "question": {
+    "phonetic": "/ˈkwestʃən/",
+    "meaning": "问题",
+    "level": "primary"
+  },
+  "answer": {
+    "phonetic": "/ˈɑːnsə(r)/",
+    "meaning": "答案；回答",
+    "level": "primary"
+  },
+  "word": {
+    "phonetic": "/wɜːd/",
+    "meaning": "单词",
+    "level": "primary"
+  },
+  "sentence": {
+    "phonetic": "/ˈsentəns/",
+    "meaning": "句子",
+    "level": "primary"
+  },
+  "story": {
+    "phonetic": "/ˈstɔːri/",
+    "meaning": "故事",
+    "level": "primary"
+  },
+  "picture": {
+    "phonetic": "/ˈpɪktʃə(r)/",
+    "meaning": "图片",
+    "level": "primary"
+  },
+  "photo": {
+    "phonetic": "/ˈfəʊtəʊ/",
+    "meaning": "照片",
+    "level": "primary"
+  },
+  "camera": {
+    "phonetic": "/ˈkæmərə/",
+    "meaning": "相机",
+    "level": "primary"
+  },
+  "phone": {
+    "phonetic": "/fəʊn/",
+    "meaning": "电话",
+    "level": "primary"
+  },
+  "tv": {
+    "phonetic": "/ˌtiː ˈviː/",
+    "meaning": "电视",
+    "level": "primary"
+  },
+  "radio": {
+    "phonetic": "/ˈreɪdiəʊ/",
+    "meaning": "收音机",
+    "level": "primary"
+  },
+  "gift": {
+    "phonetic": "/ɡɪft/",
+    "meaning": "礼物",
+    "level": "primary"
+  },
+  "card": {
+    "phonetic": "/kɑːd/",
+    "meaning": "卡片",
+    "level": "primary"
+  },
+  "ball": {
+    "phonetic": "/bɔːl/",
+    "meaning": "球",
+    "level": "primary"
+  },
+  "kite": {
+    "phonetic": "/kaɪt/",
+    "meaning": "风筝",
+    "level": "primary"
+  },
+  "doll": {
+    "phonetic": "/dɒl/",
+    "meaning": "玩偶",
+    "level": "primary"
+  },
+  "toy": {
+    "phonetic": "/tɔɪ/",
+    "meaning": "玩具",
+    "level": "primary"
+  },
+  "balloon": {
+    "phonetic": "/bəˈluːn/",
+    "meaning": "气球",
+    "level": "primary"
+  },
+  "flag": {
+    "phonetic": "/flæɡ/",
+    "meaning": "旗帜",
+    "level": "primary"
+  },
+  "country": {
+    "phonetic": "/ˈkʌntri/",
+    "meaning": "国家",
+    "level": "primary"
+  },
+  "city": {
+    "phonetic": "/ˈsɪti/",
+    "meaning": "城市",
+    "level": "primary"
+  },
+  "park": {
+    "phonetic": "/pɑːk/",
+    "meaning": "公园",
+    "level": "primary"
+  },
+  "zoo": {
+    "phonetic": "/zuː/",
+    "meaning": "动物园",
+    "level": "primary"
+  },
+  "open": {
+    "phonetic": "/ˈəʊpən/",
+    "meaning": "打开",
+    "level": "primary"
+  },
+  "close": {
+    "phonetic": "/kləʊz/",
+    "meaning": "关闭",
+    "level": "primary"
+  },
+  "put": {
+    "phonetic": "/pʊt/",
+    "meaning": "放",
+    "level": "primary"
+  },
+  "give": {
+    "phonetic": "/ɡɪv/",
+    "meaning": "给",
+    "level": "primary"
+  },
+  "get": {
+    "phonetic": "/ɡet/",
+    "meaning": "得到",
+    "level": "primary"
+  },
+  "take": {
+    "phonetic": "/teɪk/",
+    "meaning": "拿；带走",
+    "level": "primary"
+  },
+  "took": {
+    "phonetic": "/tʊk/",
+    "meaning": "拿（take 过去式）",
+    "level": "primary"
+  },
+  "bring": {
+    "phonetic": "/brɪŋ/",
+    "meaning": "带来",
+    "level": "primary"
+  },
+  "buy": {
+    "phonetic": "/baɪ/",
+    "meaning": "买",
+    "level": "primary"
+  },
+  "sell": {
+    "phonetic": "/sel/",
+    "meaning": "卖",
+    "level": "primary"
+  },
+  "sit": {
+    "phonetic": "/sɪt/",
+    "meaning": "坐",
+    "level": "primary"
+  },
+  "stand": {
+    "phonetic": "/stænd/",
+    "meaning": "站",
+    "level": "primary"
+  },
+  "wake": {
+    "phonetic": "/weɪk/",
+    "meaning": "醒来",
+    "level": "primary"
+  },
+  "begin": {
+    "phonetic": "/bɪˈɡɪn/",
+    "meaning": "开始",
+    "level": "primary"
+  },
+  "finish": {
+    "phonetic": "/ˈfɪnɪʃ/",
+    "meaning": "完成",
+    "level": "primary"
+  },
+  "win": {
+    "phonetic": "/wɪn/",
+    "meaning": "赢",
+    "level": "primary"
+  },
+  "lose": {
+    "phonetic": "/luːz/",
+    "meaning": "输；丢失",
+    "level": "primary"
+  },
+  "find": {
+    "phonetic": "/faɪnd/",
+    "meaning": "找到",
+    "level": "primary"
+  },
+  "lost": {
+    "phonetic": "/lɒst/",
+    "meaning": "丢失的",
+    "level": "primary"
+  },
+  "help": {
+    "phonetic": "/help/",
+    "meaning": "帮助",
+    "level": "primary"
+  },
+  "try": {
+    "phonetic": "/traɪ/",
+    "meaning": "尝试",
+    "level": "primary"
+  },
+  "use": {
+    "phonetic": "/juːz/",
+    "meaning": "使用",
+    "level": "primary"
+  },
+  "call": {
+    "phonetic": "/kɔːl/",
+    "meaning": "打电话；称呼",
+    "level": "primary"
+  },
+  "visit": {
+    "phonetic": "/ˈvɪzɪt/",
+    "meaning": "拜访",
+    "level": "primary"
+  },
+  "wait": {
+    "phonetic": "/weɪt/",
+    "meaning": "等待",
+    "level": "primary"
+  },
+  "stop": {
+    "phonetic": "/stɒp/",
+    "meaning": "停止",
+    "level": "primary"
+  },
+  "turn": {
+    "phonetic": "/tɜːn/",
+    "meaning": "转弯；转动",
+    "level": "primary"
+  },
+  "feel": {
+    "phonetic": "/fiːl/",
+    "meaning": "感觉",
+    "level": "primary"
+  },
+  "smell": {
+    "phonetic": "/smel/",
+    "meaning": "闻；气味",
+    "level": "primary"
   }
 }

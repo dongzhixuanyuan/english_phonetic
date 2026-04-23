@@ -17,6 +17,9 @@ struct TextbookDetailView: View {
     @State private var pageToRename: TextbookPage?
     @State private var unitIdForRename: UUID?
     @State private var showingSettings = false
+    @State private var navigateToNewPage = false
+    @State private var newlyAddedPage: TextbookPage?
+    @State private var newlyAddedUnitId: UUID?
     @AppStorage("reader_auto_speak_on_popover") private var autoSpeakOnPopover = true
     
     private var textbook: Textbook? {
@@ -105,6 +108,19 @@ struct TextbookDetailView: View {
         }
         .navigationTitle("课本详情")
         .navigationBarTitleDisplayMode(.inline)
+        .navigationDestination(isPresented: $navigateToNewPage) {
+            if let textbook = textbook,
+               let unitId = newlyAddedUnitId,
+               let unit = textbook.units.first(where: { $0.id == unitId }),
+               let page = newlyAddedPage {
+                ReaderView(
+                    viewModel: viewModel,
+                    textbook: textbook,
+                    unit: unit,
+                    page: page
+                )
+            }
+        }
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 Button {
@@ -192,6 +208,11 @@ struct TextbookDetailView: View {
         viewModel.addPage(to: textbookId, unitId: unitId, image: image, pageName: pageName) { page in
             selectedImage = nil
             selectedUnitId = nil
+            if let page = page {
+                newlyAddedPage = page
+                newlyAddedUnitId = unitId
+                navigateToNewPage = true
+            }
         }
     }
 }

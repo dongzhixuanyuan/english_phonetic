@@ -4,7 +4,7 @@
 //
 //  Created by dong liu on 2026/4/14.
 //
-//课本音
+//课本读
 import SwiftUI
 
 @main

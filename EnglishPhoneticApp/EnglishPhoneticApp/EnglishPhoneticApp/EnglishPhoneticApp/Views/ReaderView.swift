@@ -17,6 +17,10 @@ struct ReaderView: View {
     @State private var lastOffset: CGSize = .zero
     @State private var selectedPopoverAnnotation: WordAnnotation?
     @AppStorage("reader_auto_speak_on_popover") private var autoSpeakOnPopover = false
+    @AppStorage("has_shown_reader_tap_guide") private var hasShownTapGuide = false
+    @State private var showingTapGuide = false
+    @State private var guideTargetFrame: CGRect = .zero
+    @State private var guideTargetAnnotation: WordAnnotation?
     
     private let speechService = SpeechService.shared
     
@@ -83,6 +87,14 @@ struct ReaderView: View {
                                 yOffset: yOffset
                             )
                             let isPopoverVisible = selectedPopoverAnnotation?.id == annotation.id
+                            
+                            if showingTapGuide && guideTargetAnnotation == nil {
+                                Color.clear
+                                    .onAppear {
+                                        guideTargetFrame = frame
+                                        guideTargetAnnotation = annotation
+                                    }
+                            }
                             
                             WordBoundingBox(
                                 annotation: annotation,
@@ -153,9 +165,29 @@ struct ReaderView: View {
                 Spacer()
                 bottomToolbar
             }
+            
+            // 用户引导遮罩
+            if showingTapGuide, let guideAnnotation = guideTargetAnnotation {
+                TapGuideOverlay(
+                    targetFrame: guideTargetFrame,
+                    annotation: guideAnnotation,
+                    onDismiss: {
+                        withAnimation {
+                            showingTapGuide = false
+                            hasShownTapGuide = false
+                            guideTargetAnnotation = nil
+                        }
+                    }
+                )
+            }
         }
         .navigationTitle(page.name)
         .navigationBarTitleDisplayMode(.inline)
+        .onAppear {
+            if !hasShownTapGuide {
+                showingTapGuide = true
+            }
+        }
         .sheet(isPresented: $showingEditSheet) {
             AnnotationEditSheet(
                 word: $editWord,
@@ -549,6 +581,99 @@ struct AnnotationEditSheet: View {
                         }
                     }
                 }
+            }
+        }
+    }
+}
+
+struct TapGuideOverlay: View {
+    let targetFrame: CGRect
+    let annotation: WordAnnotation
+    let onDismiss: () -> Void
+    
+    var body: some View {
+        GeometryReader { geometry in
+            ZStack {
+                // 半透明遮罩，对目标单词区域镂空
+                Canvas { context, size in
+                    let overlay = Path(CGRect(origin: .zero, size: size))
+                    let hole = Path(roundedRect: targetFrame, cornerRadius: 4)
+                    let final = overlay.subtracting(hole)
+                    context.fill(final, with: .color(Color.black.opacity(0.7)))
+                }
+                .ignoresSafeArea()
+                .onTapGesture {
+                    onDismiss()
+                }
+                
+                // 镂空边框高亮 + 脉冲动画
+                GuideHighlightBox(frame: targetFrame)
+                
+                // 提示内容
+                VStack(spacing: 12) {
+                    Image(systemName: "hand.tap.fill")
+                        .font(.system(size: 36))
+                        .foregroundColor(.white)
+                    
+                    Text("点击单词")
+                        .font(.headline)
+                        .foregroundColor(.white)
+                    
+                    Text("查看释义、音标和发音")
+                        .font(.subheadline)
+                        .foregroundColor(.white.opacity(0.85))
+                }
+                .padding(.horizontal, 24)
+                .padding(.vertical, 16)
+                .background(
+                    RoundedRectangle(cornerRadius: 12)
+                        .fill(Color.black.opacity(0.6))
+                )
+                .position(tooltipPosition(in: geometry.size))
+            }
+        }
+    }
+    
+    private func tooltipPosition(in containerSize: CGSize) -> CGPoint {
+        let tooltipHeight: CGFloat = 120
+        let margin: CGFloat = 16
+        
+        // 优先放在单词上方
+        var y = targetFrame.minY - margin - tooltipHeight / 2
+        if y - tooltipHeight / 2 < 60 {
+            // 上方空间不足，放到下方
+            y = targetFrame.maxY + margin + tooltipHeight / 2
+        }
+        
+        let x = min(max(targetFrame.midX, margin + 80), containerSize.width - margin - 80)
+        return CGPoint(x: x, y: y)
+    }
+}
+
+struct GuideHighlightBox: View {
+    let frame: CGRect
+    @State private var pulse = false
+    
+    var body: some View {
+        ZStack {
+            // 内层实线边框
+            RoundedRectangle(cornerRadius: 4)
+                .stroke(Color.yellow, lineWidth: 2)
+                .frame(width: frame.width, height: frame.height)
+            
+            // 外层脉冲扩散效果
+            RoundedRectangle(cornerRadius: 4)
+                .stroke(Color.yellow.opacity(0.6), lineWidth: 2)
+                .frame(
+                    width: frame.width + (pulse ? 16 : 0),
+                    height: frame.height + (pulse ? 16 : 0)
+                )
+                .opacity(pulse ? 0 : 1)
+        }
+        .position(x: frame.midX, y: frame.midY)
+        .onAppear {
+            withAnimation(.easeInOut(duration: 1.2).repeatForever(autoreverses: false)) {
+                pulse = true
             }
         }
     }

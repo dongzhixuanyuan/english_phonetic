@@ -1,9 +1,9 @@
 [submodule "ios"]
 	path = ios
-	url = /Users/dongliu/dongLiu/ios_learning/english_phonetic/.git_submodules/ios.git
-[submodule "ohos"]
-	path = ohos
-	url = /Users/dongliu/dongLiu/ios_learning/english_phonetic/.git_submodules/ohos.git
+	url = https://github.com/dongzhixuanyuan/english_phonetic-ios.git
 [submodule "android"]
 	path = android
-	url = /Users/dongliu/dongLiu/ios_learning/english_phonetic/.git_submodules/android.git
+	url = https://github.com/dongzhixuanyuan/english_phonetic-android.git
+[submodule "ohos"]
+	path = ohos
+	url = https://github.com/dongzhixuanyuan/english_phonetic-ohos.git

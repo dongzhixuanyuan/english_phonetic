@@ -1,8 +1,0 @@
-{
-  "src": [
-    "pages/Index",
-    "pages/TextbookDetail",
-    "pages/ReaderPage",
-    "pages/SettingsPage"
-  ]
-}

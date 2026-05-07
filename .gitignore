@@ -2,6 +2,9 @@
 .DS_Store
 **/.DS_Store
 
+# IDE
+.idea/
+
 # 审核资料
 审核资料/
 

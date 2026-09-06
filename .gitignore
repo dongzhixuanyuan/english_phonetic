@@ -11,3 +11,10 @@
 # 推广资源
 推广资源/
 .git_submodules/
+
+# Xcode
+*.xcuserstate
+
+# CocoaPods
+Pods/
+Podfile.lock

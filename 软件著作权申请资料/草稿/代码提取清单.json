@@ -1,0 +1,254 @@
+{
+  "software_name": "课本读软件",
+  "version": "V1.0",
+  "project_root": "/Users/dongliu/dongLiu/ios_learning/english_phonetic/android",
+  "file_count": 23,
+  "material_line_count": 13945,
+  "source_line_count": 14155,
+  "selected_source_line_count": 13922,
+  "lines_per_page": 50,
+  "total_pages": 279,
+  "target_pages": 60,
+  "available_candidate_line_count": 13945,
+  "available_candidate_pages": 279,
+  "supplement_status": "候选源码可达到前30页/后30页要求",
+  "mode": "front30_back30",
+  "selection_file": "软件著作权申请资料/草稿/代码文件选择.json",
+  "outputs": [
+    "代码-前30页.md",
+    "代码-后30页.md"
+  ],
+  "files": [
+    {
+      "path": "app/src/main/java/com/liudong/bookread/MainActivity.kt",
+      "source_line_count": 29,
+      "blank_line_count": 2,
+      "selected_line_start": 1,
+      "selected_line_end": 29,
+      "selected_line_count": 27,
+      "material_line_start": 1,
+      "material_line_end": 28
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/navigation/AppNavigation.kt",
+      "source_line_count": 45,
+      "blank_line_count": 3,
+      "selected_line_start": 1,
+      "selected_line_end": 45,
+      "selected_line_count": 42,
+      "material_line_start": 29,
+      "material_line_end": 71
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/model/Models.kt",
+      "source_line_count": 41,
+      "blank_line_count": 5,
+      "selected_line_start": 1,
+      "selected_line_end": 41,
+      "selected_line_count": 36,
+      "material_line_start": 72,
+      "material_line_end": 108
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/viewmodel/TextbookViewModel.kt",
+      "source_line_count": 324,
+      "blank_line_count": 33,
+      "selected_line_start": 1,
+      "selected_line_end": 324,
+      "selected_line_count": 291,
+      "material_line_start": 109,
+      "material_line_end": 400
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/service/DataStoreService.kt",
+      "source_line_count": 62,
+      "blank_line_count": 8,
+      "selected_line_start": 1,
+      "selected_line_end": 62,
+      "selected_line_count": 54,
+      "material_line_start": 401,
+      "material_line_end": 455
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/service/OCRService.kt",
+      "source_line_count": 62,
+      "blank_line_count": 8,
+      "selected_line_start": 1,
+      "selected_line_end": 62,
+      "selected_line_count": 54,
+      "material_line_start": 456,
+      "material_line_end": 510
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/service/PhoneticDictionaryService.kt",
+      "source_line_count": 64,
+      "blank_line_count": 9,
+      "selected_line_start": 1,
+      "selected_line_end": 64,
+      "selected_line_count": 55,
+      "material_line_start": 511,
+      "material_line_end": 566
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/service/SpeechService.kt",
+      "source_line_count": 167,
+      "blank_line_count": 29,
+      "selected_line_start": 1,
+      "selected_line_end": 167,
+      "selected_line_count": 138,
+      "material_line_start": 567,
+      "material_line_end": 705
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/home/HomeScreen.kt",
+      "source_line_count": 644,
+      "blank_line_count": 34,
+      "selected_line_start": 1,
+      "selected_line_end": 644,
+      "selected_line_count": 610,
+      "material_line_start": 706,
+      "material_line_end": 1316
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/detail/TextbookDetailScreen.kt",
+      "source_line_count": 547,
+      "blank_line_count": 21,
+      "selected_line_start": 1,
+      "selected_line_end": 547,
+      "selected_line_count": 526,
+      "material_line_start": 1317,
+      "material_line_end": 1843
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/reader/ReaderScreen.kt",
+      "source_line_count": 579,
+      "blank_line_count": 35,
+      "selected_line_start": 1,
+      "selected_line_end": 579,
+      "selected_line_count": 544,
+      "material_line_start": 1844,
+      "material_line_end": 2388
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/reader/WordBoundingBox.kt",
+      "source_line_count": 54,
+      "blank_line_count": 5,
+      "selected_line_start": 1,
+      "selected_line_end": 54,
+      "selected_line_count": 49,
+      "material_line_start": 2389,
+      "material_line_end": 2438
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/reader/WordPopover.kt",
+      "source_line_count": 90,
+      "blank_line_count": 5,
+      "selected_line_start": 1,
+      "selected_line_end": 90,
+      "selected_line_count": 85,
+      "material_line_start": 2439,
+      "material_line_end": 2524
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/reader/TapGuideOverlay.kt",
+      "source_line_count": 136,
+      "blank_line_count": 7,
+      "selected_line_start": 1,
+      "selected_line_end": 136,
+      "selected_line_count": 129,
+      "material_line_start": 2525,
+      "material_line_end": 2654
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/reader/ZoomGuideOverlay.kt",
+      "source_line_count": 148,
+      "blank_line_count": 9,
+      "selected_line_start": 1,
+      "selected_line_end": 148,
+      "selected_line_count": 139,
+      "material_line_start": 2655,
+      "material_line_end": 2794
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/components/CameraPicker.kt",
+      "source_line_count": 47,
+      "blank_line_count": 3,
+      "selected_line_start": 1,
+      "selected_line_end": 47,
+      "selected_line_count": 44,
+      "material_line_start": 2795,
+      "material_line_end": 2839
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/components/ProcessingOverlay.kt",
+      "source_line_count": 48,
+      "blank_line_count": 2,
+      "selected_line_start": 1,
+      "selected_line_end": 48,
+      "selected_line_count": 46,
+      "material_line_start": 2840,
+      "material_line_end": 2886
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/theme/Color.kt",
+      "source_line_count": 11,
+      "blank_line_count": 3,
+      "selected_line_start": 1,
+      "selected_line_end": 11,
+      "selected_line_count": 8,
+      "material_line_start": 2887,
+      "material_line_end": 2895
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/theme/Theme.kt",
+      "source_line_count": 22,
+      "blank_line_count": 3,
+      "selected_line_start": 1,
+      "selected_line_end": 22,
+      "selected_line_count": 19,
+      "material_line_start": 2896,
+      "material_line_end": 2915
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/theme/Type.kt",
+      "source_line_count": 17,
+      "blank_line_count": 2,
+      "selected_line_start": 1,
+      "selected_line_end": 17,
+      "selected_line_count": 15,
+      "material_line_start": 2916,
+      "material_line_end": 2931
+    },
+    {
+      "path": "app/src/main/assets/phonetic_dictionary.json",
+      "source_line_count": 10977,
+      "blank_line_count": 0,
+      "selected_line_start": 1,
+      "selected_line_end": 10977,
+      "selected_line_count": 10977,
+      "material_line_start": 2932,
+      "material_line_end": 13909
+    },
+    {
+      "path": "app/src/test/java/com/liudong/bookread/ExampleUnitTest.kt",
+      "source_line_count": 17,
+      "blank_line_count": 3,
+      "selected_line_start": 1,
+      "selected_line_end": 17,
+      "selected_line_count": 14,
+      "material_line_start": 13910,
+      "material_line_end": 13924
+    },
+    {
+      "path": "app/src/androidTest/java/com/liudong/bookread/ExampleInstrumentedTest.kt",
+      "source_line_count": 24,
+      "blank_line_count": 4,
+      "selected_line_start": 1,
+      "selected_line_end": 24,
+      "selected_line_count": 20,
+      "material_line_start": 13925,
+      "material_line_end": 13945
+    }
+  ],
+  "safe_software_filename": "课本读软件"
+}

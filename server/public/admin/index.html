@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>用户反馈管理系统</title>
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body class="dashboard-body">
+  <!-- 顶部导航 -->
+  <header class="navbar">
+    <div class="nav-brand">
+      <div class="brand-icon">💬</div>
+      <span class="brand-title">用户反馈后台</span>
+    </div>
+    <div class="nav-actions">
+      <a href="../" target="_blank" class="nav-btn nav-link" title="在前端查看用户提反馈页面">查看用户端 ↗</a>
+      <button id="exportBtn" class="nav-btn btn-export">
+        <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+          <polyline points="7 10 12 15 17 10"></polyline>
+          <line x1="12" y1="15" x2="12" y2="3"></line>
+        </svg>
+        导出 CSV
+      </button>
+      <button id="logoutBtn" class="nav-btn btn-logout">退出登录</button>
+    </div>
+  </header>
+
+  <!-- 主体内容 -->
+  <main class="dashboard-container">
+    <!-- 统计指标 -->
+    <section class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-label">总反馈量</div>
+        <div class="stat-value" id="statTotal">-</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">今日新增</div>
+        <div class="stat-value text-primary" id="statToday">-</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">待处理</div>
+        <div class="stat-value text-warning" id="statPending">-</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">已处理</div>
+        <div class="stat-value text-success" id="statResolved">-</div>
+      </div>
+    </section>
+
+    <!-- 工具与筛选栏 -->
+    <section class="filter-panel">
+      <div class="search-box">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="searchInput" placeholder="搜索反馈内容、联系方式或备注...">
+      </div>
+
+      <div class="filter-group">
+        <label for="statusFilter">状态：</label>
+        <select id="statusFilter" class="select-input">
+          <option value="all">全部状态</option>
+          <option value="pending">待处理</option>
+          <option value="resolved">已处理</option>
+          <option value="archived">已归档</option>
+        </select>
+        <button id="refreshBtn" class="btn btn-refresh" title="刷新列表">刷新</button>
+      </div>
+    </section>
+
+    <!-- 反馈列表表格 -->
+    <section class="table-card">
+      <div class="table-responsive">
+        <table class="feedback-table">
+          <thead>
+            <tr>
+              <th width="60">ID</th>
+              <th>反馈内容</th>
+              <th width="160">联系方式</th>
+              <th width="140">状态</th>
+              <th>处理备注</th>
+              <th width="150">提交时间</th>
+              <th width="80">操作</th>
+            </tr>
+          </thead>
+          <tbody id="feedbackTableBody">
+            <!-- 动态渲染 -->
+            <tr>
+              <td colspan="7" class="loading-td">加载中...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- 分页栏 -->
+      <div class="pagination-bar" id="paginationBar">
+        <span class="page-info" id="pageInfo">第 1 / 1 页 (共 0 条)</span>
+        <div class="page-buttons">
+          <button id="prevPageBtn" class="btn-page" disabled>上一页</button>
+          <button id="nextPageBtn" class="btn-page" disabled>下一页</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+{
+  "project_root": "/Users/dongliu/dongLiu/ios_learning/english_phonetic/android",
+  "project_name": "android",
+  "software_name_candidate": "android",
+  "package": {
+    "name": "",
+    "path": "",
+    "version": "V1.0",
+    "scripts": {},
+    "dependency_names": []
+  },
+  "frameworks": [],
+  "language": "Kotlin",
+  "source": {
+    "file_count": 23,
+    "line_count": 14155,
+    "total_file_count": 23,
+    "total_line_count": 14155,
+    "extension_counts": {
+      ".json": 1,
+      ".kt": 22
+    },
+    "category_counts": {
+      "component": 2,
+      "source": 21
+    },
+    "categorized_files": {
+      "component": [
+        "app/src/main/java/com/liudong/bookread/ui/components/CameraPicker.kt",
+        "app/src/main/java/com/liudong/bookread/ui/components/ProcessingOverlay.kt"
+      ],
+      "source": [
+        "app/src/androidTest/java/com/liudong/bookread/ExampleInstrumentedTest.kt",
+        "app/src/test/java/com/liudong/bookread/ExampleUnitTest.kt",
+        "app/src/main/java/com/liudong/bookread/MainActivity.kt",
+        "app/src/main/java/com/liudong/bookread/viewmodel/TextbookViewModel.kt",
+        "app/src/main/java/com/liudong/bookread/ui/reader/ZoomGuideOverlay.kt",
+        "app/src/main/java/com/liudong/bookread/ui/reader/TapGuideOverlay.kt",
+        "app/src/main/java/com/liudong/bookread/ui/reader/WordBoundingBox.kt",
+        "app/src/main/java/com/liudong/bookread/ui/reader/ReaderScreen.kt",
+        "app/src/main/java/com/liudong/bookread/ui/reader/WordPopover.kt",
+        "app/src/main/java/com/liudong/bookread/ui/home/HomeScreen.kt",
+        "app/src/main/java/com/liudong/bookread/ui/navigation/AppNavigation.kt",
+        "app/src/main/java/com/liudong/bookread/ui/detail/TextbookDetailScreen.kt",
+        "app/src/main/java/com/liudong/bookread/ui/theme/Color.kt",
+        "app/src/main/java/com/liudong/bookread/ui/theme/Theme.kt",
+        "app/src/main/java/com/liudong/bookread/ui/theme/Type.kt",
+        "app/src/main/java/com/liudong/bookread/model/Models.kt",
+        "app/src/main/java/com/liudong/bookread/service/PhoneticDictionaryService.kt",
+        "app/src/main/java/com/liudong/bookread/service/DataStoreService.kt",
+        "app/src/main/java/com/liudong/bookread/service/SpeechService.kt",
+        "app/src/main/java/com/liudong/bookread/service/OCRService.kt",
+        "app/src/main/assets/phonetic_dictionary.json"
+      ]
+    }
+  },
+  "routes": [
+    "/"
+  ],
+  "readme_excerpt": "",
+  "run_command_candidates": [],
+  "feature_candidates": []
+}

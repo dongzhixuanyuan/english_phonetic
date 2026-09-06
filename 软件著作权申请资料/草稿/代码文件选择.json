@@ -1,0 +1,252 @@
+{
+  "project_root": "/Users/dongliu/dongLiu/ios_learning/english_phonetic/android",
+  "selection_required": true,
+  "model_selection_required": true,
+  "confirmation_required": true,
+  "user_confirmed": true,
+  "target_pages": 60,
+  "lines_per_page": 50,
+  "target_lines": 3000,
+  "estimated_selected_lines": 13945,
+  "estimated_selected_pages": 279,
+  "estimated_all_candidate_lines": 13945,
+  "estimated_all_candidate_pages": 279,
+  "supplement_rule": "模型优先选择能体现软件核心功能和真实运行逻辑的源码；不足60页时再从其他相关源码中补充；候选源码仍不足时才生成全部代码材料。",
+  "confirmation_stage": "code-selection",
+  "next_action": "请由模型填写 草稿/代码文件选择.json 的抽取选择和选择理由，再让用户确认；确认后运行 confirm_stage.py --stage code-selection。",
+  "instructions": "The script only inventories source files. The model must choose selected/model_reason before user confirmation. Selected files are extracted in full with blank-only lines removed.",
+  "files": [
+    {
+      "path": "app/src/main/java/com/liudong/bookread/MainActivity.kt",
+      "selected": true,
+      "line_count": 29,
+      "material_line_count": 27,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "应用入口",
+      "model_reason": "软件入口 Activity，是应用启动与主题挂载的入口点，体现软件的启动流程。"
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/navigation/AppNavigation.kt",
+      "selected": true,
+      "line_count": 45,
+      "material_line_count": 42,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "页面导航",
+      "model_reason": "定义首页、课本详情页、点读页三级页面导航关系，体现软件的页面组织与运行流程。"
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/model/Models.kt",
+      "selected": true,
+      "line_count": 41,
+      "material_line_count": 36,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "数据模型",
+      "model_reason": "定义课本、单元、页面、单词标注四层数据模型，是软件数据结构的核心，体现业务实体关系。"
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/viewmodel/TextbookViewModel.kt",
+      "selected": true,
+      "line_count": 324,
+      "material_line_count": 291,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "业务逻辑/状态管理",
+      "model_reason": "核心业务逻辑与状态管理：加载课本、添加课本、添加页面、OCR识别后生成音标标注、重新识别、删除与重命名等，完整体现软件的数据流转。"
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/service/DataStoreService.kt",
+      "selected": true,
+      "line_count": 62,
+      "material_line_count": 54,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "数据持久化",
+      "model_reason": "负责课本数据序列化保存与页面图片存取，体现软件本地数据持久化机制。"
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/service/OCRService.kt",
+      "selected": true,
+      "line_count": 62,
+      "material_line_count": 54,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "文字识别",
+      "model_reason": "封装设备文字识别能力，识别课本页面中的英文单词并记录位置，是软件「拍照即点读」核心能力的关键实现。"
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/service/PhoneticDictionaryService.kt",
+      "selected": true,
+      "line_count": 64,
+      "material_line_count": 55,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "音标词库",
+      "model_reason": "加载内置音标词库并查询单词音标与中文释义，是自动标注音标功能的核心服务。"
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/service/SpeechService.kt",
+      "selected": true,
+      "line_count": 167,
+      "material_line_count": 138,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "语音合成",
+      "model_reason": "封装系统文字转语音引擎，实现点击单词发音、引擎降级切换与发音状态反馈，是点读发音功能的核心实现。"
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/home/HomeScreen.kt",
+      "selected": true,
+      "line_count": 644,
+      "material_line_count": 610,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "首页界面",
+      "model_reason": "首页界面：课本卡片列表、示例体验卡、快速开始按钮、新建课本对话框，是用户主要入口页面，体现课本管理交互。"
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/detail/TextbookDetailScreen.kt",
+      "selected": true,
+      "line_count": 547,
+      "material_line_count": 526,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "课本详情界面",
+      "model_reason": "课本详情页：单元管理、页面缩略图网格、拍照/相册导入页面、重命名与删除，体现课本内容组织与页面导入流程。"
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/reader/ReaderScreen.kt",
+      "selected": true,
+      "line_count": 579,
+      "material_line_count": 544,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "点读页界面",
+      "model_reason": "核心点读页：单词标注叠加、点击弹浮层、双指缩放、编辑模式拖拽标注、重识别，是软件「点击单词点读发音」主场景的完整实现。"
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/reader/WordBoundingBox.kt",
+      "selected": true,
+      "line_count": 54,
+      "material_line_count": 49,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "标注框组件",
+      "model_reason": "渲染单词标注框，通过颜色状态区分点读、发音、编辑选中与词库未匹配状态，体现标注可视化。"
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/reader/WordPopover.kt",
+      "selected": true,
+      "line_count": 90,
+      "material_line_count": 85,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "单词浮层组件",
+      "model_reason": "点击单词后弹出的浮层，展示单词、音标、中文释义并提供发音与关闭操作，是点读交互的关键界面组件。"
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/reader/TapGuideOverlay.kt",
+      "selected": true,
+      "line_count": 136,
+      "material_line_count": 129,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "新手引导组件",
+      "model_reason": "首次使用的点击引导遮罩，帮助新用户快速学会点击单词点读，体现软件的易用性设计。"
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/reader/ZoomGuideOverlay.kt",
+      "selected": true,
+      "line_count": 148,
+      "material_line_count": 139,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "新手引导组件",
+      "model_reason": "双指缩放引导遮罩，指导用户缩放查看页面细节，与点击引导共同构成新手引导体系。"
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/components/CameraPicker.kt",
+      "selected": true,
+      "line_count": 47,
+      "material_line_count": 44,
+      "priority": 50,
+      "selection_tier": "supplement",
+      "evidence": "图片选择工具",
+      "model_reason": "处理拍照与相册图片的读取和拍摄方向校正，是页面图片导入流程的重要工具函数。"
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/components/ProcessingOverlay.kt",
+      "selected": true,
+      "line_count": 48,
+      "material_line_count": 46,
+      "priority": 50,
+      "selection_tier": "supplement",
+      "evidence": "处理中遮罩组件",
+      "model_reason": "OCR 识别处理中的进度遮罩，提示用户识别进度，体现识别过程的用户反馈。"
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/theme/Color.kt",
+      "selected": true,
+      "line_count": 11,
+      "material_line_count": 8,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "主题颜色",
+      "model_reason": "定义软件主题配色，体现软件的视觉风格。"
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/theme/Theme.kt",
+      "selected": true,
+      "line_count": 22,
+      "material_line_count": 19,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "主题样式",
+      "model_reason": "配置软件主题样式，定义明暗主题与配色方案。"
+    },
+    {
+      "path": "app/src/main/java/com/liudong/bookread/ui/theme/Type.kt",
+      "selected": true,
+      "line_count": 17,
+      "material_line_count": 15,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "字体排版",
+      "model_reason": "定义软件字体排版风格，体现界面文字样式规范。"
+    },
+    {
+      "path": "app/src/main/assets/phonetic_dictionary.json",
+      "selected": true,
+      "line_count": 10977,
+      "material_line_count": 10977,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "音标词库数据",
+      "model_reason": "软件内置的2195词音标词库数据，是自动标注音标与释义功能的数据基础，作为补充源码材料补足60页代码要求。"
+    },
+    {
+      "path": "app/src/test/java/com/liudong/bookread/ExampleUnitTest.kt",
+      "selected": true,
+      "line_count": 17,
+      "material_line_count": 14,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "单元测试",
+      "model_reason": "单元测试样例，作为项目测试代码的一部分补充材料。"
+    },
+    {
+      "path": "app/src/androidTest/java/com/liudong/bookread/ExampleInstrumentedTest.kt",
+      "selected": true,
+      "line_count": 24,
+      "material_line_count": 20,
+      "priority": 100,
+      "selection_tier": "supplement",
+      "evidence": "仪器测试",
+      "model_reason": "Android 仪器化测试样例，作为项目测试代码的一部分补充材料。"
+    }
+  ],
+  "confirmation_note": "用户确认抽取23个文件:核心Kotlin源码(入口/导航/模型/服务/页面/组件/主题)+音标词库json+测试代码,用于生成60页代码材料",
+  "confirmed_at": "2026-08-05T14:49:35+00:00"
+}

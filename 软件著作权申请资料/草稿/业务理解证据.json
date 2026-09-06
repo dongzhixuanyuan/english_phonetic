@@ -1,0 +1,108 @@
+{
+  "software_name": "课本读软件",
+  "project_root": "/Users/dongliu/dongLiu/ios_learning/english_phonetic/android",
+  "instruction": "本文件只收集证据，不决定行业、功能或手册结构。请由模型阅读这些证据以及必要的项目源码后，另行编写业务理解模型稿。",
+  "documents": [
+    {
+      "path": "Android_Development_Summary.md",
+      "size": 20463,
+      "headings": [
+        "EnglishPhoneticApp — Android 版本开发摘要",
+        "1. 项目目录结构",
+        "2. 核心代码文件映射（iOS → Android）",
+        "2.1 数据层",
+        "2.2 视图层",
+        "2.3 ViewModel",
+        "3. 逐文件实现要点",
+        "3.1 `model/Models.kt`",
+        "3.2 `service/DataStoreService.kt`",
+        "3.3 `service/OCRService.kt`",
+        "3.4 `service/PhoneticDictionaryService.kt`",
+        "3.5 `service/SpeechService.kt`",
+        "3.6 `viewmodel/TextbookViewModel.kt`",
+        "3.7 `ui/home/HomeScreen.kt`",
+        "3.8 `ui/detail/TextbookDetailScreen.kt`",
+        "3.9 `ui/reader/ReaderScreen.kt` ⭐ 最复杂页面",
+        "A. 图片展示与缩放",
+        "B. 标注框叠加",
+        "C. 浮层（WordPopover）",
+        "D. 编辑模式",
+        "E. 新手引导遮罩",
+        "3.10 `ui/navigation/AppNavigation.kt`",
+        "4. 配置文件模板",
+        "4.1 `build.gradle.kts` (Module: app)"
+      ],
+      "opening": "EnglishPhoneticApp — Android 版本开发摘要 本文档是 Android 版本的快速开发指南，包含：目录结构、核心代码文件映射、关键实现要点、以及从 iOS 到 Android 的逐文件迁移 checklist。UI 框架为 Jetpack Compose 。 --- 1. 项目目录结构 --- 2. 核心代码文件映射（iOS → Android） 2.1 数据层 iOS 文件 Android 文件 说明 ---------- ------------- ------ Models.swift model/Models.kt 4 个 data class，字段一一对应 DataStoreService.swift service/DataStoreService.kt UserDefaults → DataStore；Documents → filesDir OCRService.swift service/OCRService.kt Vision → ML Kit；回调改为 Flow PhoneticDictionaryService.swift service/PhoneticDictionaryService.kt Bundle → assets；逻辑完全一致 SpeechService.swift service/SpeechService.kt AVSpeechSynthesizer → TextToSpeech 2.2 视图层 iOS 文件 Android 文件 说明 ---------- ------------- ------ EnglishPhoneticAppApp.swift MainActivity.kt + ui/navigation/AppNavigation.kt @main → MainActivity；NavigationStack → NavHost ContentView.swift ui/navigation/AppNavigation.kt 根导航容器 HomeView.swift ui/home/Hom"
+    },
+    {
+      "path": "Android_Technical_Document.md",
+      "size": 30310,
+      "headings": [
+        "EnglishPhoneticApp — Android 版本技术文档",
+        "1. 项目概述",
+        "1.1 产品定位",
+        "1.2 目标平台",
+        "1.3 与 iOS 版本的功能对齐",
+        "2. 技术栈选型",
+        "2.1 核心模块映射表",
+        "2.2 Gradle 关键依赖",
+        "3. 架构设计",
+        "3.1 整体架构图",
+        "3.2 架构原则",
+        "4. 数据模型设计",
+        "5. 核心模块详细设计",
+        "5.1 DataStoreService — 数据持久化",
+        "5.2 OCRService — 文字识别",
+        "5.3 PhoneticDictionaryService — 音标词库",
+        "5.4 SpeechService — TTS 发音",
+        "6. ViewModel 设计",
+        "7. UI 层设计（Compose）",
+        "7.1 屏幕导航图",
+        "7.2 核心 Composable 映射",
+        "7.3 ReaderScreen 核心实现要点",
+        "7.4 权限配置",
+        "8. 资源文件规划"
+      ],
+      "opening": "EnglishPhoneticApp — Android 版本技术文档 本文档面向 Android 开发工程师，基于 iOS MVP 版本进行技术映射与架构设计。UI 框架采用 Jetpack Compose 。 --- 1. 项目概述 1.1 产品定位 EnglishPhoneticApp（课本读） 是一款面向小学生家长的 Android 应用： - 家长给孩子的英语课本拍照 - APP 自动识别图片中的英文单词并标注音标 - 孩子点击音标即可听到标准发音 Slogan ：给课本拍张照，秒变会说话的音标点读机。 1.2 目标平台 项目 要求 ------ ------ 最低 API 级别 API 26 (Android 8.0) 目标 API 级别 API 35 (Android 15) 开发语言 Kotlin 2.0+ UI 框架 Jetpack Compose (BOM 2024.02+) 架构模式 MVVM + Repository + 单例 Service 1.3 与 iOS 版本的功能对齐 Android 版本需完整复现 iOS MVP 的全部功能： 1. 课本 / 单元 / 页面的数据模型与本地存储 2. 拍照 / 相册选图导入页面 3. OCR 自动识别英文单词（ML Kit） 4. 本地音标词库查询与标注渲染 5. TTS 点击发音（TextToSpeech） 6. 基础校对模式（编辑单词、拖拽位置、删除 / 添加标注） 7. 图片缩放与拖拽浏览 8. 新手引导遮罩 --- 2. 技术栈选型 2.1 核心模块映射表 功能模块 iOS 技术方案 Android 技术方案 说明 ---------- ------------- ----------------- ------ UI 框架 SwiftUI Jetpack Compose 声明式 UI，完全对标 导航 NavigationStack Jetpack Navigation Compose 类型安全导航 状态管理 @StateObject / @ObservedObject ViewModel +"
+    },
+    {
+      "path": "弹窗相关修改记录.md",
+      "size": 3015,
+      "headings": [
+        "弹窗相关修改记录",
+        "1. TTS 无声修复",
+        "2. 缩放后弹窗过大",
+        "3. 引导弹窗位置偏移",
+        "4. 引导弹窗简化 + 点击交互优化",
+        "5. 引导弹窗仅显示前 2 次"
+      ],
+      "opening": "弹窗相关修改记录 1. TTS 无声修复 问题 ：AVSpeechSynthesizer（系统 TTS）无声音输出，delegate 回调正常触发但听不到声音。 原因 ：iOS 17+ 不再自动为 TTS 激活 AVAudioSession，缺少音频会话配置。 修复 ：在 speak() 方法中，播放前显式配置并激活 AVAudioSession： 2. 缩放后弹窗过大 问题 ：屏幕支持双指缩放，弹窗（单词释义弹窗）在缩放后也被放大，导致内容显示不全。 原因 ：弹窗渲染在可缩放的容器内部，应用了相同的 scaleEffect 变换。 修复 ：将弹窗移出可缩放容器，放到独立的覆盖层中： 关键点 ： - 弹窗位置需要从图片坐标转换为屏幕坐标，补偿 scale 和 offset 的影响 - 转换公式：screenCenter = unzoomedCenter + offset，screenSize = unzoomedSize × scale 3. 引导弹窗位置偏移 问题 ：首次进入页面的引导弹窗（\"点击单词查看释义\"）中，高亮框与单词实际位置不匹配。 原因 ：引导弹窗渲染在顶层容器，有自己的 GeometryReader；而高亮框坐标在内部 GeometryReader 中计算。两个 GeometryReader 的坐标空间不一致，Canvas 的 ignoresSafeArea 进一步改变了坐标系。 修复 ：将引导弹窗移入内部 GeometryReader（与标注框同一层），移除 Canvas 的 ignoresSafeArea。 4. 引导弹窗简化 + 点击交互优化 问题 ： - 引导弹窗只有点击阴影背景才能消失，点击弹窗本身不会消失 - 弹窗位置基于单词计算，逻辑复杂且容易出错 修复 ： - 去掉镂空 Canvas（无需单词高亮） - 去掉 GuideHighlightBox（无需脉冲边框） - 弹窗改为居中显示 - 无论点击背景还是弹窗本身，都触发消失 - 消失时根据点击位置自动选中最近的单词，弹出释义弹窗 最近单词查找算法 ： 5. 引导弹窗仅显示前 2 次 问题"
+    }
+  ],
+  "code_evidence": {
+    "project_name": "android",
+    "software_name_candidate": "android",
+    "frameworks": [],
+    "language": "Kotlin",
+    "routes": [
+      "/"
+    ],
+    "feature_name_candidates": [],
+    "entry_files": [],
+    "page_files": [],
+    "component_files": [
+      "app/src/main/java/com/liudong/bookread/ui/components/CameraPicker.kt",
+      "app/src/main/java/com/liudong/bookread/ui/components/ProcessingOverlay.kt"
+    ],
+    "api_files": [],
+    "run_command_candidates": [],
+    "package": {
+      "name": "",
+      "path": "",
+      "version": "V1.0",
+      "scripts": {},
+      "dependency_names": []
+    }
+  },
+  "external_research_notes": ""
+}

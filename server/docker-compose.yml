@@ -1,0 +1,15 @@
+services:
+  feedback-server:
+    build: .
+    container_name: feedback-server
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+      - ADMIN_USERNAME=admin
+      - ADMIN_PASSWORD=admin123
+      - SESSION_SECRET=change_this_to_a_random_secret_in_prod
+    volumes:
+      # 将宿主机当前目录下的 data 目录挂载到容器中，确保数据持久化不丢失
+      - ./data:/app/data

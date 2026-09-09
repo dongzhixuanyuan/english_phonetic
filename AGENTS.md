@@ -34,7 +34,7 @@
 |------|----------|------|
 | 开发框架 | SwiftUI + UIKit (混合) | 主界面使用 SwiftUI；相机调用使用 `UIImagePickerController`（UIKit 桥接） |
 | OCR | Apple Vision (`VNRecognizeTextRequest`) | 完全离线，识别英文印刷体 |
-| 音标查询 | 本地 JSON 词库 + UserDefaults 扩展词库 | 基础词库计划以 `phonetic_dictionary.json` 嵌入 Bundle；目前尚未放入实际词库文件 |
+| 音标查询 | 本地 SQLite 词库 (`phonetic_dictionary.db`) + UserDefaults 扩展 | 基于开源 ECDICT 构建，内嵌 260,000+ 词条，0ms 启动延迟与零内存常驻 |
 | TTS 发音 | `AVSpeechSynthesizer` | 支持美音 (`en-US`) / 英音 (`en-GB`)，可调整语速 |
 | 数据持久化 | `UserDefaults`（JSON 编码）+ APP Sandbox `Documents` 目录（图片）| 当前未使用 Core Data / SQLite |
 | 构建工具 | Xcode 16.2 | 标准 `.xcodeproj` 项目，无 CocoaPods / SPM / Carthage 依赖 |
@@ -156,7 +156,7 @@ Textbook {
 
 ## 已知问题与注意事项
 
-1. **音标词库缺失**：`phonetic_dictionary.json` 尚未放入 Bundle。当前 `PhoneticDictionaryService` 在加载时会打印 `📚 音标词库加载完成，共 0 个单词`。需要尽快补充小学常见单词音标数据。
+1. **音标词库已完备**：已接入基于 ECDICT 编译的 `phonetic_dictionary.db`（SQLite 格式），收录 26 万+ 词条，支持变体继承、名词所有格及常用缩写。可使用 `tools/build_dictionary.py` 重新构建或更新。
 2. **示例页为空**：`setupSamplePages()` 仅创建了空的示例课本和单元结构，没有预置真实图片和精校标注。
 3. **坐标系转换**：`ReaderView.annotationFrame` 中处理了 Vision 坐标系（原点在左下角）到 UIKit/SwiftUI（原点在左上角）的 Y 轴翻转，修改此处需谨慎。
 4. **无网络依赖**：OCR、音标查询、TTS 均使用 iOS 原生离线能力，无需网络权限。
